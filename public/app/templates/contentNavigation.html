@@ -1,0 +1,15 @@
+<h2 class="mb20">
+   Content navigation
+</h2>
+<ul role="menu">
+   <li class="hasExpandableMenu" role="menuitem" ng-click="toggleMenuItems($event)">
+      > Clan nodes ...
+      <ul ng-show="isVisibleItems">
+         <li ng-repeat="clan in clans">
+            <a ui-sref="clanStatisticV{{::$index+1}}({clanNumber: $index})" class="clanNodesNavItems">
+               KOCMOC HAIII {{::$index+1}}
+            </a>
+         </li>
+      </ul>
+   </li>
+</ul>

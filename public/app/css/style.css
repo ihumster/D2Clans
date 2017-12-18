@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    --us-black: rgb(61, 61, 61);
+    --us-bg-gray: rgb(207, 207, 207);
+    --us-bg-blue: #5e68f5;
+}
+
+
+/* typical styles */
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+
+/* -------------- */
+
+a {
+    text-decoration: none;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+}
+
+a:visited>h1 {
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2 {
+    font-size: 1em;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+}
+
+body {
+    background: var(--us-bg-gray);
+}
+
+.appContent {
+    padding: 10px;
+    font-size: 1em;
+    margin: 0 auto;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+}
+
+div {
+    position: relative;
+}
+
+.appHeader {
+    background: var(--us-black);
+    color: #fff;
+    padding: 10px;
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+.appHeaderSearch {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+}
+
+.appHeaderSearch input,
+.appHeaderSearch button {
+    padding: 3px 7px;
+    border-radius: 2px;
+    border: none;
+}
+
+.appHeaderSearch button {
+    background: var(--us-bg-blue);
+    color: #fff;
+    font-weight: 600;
+}
+
+.appHeaderContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.hasExpandableMenu {
+    cursor: pointer;
+}
+
+.hasExpandableMenu>ul {
+    margin-left: 20px;
+}
+
+.profileListLine {
+    margin-bottom: 10px;
+}
+
+.profileListLine ul {
+    border-bottom: 1px solid var(--us-black);
+}
+
+.profileListLine:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.profileListLine li,
+.listHead li {
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    text-align: left;
+}
+
+.profileListLine li:last-child,
+.listHead li:last-child {
+    text-align: right;
+}
+
+.profileListLine li:first-child,
+.listHead li:first-child {
+    text-align: left;
+    width: 45px;
+}
+
+a.clanNodesNavItems:visited {
+    color: var(--us-black);
+}
+
+a.clanNodesNavItems:hover {
+    color: #fff;
+}
+
+.sortorder:after {
+    content: '\25b2';
+    color: var(--us-black);
+}
+
+.sortorder.reverse:after {
+    content: '\25bc';
+    color: var(--us-black);
+}
+
+.sortorder: hover {
+    color: #fff;
+}
+
+.sortButton {
+    cursor: pointer;
+    user-select: none;
+}
+.onLoadMessage {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--us-black);
+}
