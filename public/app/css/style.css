@@ -18,6 +18,11 @@
     margin-top: 20px;
 }
 
+.heading {
+    width: 100%;
+    text-align: center;
+}
+
 
 /* -------------- */
 
@@ -48,13 +53,13 @@ body {
     background: var(--us-bg-gray);
 }
 
+.appWrapper {
+    width: 100%;
+}
 .appContent {
     padding: 10px;
     font-size: 1em;
-    margin: 0 auto;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
+    width: 100%;
 }
 
 div {
@@ -64,9 +69,10 @@ div {
 .appHeader {
     background: var(--us-black);
     color: #fff;
-    padding: 10px;
+    padding: 10px 10px;;
     font-size: 1em;
-    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .appHeaderSearch {
@@ -75,6 +81,7 @@ div {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
     
 }
 
@@ -83,7 +90,7 @@ div {
     padding: 3px 7px;
     border-radius: 2px;
     border: none;
-    width: 50%;
+ 
     min-width: 100px;
     margin-bottom: 7px;
 }
@@ -92,10 +99,13 @@ div {
     background: var(--us-bg-blue);
     color: #fff;
     font-weight: 600;
-    width: 30%;
     min-width: 70px;
 }
 
+.homeViewWrpper {
+    width: max-content;
+    margin: 0 auto;
+}
 .appHeaderContainer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -106,7 +116,7 @@ div {
     -ms-flex-pack: justify;
     justify-content: space-between;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
 }
 
 .hasExpandableMenu {
@@ -119,10 +129,25 @@ div {
 
 .profileListLine {
     margin-bottom: 10px;
+    width: 100%;
+    overflow: hidden;
 }
 
-.profileListLine ul {
+.profileListLine ul, .listHead {
     border-bottom: 1px solid var(--us-black);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.listHead {
+    border: none;
 }
 
 .profileListLine:hover {
@@ -133,20 +158,21 @@ div {
 .profileListLine li,
 .listHead li {
     display: inline-block;
-    text-align: center;
-    width: 200px;
+    width: 120px;
     text-align: left;
-}
+} 
 
 .profileListLine li:last-child,
 .listHead li:last-child {
+    width: 100px;
     text-align: right;
 }
 
 .profileListLine li:first-child,
 .listHead li:first-child {
     text-align: left;
-    width: 45px;
+    width: 35px;
+    margin-bottom: 5px;
 }
 
 a.clanNodesNavItems:visited {
@@ -180,6 +206,10 @@ a.clanNodesNavItems:hover {
 }
 .onLoadMessage {
     font-size: 1.5em;
+    width: 70%;
     font-weight: 600;
+    text-align: center;
+    width: max-content;
+    margin: 0 auto;
     color: var(--us-black);
 }

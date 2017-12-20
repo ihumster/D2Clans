@@ -1,9 +1,9 @@
-<h2 class="mb20" ng-show="clanList">
+<h2 class="mb20 heading" ng-show="clanList">
     Statisctic. {{isLoading ? "Loading:" : "Loading is done. There are"}} {{clanList ? clanList.length : 0}} from 100 members
 </h2>
-<div ng-show="!clanList" class="onLoadMessage mt20">
-    Waiting for respons from Destiny server...
-</div>
+<h2 ng-show="!clanList" class="onLoadMessage mt20 heading">
+    Waiting for respons from <br>Destiny server...
+</h2>
 <ul>
     <li ng-show="clanList">
         <ul class="listHead mb20">
