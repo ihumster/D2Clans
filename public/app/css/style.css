@@ -67,6 +67,16 @@ body {
     width: 100%;
 }
 
+.contentList {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.appContent h2 {
+    text-align: center;
+}
+
 div {
     position: relative;
 }
@@ -74,7 +84,7 @@ div {
 .appHeader {
     background: var(--us-black);
     color: #fff;
-    padding: 10px 10px;
+    padding: 10px 20px;
     font-size: 1em;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -121,6 +131,9 @@ div {
     width: -moz-max-content;
     width: max-content;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .appHeaderContainer {
@@ -138,6 +151,9 @@ div {
     width: 100%;
 }
 
+.appHeaderContainer.isHomeState {
+    justify-content: space-around;
+}
 .hasExpandableMenu {
     cursor: pointer;
 }

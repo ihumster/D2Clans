@@ -20,6 +20,9 @@ angular.module('SUClan')
         $scope.isShownSearch = $scope.headerConfig.isShownSearch;
         $scope.placeholder = $scope.headerConfig.placeholder;
         $state.srModel = $scope.headerConfig.model;
+        $scope.headerStyle = $state.is('home') ? 'appHeaderContainer isHomeState' : 'appHeaderContainer'
+        $scope.appHeaderContainer = true;
+        console.log($state.is('home'));
     
     }])
 
