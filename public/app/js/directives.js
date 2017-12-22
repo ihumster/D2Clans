@@ -3,7 +3,10 @@ angular.module('SUClan')
       return {
          restrict: 'E',
          replace: true,
-         templateUrl: '/app/templates/suHeader.html',
+         scope: {
+             headerConfig: '='
+         },
+         templateUrl: 'app/templates/suHeader.html',
          controller: 'suHeaderController'
       };
-   });
+   })
