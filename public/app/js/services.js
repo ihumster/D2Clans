@@ -1,6 +1,7 @@
 angular.module('SUClan')
     .factory('services', ['$http', function ($http) {
-        var clans = [{
+      var maxMobileResolution = 420;  
+      var clans = [{
                 id: 568218,
                 members: []
             },
@@ -78,6 +79,10 @@ angular.module('SUClan')
                 return loadAllData(clanNode, dataCallback);
             }
         };
+
+        function isMobileView() {
+           return window.innerWidth < maxMobileResolution;
+        }
 
         return {
             getData: getData,
