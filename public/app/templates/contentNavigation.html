@@ -6,7 +6,7 @@
       > Clan nodes ...
       <ul ng-show="isVisibleItems">
          <li ng-repeat="clan in clans">
-            <a ui-sref="clanStatisticV{{::$index+1}}({clanNumber: $index})" class="clanNodesNavItems">
+            <a ui-sref="clanStatistic({clanNumber: $index + 1})" class="clanNodesNavItems">
                KOCMOC HAIII {{::$index+1}}
             </a>
          </li>

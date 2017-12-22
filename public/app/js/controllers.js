@@ -15,7 +15,7 @@ angular.module('SUClan')
 
     .controller('clanStatistic', ['$scope', 'services', '$state', '$stateParams', 'orderByFilter', function ($scope, services, $state, $stateParams, orderBy) {
         var clanList;
-        var membersList = services.getData($stateParams.clanNumber, function (response, isLoading) {
+        var membersList = services.getData($stateParams.clanNumber-1, function (response, isLoading) {
             clanList = response;
             $scope.clanList = response;
             $scope.isLoading = isLoading;
