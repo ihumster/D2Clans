@@ -1,4 +1,5 @@
 * {
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -16,6 +17,14 @@
 
 .mt20 {
     margin-top: 20px;
+}
+
+.heading {
+    width: 100%;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 
@@ -48,13 +57,24 @@ body {
     background: var(--us-bg-gray);
 }
 
+.appWrapper {
+    width: 100%;
+}
+
 .appContent {
-    padding: 10px;
+    padding: 10px 0px 5px;
     font-size: 1em;
-    margin: 0 auto;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
+    width: 100%;
+}
+
+.contentList {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.appContent h2 {
+    text-align: center;
 }
 
 div {
@@ -64,31 +84,15 @@ div {
 .appHeader {
     background: var(--us-black);
     color: #fff;
-    padding: 10px;
+    padding: 10px 20px;
     font-size: 1em;
-    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .appHeaderSearch {
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-}
-
-.appHeaderSearch input,
-.appHeaderSearch button {
-    padding: 3px 7px;
-    border-radius: 2px;
-    border: none;
-}
-
-.appHeaderSearch button {
-    background: var(--us-bg-blue);
-    color: #fff;
-    font-weight: 600;
-}
-
-.appHeaderContainer {
+    max-width: 40%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -98,10 +102,58 @@ div {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin: 0 auto;
-    width: 80%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
 
+.appHeaderSearchInput,
+.appHeaderSearchButton {
+    padding: 3px 7px;
+    border-radius: 2px;
+    border: none;
+    min-width: 100px;
+    margin-bottom: 7px;
+}
+
+.appHeaderSearchButton {
+    background: var(--us-bg-blue);
+    color: #fff;
+    font-weight: 600;
+    min-width: 70px;
+}
+
+.homeViewWrpper {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.appHeaderContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 5px;
+    -webkit-box-align: top;
+    -ms-flex-align: top;
+    align-items: top;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.appHeaderContainer.isHomeState {
+    justify-content: space-around;
+}
 .hasExpandableMenu {
     cursor: pointer;
 }
@@ -112,10 +164,36 @@ div {
 
 .profileListLine {
     margin-bottom: 10px;
+    width: 100%;
+    overflow: hidden;
 }
 
-.profileListLine ul {
+.profileListLine ul,
+.listHead {
     border-bottom: 1px solid var(--us-black);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.listHead {
+    border: none;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
 }
 
 .profileListLine:hover {
@@ -126,20 +204,21 @@ div {
 .profileListLine li,
 .listHead li {
     display: inline-block;
-    text-align: center;
-    width: 200px;
+    width: 120px;
     text-align: left;
 }
 
 .profileListLine li:last-child,
 .listHead li:last-child {
+    width: 100px;
     text-align: right;
 }
 
 .profileListLine li:first-child,
 .listHead li:first-child {
     text-align: left;
-    width: 45px;
+    width: 35px;
+    margin-bottom: 5px;
 }
 
 a.clanNodesNavItems:visited {
@@ -166,10 +245,20 @@ a.clanNodesNavItems:hover {
 
 .sortButton {
     cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
 }
+
 .onLoadMessage {
     font-size: 1.5em;
+    width: 70%;
     font-weight: 600;
+    text-align: center;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin: 0 auto;
     color: var(--us-black);
 }
