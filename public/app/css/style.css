@@ -35,6 +35,7 @@ a {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+    cursor: pointer;
 }
 
 a:visited>h1 {
@@ -74,9 +75,16 @@ body {
     min-width: 100%;
 }
 .contentList {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: left;
-    flex-direction: column;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .appContent h2 {
@@ -139,9 +147,16 @@ div {
     width: -moz-max-content;
     width: max-content;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .appHeaderContainer {
@@ -159,11 +174,16 @@ div {
     width: 100%;
 }
 
-.appHeaderContainer.isHomeState {
-    justify-content: space-around;
+.appHeaderContainer.alignCenter {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 .hasExpandableMenu {
     cursor: pointer;
+}
+
+.hasExpandableMenu:hover {
+    color: #fff;
 }
 
 .hasExpandableMenu>ul {
