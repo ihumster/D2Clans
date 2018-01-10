@@ -21,9 +21,7 @@ angular.module('SUClan')
         $scope.placeholder = $scope.headerConfig.placeholder;
         $state.srModel = $scope.headerConfig.model;
         $scope.headerStyle = $state.is('home') ? 'appHeaderContainer isHomeState' : 'appHeaderContainer'
-        $scope.appHeaderContainer = true;
-        console.log($state.is('home'));
-    
+        $scope.appHeaderContainer = true;    
     }])
 
     .controller('clanStatistic', ['$scope', 'services', '$state', '$stateParams', 'orderByFilter', function ($scope, services, $state, $stateParams, orderBy) {
@@ -55,4 +53,22 @@ angular.module('SUClan')
             $scope.propertyName = propertyName;
             $scope.clanList = orderBy(clanList, $scope.propertyName, $scope.reverse);
         };
+    }])
+    .controller('suScrollTopController', ['$scope', function($scope){
+        $scope.isButtonVisible = false;
+        $scope.scrollDone = window.pageYOffset;
+        $scope.scrollToTop = function(){
+            window.scrollTo({ 
+                top: 0,
+                left: 0, 
+                behavior: 'smooth' 
+            });
+        };
+        $scope.$watch('scrollDone', function (newValue) {
+            if (newValue === 0) {
+                $scope.isButtonVisible = false;
+            } else {
+                $scope.isButtonVisible = true;
+            }
+        });
     }])

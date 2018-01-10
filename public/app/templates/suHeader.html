@@ -1,14 +1,14 @@
 <div role="header" class="appHeader">
-   <div ng-class="headerStyle">
-      <a ui-sref="home">
-         <h1>
-            KOCMOC HAIII
-         </h1>
-      </a>
-      <div class="appHeaderSearch" ng-if="isShownSearch">
-         <input type="text" class="appHeaderSearchInput" ng-model="headerConfig.model" placeholder="{{headerConfig.placeholder}}"/>
-         <button class="appHeaderSearchButton">Search</button>
-      </div>
-   </div>
-  
+    <div ng-class="headerStyle">
+        <a ui-sref="home">
+            <h1>
+                KOCMOC HAIII
+            </h1>
+        </a>
+        <div class="appHeaderSearch" ng-if="::isShownSearch">
+            <input type="text" class="appHeaderSearchInput" ng-model="headerConfig.model" placeholder="{{headerConfig.placeholder}}"/>
+            <!-- temporary removed -->
+            <!-- <button class="appHeaderSearchButton">Search</button> -->
+        </div>
+    </div>
 </div>
