@@ -107,6 +107,10 @@ div {
     z-index: 1;
 }
 
+.appHeader.scrolled {
+    box-shadow: 0 0 13px var(--us-black);
+}
+
 .appHeaderSearch {
     max-width: 40%;
     display: -webkit-box;

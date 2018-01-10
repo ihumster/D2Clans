@@ -59,6 +59,8 @@ angular.module('SUClan')
     }])
 
     .controller('suScrollTopController', ['$scope', function ($scope) {
+        var header = document.getElementsByClassName('appHeader')[0];
+        
         $scope.isButtonVisible = false;
         $scope.scrollDone = window.pageYOffset;
         $scope.scrollToTop = function () {
@@ -71,8 +73,12 @@ angular.module('SUClan')
         $scope.$watch('scrollDone', function (newValue) {
             if (newValue === 0) {
                 $scope.isButtonVisible = false;
+                if (header.className.includes('scrolled')){
+                    header.classList.remove('scrolled');
+                }
             } else {
                 $scope.isButtonVisible = true;
+                header.classList.add('scrolled');
             }
         });
     }])
