@@ -1,7 +1,7 @@
 
 <su-header header-config="settings.header"></su-header>
 <su-scroll-to-top-button></su-scroll-to-top-button>
-<div class="appContent">
+<div ng-class="appContent">
     <h2 class="mb20 heading" ng-show="clanList">
         Statisctic. {{isLoading ? "Loading:" : "Loading is done. There are"}} {{clanList ? clanList.length : 0}} from 100 members
     </h2>

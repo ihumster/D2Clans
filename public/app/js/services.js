@@ -86,6 +86,7 @@ angular.module('SUClan')
 
         return {
             getData: getData,
-            clans: clans
+            clans: clans,
+            isMobileView: isMobileView
         };
     }]);

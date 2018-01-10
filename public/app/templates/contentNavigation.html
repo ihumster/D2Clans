@@ -1,15 +1,20 @@
 <h2 class="mb20 mt20">
-   Content navigation
+    Content navigation
 </h2>
 <ul class="contentList" role="menu">
-   <li class="hasExpandableMenu" role="menuitem" ng-click="toggleMenuItems($event)">
-      > Clan nodes ...
-      <ul ng-show="isVisibleItems" role="list">
-         <li ng-repeat="clan in clans" role="listitem">
-            <a ui-sref="clanStatistic({clanNumber: $index + 1})" class="clanNodesNavItems">
-               KOCMOC HAIII {{::$index+1}}
-            </a>
-         </li>
-      </ul>
-   </li>
+    <li class="hasExpandableMenu" role="menuitem" ng-click="toggleMenuItems($event)">
+        > Clan lists ...
+        <ul ng-show="isVisibleItems" role="list">
+            <li ng-repeat="clan in clans" role="listitem">
+                <a ui-sref="clanStatistic({clanNumber: $index + 1})" class="clanNodesNavItems">
+                    KOCMOC HAIII {{::$index+1}}
+                </a>
+            </li>
+        </ul>
+    </li>
+    <li role="menuitem" ng-click="toggleMenuItems($event)" class="mt20">
+        <a ui-sref="" class="clanNodesNavItems">
+            > Weekly activities
+        </a>
+    </li>
 </ul>

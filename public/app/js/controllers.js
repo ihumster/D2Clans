@@ -25,6 +25,7 @@ angular.module('SUClan')
     }])
 
     .controller('clanStatistic', ['$scope', 'services', '$state', '$stateParams', 'orderByFilter', function ($scope, services, $state, $stateParams, orderBy) {
+        $scope.appContent = services.isMobileView() ? 'appContent mobile' : 'appContent';
         $scope.settings = {
             header: {
                 model: '',
