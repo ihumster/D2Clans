@@ -2,19 +2,34 @@
     Content navigation
 </h2>
 <ul class="contentList" role="menu">
-    <li class="hasExpandableMenu" role="menuitem" ng-click="toggleMenuItems($event)">
+    <li expandable-menu class="hasExpandableMenu" role="menuitem">
         > Clan lists ...
-        <ul ng-show="isVisibleItems" role="list">
-            <li ng-repeat="clan in clans" role="listitem">
+        <ul class="expandableSubMenu hide" role="list">
+            <li class="mt5" ng-repeat="clan in clans" role="listitem">
                 <a ui-sref="clanStatistic({clanNumber: $index + 1})" class="clanNodesNavItems">
                     KOCMOC HAIII {{::$index+1}}
                 </a>
             </li>
         </ul>
     </li>
-    <li role="menuitem" ng-click="toggleMenuItems($event)" class="mt20">
+    <li role="menuitem" class="mt20">
         <a ui-sref="weeklyActivities" class="clanNodesNavItems">
             > Weekly activities
         </a>
+    </li>
+    <li expandable-menu role="menuitem" class="hasExpandableMenu mt20">
+        > Vendors
+        <ul class="expandableSubMenu hide" role="list">
+            <li class="mt5"role="listitem">
+                <a ui-sref="#" class="clanNodesNavItems">
+                    Eververse
+                </a>
+            </li>
+            <li class="mt5" role="listitem">
+                <a ui-sref="#" class="clanNodesNavItems">
+                    Xur
+                </a>
+            </li>
+        </ul>
     </li>
 </ul>

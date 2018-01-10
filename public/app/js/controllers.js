@@ -9,12 +9,6 @@ angular.module('SUClan')
             }
         }
         $scope.clans = services.clans;
-        $scope.isVisibleItems = false;
-        $scope.toggleMenuItems = function (event) {
-            if (event.target.className === 'hasExpandableMenu') {
-                $scope.isVisibleItems = !$scope.isVisibleItems;
-            }
-        }
     }])
 
     .controller('suHeaderController', ['$scope', 'services', '$state', function ($scope, services, $state) {

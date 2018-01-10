@@ -19,6 +19,10 @@
     margin-top: 20px;
 }
 
+.mt5 {
+    margin-top: 5px;
+}
+
 .heading {
     width: 100%;
     padding: 5px;
@@ -26,7 +30,9 @@
     box-sizing: border-box;
     text-align: center;
 }
-
+ .hide {
+     display: none;
+ }
 
 /* -------------- */
 
@@ -182,12 +188,17 @@ div {
     -ms-flex-pack: distribute;
         justify-content: space-around;
 }
-.hasExpandableMenu {
+.hasExpandableMenu{
     cursor: pointer;
+    color: var(--us-black);
 }
 
-.hasExpandableMenu:hover {
+.hasExpandableMenu a:hover, .hasExpandableMenu:hover {
     color: #fff;
+}
+
+.hasExpandableMenu:hover a {
+    color: var(--us-black);
 }
 
 .hasExpandableMenu>ul {

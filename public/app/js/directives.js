@@ -23,3 +23,14 @@ angular.module('SUClan')
             }
         };
     })
+
+    .directive('expandableMenu',  function(){
+        return {
+            restrict: 'A',
+            link: function (scope, element) {
+                element.on('click', function(){
+                    this.querySelector('.expandableSubMenu').classList.toggle('hide');
+                })
+            }
+        };
+    })
