@@ -1,5 +1,6 @@
 angular.module('SUClan')
     .controller('homeStateController', ['$scope', 'services', '$state', function ($scope, services, $state) {
+        $scope.appContent = services.isMobileView() ? 'appContent mobile' : 'appContent';
         $scope.settings = {
             header: {
                 model: null,
