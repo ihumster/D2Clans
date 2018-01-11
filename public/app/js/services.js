@@ -1,7 +1,6 @@
 angular.module('SUClan')
-    .factory('services', ['$http', function ($http) {
-      var maxMobileResolution = 420;  
-      var clans = [{
+    .factory('clanListServices', ['$http', function ($http) {
+        var clans = [{
                 id: 568218,
                 members: []
             },
@@ -54,7 +53,7 @@ angular.module('SUClan')
                                 name: base[iteration].destinyUserInfo.displayName,
                                 lastTime: activityRes.data.Response ? activityRes.data.Response.profile.data.dateLastPlayed : '0, never played'
                             });
-                            
+
                             iteration++;
                             if (iteration !== base.length) {
                                 getEachProfile(iteration);
@@ -81,12 +80,22 @@ angular.module('SUClan')
         };
 
         function isMobileView() {
-           return window.innerWidth < maxMobileResolution;
+            return window.innerWidth < maxMobileResolution;
         }
 
         return {
             getData: getData,
-            clans: clans,
-            isMobileView: isMobileView
+            clans: clans
         };
+    }])
+    .factory('sharedServices', ['$http', function ($http) {
+        var maxMobileResolution = 420;
+
+        function isMobileView() {
+            return window.innerWidth < maxMobileResolution;
+        };
+
+        return {
+            isMobileView: isMobileView
+        }
     }]);

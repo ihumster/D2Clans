@@ -1,6 +1,6 @@
 angular.module('SUClan')
-    .controller('homeStateController', ['$scope', 'services', '$state', function ($scope, services, $state) {
-        $scope.appContent = services.isMobileView() ? 'appContent mobile' : 'appContent';
+    .controller('homeStateController', ['$scope', 'sharedServices', 'clanListServices', '$state', function ($scope, sharedServices, clanListServices, $state) {
+        $scope.appContent = sharedServices.isMobileView() ? 'appContent mobile' : 'appContent';
         $scope.settings = {
             header: {
                 model: null,
@@ -9,10 +9,10 @@ angular.module('SUClan')
                 placeholder: undefined
             }
         }
-        $scope.clans = services.clans;
+        $scope.clans = clanListServices.clans;
     }])
 
-    .controller('suHeaderController', ['$scope', 'services', '$state', function ($scope, services, $state) {
+    .controller('suHeaderController', ['$scope', '$state', function ($scope, $state) {
         $scope.isShownSearch = $scope.headerConfig.isShownSearch;
         $scope.placeholder = $scope.headerConfig.placeholder;
         $state.srModel = $scope.headerConfig.model;
@@ -20,8 +20,8 @@ angular.module('SUClan')
         $scope.appHeaderContainer = true;
     }])
 
-    .controller('clanStatistic', ['$scope', 'services', '$state', '$stateParams', 'orderByFilter', function ($scope, services, $state, $stateParams, orderBy) {
-        $scope.appContent = services.isMobileView() ? 'appContent mobile' : 'appContent';
+    .controller('clanStatistic', ['$scope', 'clanListServices', 'sharedServices', '$state', '$stateParams', 'orderByFilter', function ($scope, clanListServices, sharedServices, $state, $stateParams, orderBy) {
+        $scope.appContent = sharedServices.isMobileView() ? 'appContent mobile' : 'appContent';
         $scope.settings = {
             header: {
                 model: '',
@@ -32,7 +32,7 @@ angular.module('SUClan')
         }
 
         var clanList;
-        var membersList = services.getData($stateParams.clanNumber - 1, function (response, isLoading) {
+        var membersList = clanListServices.getData($stateParams.clanNumber - 1, function (response, isLoading) {
             clanList = response;
             $scope.clanList = response;
             $scope.isLoading = isLoading;
@@ -78,7 +78,7 @@ angular.module('SUClan')
         });
     }])
 
-    .controller('weeklyActivitiesController', ['$scope', 'services', '$state', '$stateParams', function ($scope, services, $state, $stateParams) {
+    .controller('weeklyActivitiesController', ['$scope', 'clanListServices', '$state', '$stateParams', function ($scope, clanListServices, $state, $stateParams) {
         $scope.settings = {
             header: {
                 model: null,
