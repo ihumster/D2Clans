@@ -63,7 +63,8 @@ angular.module('SUClan')
         };
     }])
 
-    .controller('weeklyActivitiesController', ['$scope', 'clanListServices', '$state', '$stateParams', function ($scope, clanListServices, $state, $stateParams) {
+    .controller('weeklyActivitiesController', ['$scope', 'weeklyActivityServices', '$state', '$stateParams', function ($scope, weeklyActivityServices, $state, $stateParams) {
+        weeklyActivityServices.getWeeklyMilestones();
         $scope.settings = {
             header: {
                 model: null,

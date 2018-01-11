@@ -1,6 +1,4 @@
-angular.module('SUClan')
-    .factory('clanListServices', ['$http', function ($http) {
-        var clans = [{
+var clans = [{
                 id: 568218,
                 members: []
             },
@@ -18,6 +16,8 @@ angular.module('SUClan')
             }
         ];
 
+angular.module('SUClan')
+    .factory('clanListServices', ['$http', function ($http) {
         function getMembersdRequest(clanNumber) {
             return {
                 method: 'GET',
@@ -88,7 +88,8 @@ angular.module('SUClan')
             clans: clans
         };
     }])
-    .factory('sharedServices', ['$http', function ($http) {
+
+    .factory('sharedServices', [function () {
         var maxMobileResolution = 420;
 
         function isMobileView() {
@@ -98,4 +99,26 @@ angular.module('SUClan')
         return {
             isMobileView: isMobileView
         }
-    }]);
+    }])
+
+    .factory('weeklyActivityServices', ['$http', function($http){
+        function getActivityRequest(clanNumber) {
+            return {
+                method: 'GET',
+                url: 'https://www.bungie.net/Platform//Destiny2/Milestones/',
+                headers: {
+                    'X-API-Key': apiKey,
+                    'Content-Type': 'application/json'
+                }
+            };
+        };
+
+        function getWeeklyMilestones() {
+            $http(getActivityRequest()).then((response)=>{
+                console.log(response);
+            });
+        };
+        return {
+            getWeeklyMilestones: getWeeklyMilestones
+        };
+    }])

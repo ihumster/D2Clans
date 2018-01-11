@@ -10,6 +10,7 @@ angular.module('SUClan')
             controller: 'suHeaderController'
         };
     })
+    
     .directive('suScrollToTopButton', function () {
         return {
             restrict: 'E',
