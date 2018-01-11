@@ -54,10 +54,6 @@ angular.module('SUClan')
     }])
 
     .controller('suScrollTopController', ['$scope', function ($scope) {
-        var header = document.getElementsByClassName('appHeader')[0];
-        
-        $scope.isButtonVisible = false;
-        $scope.scrollDone = window.pageYOffset;
         $scope.scrollToTop = function () {
             window.scrollTo({
                 top: 0,
@@ -65,17 +61,6 @@ angular.module('SUClan')
                 behavior: 'smooth'
             });
         };
-        $scope.$watch('scrollDone', function (newValue) {
-            if (newValue === 0) {
-                $scope.isButtonVisible = false;
-                if (header.className.includes('scrolled')){
-                    header.classList.remove('scrolled');
-                }
-            } else {
-                $scope.isButtonVisible = true;
-                header.classList.add('scrolled');
-            }
-        });
     }])
 
     .controller('weeklyActivitiesController', ['$scope', 'clanListServices', '$state', '$stateParams', function ($scope, clanListServices, $state, $stateParams) {
