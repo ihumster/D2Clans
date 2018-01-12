@@ -16,72 +16,62 @@ var clans = [{
             }
         ];
 
+function getRequest(path) {
+    return {
+        method: 'GET',
+        url: `https://www.bungie.net/Platform/${path}`,
+        headers: {
+            'X-API-Key': apiKey,
+            'Content-Type': 'application/json'
+        }
+    };
+};
+
 angular.module('SUClan')
     .factory('clanListServices', ['$http', function ($http) {
-        function getMembersdRequest(clanNumber) {
-            return {
-                method: 'GET',
-                url: 'https://www.bungie.net/Platform/GroupV2/' + clans[clanNumber].id + '/Members/?currentPage=1',
-                headers: {
-                    'X-API-Key': apiKey,
-                    'Content-Type': 'application/json'
-                }
-            };
-        };
-
-        function getActivityRequest(membershipType, membershipId) {
-            return {
-                method: 'GET',
-                url: 'https://www.bungie.net/Platform/Destiny2/' + membershipType + '/Profile/' + membershipId + '/?components=100',
-                headers: {
-                    'X-API-Key': apiKey,
-                    'Content-Type': 'application/json'
-                }
-            };
-        };
-
+        
         function loadAllData(clanNumber, callback) {
             var isLoading = true;
-            return $http(getMembersdRequest(clanNumber)).then(function (res) {
-                var base = res.data.Response.results;
-                var count = 0;
+            return $http(getRequest(`GroupV2/${clans[clanNumber].id}/Members/?currentPage=1`))
+                .then(function (res) {
 
-                function getEachProfile(iteration) {
-                    $http(getActivityRequest(base[iteration].destinyUserInfo.membershipType, base[iteration].destinyUserInfo.membershipId))
-                        .then(function (activityRes) {
-                            clans[clanNumber].members.push({
-                                name: base[iteration].destinyUserInfo.displayName,
-                                lastTime: activityRes.data.Response ? activityRes.data.Response.profile.data.dateLastPlayed : '0, never played'
-                            });
+                    var base = res.data.Response.results;
+                    var count = 0;
+                    
+                    function getEachProfile(iteration) {
+                        $http(getRequest(`Destiny2/${base[iteration].destinyUserInfo.membershipType}/Profile/${base[iteration].destinyUserInfo.membershipId}/?components=100`))
+                            .then(function (activityRes) {
 
-                            iteration++;
-                            if (iteration !== base.length) {
-                                getEachProfile(iteration);
-                                callback(clans[clanNumber].members, isLoading);
-                            } else {
-                                isLoading = false;
-                                callback(clans[clanNumber].members, isLoading);
-                            }
-                        })
-                };
-                getEachProfile(count);
+                                clans[clanNumber].members.push({
+                                    name: base[iteration].destinyUserInfo.displayName,
+                                    lastTime: activityRes.data.Response ? activityRes.data.Response.profile.data.dateLastPlayed : '0, never played'
+                                });
+
+                                iteration++;
+
+                                if (iteration !== base.length) {
+                                    getEachProfile(iteration);
+                                    callback(clans[clanNumber].members, isLoading);
+                                } else {
+                                    isLoading = false;
+                                    callback(clans[clanNumber].members, isLoading);
+                                }
+                            })
+                    };
+                    getEachProfile(count);
             });
         };
 
         function getData(clanNode, dataCallback) {
             if (clanNode === null) {
                 return false;
-            }
+            }  
             if (clans[clanNode].members.length) {
                 dataCallback(clans[clanNode].members);
             } else {
                 return loadAllData(clanNode, dataCallback);
             }
         };
-
-        function isMobileView() {
-            return window.innerWidth < maxMobileResolution;
-        }
 
         return {
             getData: getData,
@@ -102,23 +92,39 @@ angular.module('SUClan')
     }])
 
     .factory('weeklyActivityServices', ['$http', function($http){
-        function getActivityRequest(clanNumber) {
-            return {
-                method: 'GET',
-                url: 'https://www.bungie.net/Platform//Destiny2/Milestones/',
-                headers: {
-                    'X-API-Key': apiKey,
-                    'Content-Type': 'application/json'
-                }
-            };
-        };
-
+        var milestoneList = [];
         function getWeeklyMilestones() {
-            $http(getActivityRequest()).then((response)=>{
-                console.log(response);
+            $http(getRequest('Destiny2/Milestones/')).then((response)=>{
+                var milestones = response.data.Response;
+                console.log(milestones);
+                for (item in milestones) {
+                    getDefinition(item);
+                }
             });
         };
+        
+        function getDefinition(milestoneHash){
+            return $http(getRequest(`Destiny2/Milestones/${milestoneHash}/Content/`)).then((response)=>{
+                if (response.data.Response) {
+                    console.log(response.data.Response.about);
+                }
+            });
+        }
+
         return {
             getWeeklyMilestones: getWeeklyMilestones
+        };
+    }])
+
+    .factory('vendorsServices', ['$http', function($http){
+
+        function getManifest(){
+            return $http(getRequest('Destiny2/Manifest/')).then((response)=>{
+                return response;
+            });
+        };
+
+        return {
+            getManifest: getManifest
         };
     }])

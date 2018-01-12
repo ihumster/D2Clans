@@ -20,7 +20,7 @@ angular.module('SUClan')
         $scope.appHeaderContainer = true;
     }])
 
-    .controller('clanStatistic', ['$scope', 'clanListServices', 'sharedServices', '$state', '$stateParams', 'orderByFilter', function ($scope, clanListServices, sharedServices, $state, $stateParams, orderBy) {
+    .controller('clanStatisticController', ['$scope', 'clanListServices', 'sharedServices', '$state', '$stateParams', 'orderByFilter', function ($scope, clanListServices, sharedServices, $state, $stateParams, orderBy) {
         $scope.appContent = sharedServices.isMobileView() ? 'appContent mobile' : 'appContent';
         $scope.settings = {
             header: {
@@ -73,4 +73,17 @@ angular.module('SUClan')
                 placeholder: undefined
             }
         }
+    }])
+    
+    .controller('vendorsController', ['$scope', 'vendorsServices', '$state', '$stateParams', function ($scope, vendorsServices, $state, $stateParams) {
+        $scope.settings = {
+            header: {
+                model: null,
+                isShownSearch: false,
+                align: 'center',
+                placeholder: undefined
+            }
+        }
+        $scope.vendorsTitle = $stateParams.vendorName;
+        console.log(vendorsServices.getManifest());
     }])

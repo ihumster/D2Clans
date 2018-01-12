@@ -22,10 +22,22 @@ angular.module('SUClan', ['ui.router'])
                 clanNumber: null
             },
             templateUrl: '/app/templates/clanStatisctic.html',
-            controller: 'clanStatistic'
+            controller: 'clanStatisticController'
         };
 
+        var vendors = {
+            name: 'vendors',
+            url: '/vendors?{vendorName}',
+            params: {
+                vendorName: null
+            },
+            templateUrl: '/app/templates/vendors.html',
+            controller: 'vendorsController'
+        };
+
+
         $stateProvider.state(clanStatistic);
+        $stateProvider.state(vendors);
         $stateProvider.state(homeState);
         $stateProvider.state(weeklyActivities);
         $urlRouterProvider.otherwise('/home');
