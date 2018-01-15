@@ -17,12 +17,13 @@ var clans = [{
         ];
 
 function getRequest(path) {
+    var contentType = 'application/json';
     return {
         method: 'GET',
-        url: `https://www.bungie.net/Platform/${path}`,
+        url: `https://www.bungie.net/Platform${path}`,
         headers: {
             'X-API-Key': apiKey,
-            'Content-Type': 'application/json'
+            'Content-Type': contentType
         }
     };
 };
@@ -32,14 +33,14 @@ angular.module('SUClan')
         
         function loadAllData(clanNumber, callback) {
             var isLoading = true;
-            return $http(getRequest(`GroupV2/${clans[clanNumber].id}/Members/?currentPage=1`))
+            return $http(getRequest(`/GroupV2/${clans[clanNumber].id}/Members/?currentPage=1`))
                 .then(function (res) {
 
                     var base = res.data.Response.results;
                     var count = 0;
                     
                     function getEachProfile(iteration) {
-                        $http(getRequest(`Destiny2/${base[iteration].destinyUserInfo.membershipType}/Profile/${base[iteration].destinyUserInfo.membershipId}/?components=100`))
+                        $http(getRequest(`/Destiny2/${base[iteration].destinyUserInfo.membershipType}/Profile/${base[iteration].destinyUserInfo.membershipId}/?components=100`))
                             .then(function (activityRes) {
 
                                 clans[clanNumber].members.push({
@@ -94,19 +95,22 @@ angular.module('SUClan')
     .factory('weeklyActivityServices', ['$http', function($http){
         var milestoneList = [];
         function getWeeklyMilestones() {
-            $http(getRequest('Destiny2/Milestones/')).then((response)=>{
+            $http(getRequest('/Destiny2/Milestones/')).then((response)=>{
                 var milestones = response.data.Response;
-                console.log(milestones);
                 for (item in milestones) {
-                    getDefinition(item);
+                    if (milestones[item].availableQuests){
+                        console.log(milestones[item]);
+                        let hash = milestones[item].availableQuests[0].questItemHash;
+                        
+                    }
                 }
             });
         };
         
         function getDefinition(milestoneHash){
-            return $http(getRequest(`Destiny2/Milestones/${milestoneHash}/Content/`)).then((response)=>{
-                if (response.data.Response) {
-                    console.log(response.data.Response.about);
+            return $http(getRequest(`/Destiny2/Milestones/${milestoneHash}/Content/`)).then((response)=>{
+                if (response) {
+                    console.log(response);
                 }
             });
         }
@@ -117,14 +121,6 @@ angular.module('SUClan')
     }])
 
     .factory('vendorsServices', ['$http', function($http){
-
-        function getManifest(){
-            return $http(getRequest('Destiny2/Manifest/')).then((response)=>{
-                return response;
-            });
-        };
-
         return {
-            getManifest: getManifest
         };
     }])

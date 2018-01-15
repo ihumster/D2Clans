@@ -6,8 +6,9 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
-
 var app = express();
+
+var dbMilestone = require('./middleware/mongoHandler')
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -40,5 +41,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+dbMilestone();
 
 module.exports = app;
