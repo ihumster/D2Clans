@@ -28,6 +28,17 @@ function getRequest(path) {
     };
 };
 
+function getLocalRequest(url, args){
+    args = args || [];
+    return {
+        method: 'GET',
+        url: url + '?' + args.join['?'],
+        headers: {
+            'Content-Type': 'JSON'
+        }
+    }
+}
+
 angular.module('SUClan')
     .factory('clanListServices', ['$http', function ($http) {
         
@@ -97,6 +108,7 @@ angular.module('SUClan')
         function getWeeklyMilestones() {
             $http(getRequest('/Destiny2/Milestones/')).then((response)=>{
                 var milestones = response.data.Response;
+                getDefinition();
                 for (item in milestones) {
                     if (milestones[item].availableQuests){
                         console.log(milestones[item]);
@@ -107,8 +119,9 @@ angular.module('SUClan')
             });
         };
         
-        function getDefinition(milestoneHash){
-            return $http(getRequest(`/Destiny2/Milestones/${milestoneHash}/Content/`)).then((response)=>{
+        function getDefinition(hashIds){
+            console.log('response sent');
+            return $http(getLocalRequest('/getWeeklyActivities')).then((response)=>{
                 if (response) {
                     console.log(response);
                 }

@@ -1,0 +1,14 @@
+[
+    {
+        "id": "-2023284724",
+        "json": "{\"classType\":2,\"displayProperties\":{\"name\":\"Варлок\",\"hasIcon\":false},\"genderedClassNames\":{\"Male\":\"Варлок\",\"Female\":\"Варлок\"},\"hash\":2271682572,\"index\":2,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-639573535",
+        "json": "{\"classType\":0,\"displayProperties\":{\"name\":\"Титан\",\"hasIcon\":false},\"genderedClassNames\":{\"Male\":\"Титан\",\"Female\":\"Титан\"},\"hash\":3655393761,\"index\":0,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "671679327",
+        "json": "{\"classType\":1,\"displayProperties\":{\"name\":\"Охотник\",\"hasIcon\":false},\"genderedClassNames\":{\"Male\":\"Охотник\",\"Female\":\"Охотник\"},\"hash\":671679327,\"index\":1,\"redacted\":false,\"blacklisted\":false}"
+    }
+]

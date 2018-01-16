@@ -1,0 +1,74 @@
+[
+    {
+        "id": "-2128831035",
+        "json": "{\"displayProperties\":{\"description\":\"\",\"name\":\"\",\"hasIcon\":false},\"hash\":2166136261,\"index\":0,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-1731962698",
+        "json": "{\"displayProperties\":{\"description\":\"Время выполнения задания нельзя продлить. Выбирайте сражение с осторожностью.\",\"name\":\"Искажение времени: час испытания\",\"icon\":\"/common/destiny2_content/icons/bb562a73492b6cd69898fbef29387ef9.png\",\"hasIcon\":true},\"hash\":2563004598,\"index\":16,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-1698505812",
+        "json": "{\"displayProperties\":{\"description\":\"Увеличен урон и скорость перезарядки силового и кинетического оружия. Суперспособность восстанавливается медленнее.\",\"name\":\"Элитный боец\",\"icon\":\"/common/destiny2_content/icons/b8c2d04ea2fd0f39a3d9a3d81919ad47.png\",\"hasIcon\":true},\"hash\":2596461484,\"index\":9,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-1577054679",
+        "json": "{\"displayProperties\":{\"description\":\"Суперспособность, ближний бой и гранаты наносят больший урон, но медленнее перезаряжаются.\",\"name\":\"Риск и вознаграждение\",\"icon\":\"/common/destiny2_content/icons/9e44c73e17f28ebdb40f9041e37cb5af.png\",\"hasIcon\":true},\"hash\":2717912617,\"index\":8,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-1517944206",
+        "json": "{\"displayProperties\":{\"description\":\"В этом районе обнаружены странные аномалии. Уничтожайте их, чтобы высвободить темпоральную энергию и продлить время выполнения задания.\",\"name\":\"Искажение времени: аномалии\",\"icon\":\"/common/destiny2_content/icons/91290cc877f73be4026138201b960f9f.png\",\"hasIcon\":true},\"hash\":2777023090,\"index\":14,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-1485203341",
+        "json": "{\"displayProperties\":{\"description\":\"Здоровье и щит не восстанавливаются, когда вы стоите. Бегите, чтобы восполнить силы.\",\"name\":\"Импульс\",\"icon\":\"/common/destiny2_content/icons/f3d24cb61b278314f9a2d364b88c34d5.png\",\"hasIcon\":true},\"hash\":2809763955,\"index\":2,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-1265292812",
+        "json": "{\"displayProperties\":{\"description\":\"Бесконечная энергия бьет из вас ключом. Ваши способности восстанавливаются гораздо быстрее.\",\"name\":\"Поток\",\"icon\":\"/common/destiny2_content/icons/f1344e6960f992e7599ef98bb5a03be0.png\",\"hasIcon\":true},\"hash\":3029674484,\"index\":13,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-1180153203",
+        "json": "{\"displayProperties\":{\"description\":\"Держите это в секрете.\",\"name\":\"Засекречено\",\"hasIcon\":false},\"hash\":3114814093,\"index\":12,\"redacted\":true,\"blacklisted\":false}"
+    },
+    {
+        "id": "-320375929",
+        "json": "{\"displayProperties\":{\"description\":\"Медленное восстановление здоровья и щита, но при убийстве врагов могут возникать колодцы Света. Собирайте их, чтобы восстановить здоровье и зарядить суперспособность.\",\"name\":\"Истощение\",\"icon\":\"/common/destiny2_content/icons/b7793417715a02a69db5db5596ec3694.png\",\"hasIcon\":true},\"hash\":3974591367,\"index\":1,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-119608129",
+        "json": "{\"displayProperties\":{\"description\":\"Урон от энергетического оружия увеличен. Гранаты наносят больший урон и быстрее перезаряжаются. Урон от ближнего боя уменьшен.\",\"name\":\"Элементалист\",\"icon\":\"/common/destiny2_content/icons/df8f5c9f3b670451b0467cfe78d57a80.png\",\"hasIcon\":true},\"hash\":4175359167,\"index\":5,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-1957750",
+        "json": "{\"displayProperties\":{\"description\":\"Ваши атаки, совпадающие с регулярно меняющимся элементом, наносят дополнительный урон. Урон всех остальных элементов снижен. Получаемый урон остается прежними.\",\"name\":\"Призма\",\"icon\":\"/common/destiny2_content/icons/90ac6c757d3e88ca0945b02c5fa6abef.png\",\"hasIcon\":true},\"hash\":4293009546,\"index\":3,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "319536142",
+        "json": "{\"displayProperties\":{\"description\":\"Суперспособность, гранаты и классовые способности перезаряжаются быстрее. Урон от силового оружия уменьшен.\",\"name\":\"Класс\",\"icon\":\"/common/destiny2_content/icons/ddb7024db8253790419669e372a775dd.png\",\"hasIcon\":true},\"hash\":319536142,\"index\":4,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "458112752",
+        "json": "{\"displayProperties\":{\"description\":\"В районе появились временные порталы вексов. Пройдите сквозь них, чтобы высвободить темпоральную энергию и продлить время выполнения задания.\",\"name\":\"Искажение времени: кольца\",\"icon\":\"/common/destiny2_content/icons/2ea88f8b9b12017a73510119fe94bc73.png\",\"hasIcon\":true},\"hash\":458112752,\"index\":17,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "817156042",
+        "json": "{\"displayProperties\":{\"description\":\"Увеличена скорость прыжка и ускорения в воздухе. Суперспособность восстанавливается быстрее и наносит больший урон. Энергия ближнего боя восстанавливается медленнее и наносит меньший урон.\",\"name\":\"Ливень возмездия\",\"icon\":\"/common/destiny2_content/icons/4a0c2e9ee632ae1b1306b0f5d3629a77.png\",\"hasIcon\":true},\"hash\":817156042,\"index\":7,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "968364204",
+        "json": "{\"displayProperties\":{\"description\":\"Скорость бега и передвижения пригнувшись увеличена. Способность ближнего боя восстанавливается быстрее и наносит больший урон. Гранаты перезаряжаются медленнее.\",\"name\":\"Как призрак из тьмы\",\"icon\":\"/common/destiny2_content/icons/bcef8102ee737de136771b5626a1f4dc.png\",\"hasIcon\":true},\"hash\":968364204,\"index\":6,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "1183352841",
+        "json": "{\"displayProperties\":{\"description\":\"Убивайте врагов, чтобы продлить время выполнения задания (суммарный эффект ограничен).\",\"name\":\"Искажение времени: пора убивать\",\"icon\":\"/common/destiny2_content/icons/7d6bbfa773fd59695035ce804e8cf723.png\",\"hasIcon\":true},\"hash\":1183352841,\"index\":15,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "1461108937",
+        "json": "{\"displayProperties\":{\"description\":\"Способность ближнего боя и здоровье восстанавливаются быстрее. Увеличивается урон, наносимый силовым оружием. Увеличивается время восстановления суперспособности.\",\"name\":\"Драчун\",\"icon\":\"/common/destiny2_content/icons/49b4d702c2bf08259da444e8eecba79a.png\",\"hasIcon\":true},\"hash\":1461108937,\"index\":10,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "1608506466",
+        "json": "{\"displayProperties\":{\"description\":\"Обычный урон и урон от прицельного попадания энергетическим и кинетическим оружием увеличен. Гранаты наносят больший урон.\",\"name\":\"Обессиливание\",\"icon\":\"/common/destiny2_content/icons/59a7f7f491a3317d0a2afe18e8348f3a.png\",\"hasIcon\":true},\"hash\":1608506466,\"index\":11,\"redacted\":false,\"blacklisted\":false}"
+    }
+]

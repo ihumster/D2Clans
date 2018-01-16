@@ -1,0 +1,46 @@
+[
+    {
+        "id": "-1739007424",
+        "json": "{\"displayProperties\":{\"description\":\"Супероружие Доминуса Гоула. Корабль, способный уничтожать звезды.\",\"name\":\"Всемогущий\",\"icon\":\"/img/misc/missing_icon_d2.png\",\"hasIcon\":false},\"hash\":2555959872,\"index\":8,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-1333469909",
+        "json": "{\"displayProperties\":{\"description\":\"На орбите\",\"name\":\"Орбита\",\"icon\":\"/img/misc/missing_icon_d2.png\",\"hasIcon\":false},\"hash\":2961497387,\"index\":3,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-768058312",
+        "json": "{\"displayProperties\":{\"description\":\"Нестабильный астероид кентавр\",\"name\":\"Несс\",\"icon\":\"/img/misc/missing_icon_d2.png\",\"hasIcon\":false},\"hash\":3526908984,\"index\":5,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-547261341",
+        "json": "{\"displayProperties\":{\"description\":\"Колыбель человечества. Она ждет, чтобы кто-то вернул ей былую славу.\",\"name\":\"Земля\",\"icon\":\"/img/misc/missing_icon_d2.png\",\"hasIcon\":false},\"hash\":3747705955,\"index\":1,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-206961238",
+        "json": "{\"displayProperties\":{\"description\":\"Доведите до совершенства свои навыки и выйдите победителем из боя против других Стражей.\",\"name\":\"Горнило\",\"icon\":\"/img/misc/missing_icon_d2.png\",\"hasIcon\":false},\"hash\":4088006058,\"index\":0,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-43109764",
+        "json": "{\"displayProperties\":{\"description\":\"Спутник Юпитера. Последнее место, которого коснулся Странник до Коллапса.\",\"name\":\"Ио\",\"icon\":\"/img/misc/missing_icon_d2.png\",\"hasIcon\":false},\"hash\":4251857532,\"index\":6,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "330251492",
+        "json": "{\"displayProperties\":{\"description\":\"Императорский флагман\",\"name\":\"Орбита Несса\",\"icon\":\"/img/misc/missing_icon_d2.png\",\"hasIcon\":false},\"hash\":330251492,\"index\":9,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "386951460",
+        "json": "{\"displayProperties\":{\"description\":\"Спутник Сатурна, который был населен людьми в Золотой век.\",\"name\":\"Титан, спутник Сатурна\",\"icon\":\"/img/misc/missing_icon_d2.png\",\"hasIcon\":false},\"hash\":386951460,\"index\":4,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "662472328",
+        "json": "{\"displayProperties\":{\"description\":\"Соберите боевую группу из 3 человек и сражайтесь с самыми страшными слугами тьмы.\",\"name\":\"Плейлист налетов\",\"icon\":\"/img/misc/missing_icon_d2.png\",\"hasIcon\":false},\"hash\":662472328,\"index\":10,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "1134775813",
+        "json": "{\"displayProperties\":{\"description\":\"Девять отправили Посланницу, чтобы она испытала Стражей.\",\"name\":\"Неисследованная область\",\"icon\":\"/img/misc/missing_icon_d2.png\",\"hasIcon\":false},\"hash\":1134775813,\"index\":7,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "1259908504",
+        "json": "{\"displayProperties\":{\"description\":\"Странник изменил облик обожженного Солнцем Меркурия. А потом это сделали вексы.\",\"name\":\"Меркурий\",\"icon\":\"/img/misc/missing_icon_d2.png\",\"hasIcon\":false},\"hash\":1259908504,\"index\":2,\"redacted\":false,\"blacklisted\":false}"
+    }
+]

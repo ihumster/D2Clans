@@ -1,0 +1,70 @@
+[
+    {
+        "id": "-1829672231",
+        "json": "{\"displayProperties\":{\"description\":\"Оружие, наносящее урон с помощью энергии Молнии, Солнца или Пустоты. Эффективно против врагов с щитами.\",\"name\":\"Энергетическое оружие\",\"hasIcon\":false},\"equipmentCategoryHash\":1885559401,\"bucketTypeHash\":2465295065,\"applyCustomArtDyes\":false,\"hash\":2465295065,\"index\":8,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-1070349227",
+        "json": "{\"displayProperties\":{\"description\":\"Выражайте свои чувства с помощью жестов.\",\"name\":\"Жесты\",\"hasIcon\":false},\"equipmentCategoryHash\":978873187,\"bucketTypeHash\":3054419239,\"applyCustomArtDyes\":false,\"hash\":3224618069,\"index\":14,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-1010212265",
+        "json": "{\"displayProperties\":{\"description\":\"Ваши способности.\",\"name\":\"Подкласс\",\"hasIcon\":false},\"equipmentCategoryHash\":1053752395,\"bucketTypeHash\":3284755031,\"applyCustomArtDyes\":false,\"hash\":3284755031,\"index\":0,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-846692857",
+        "json": "{\"displayProperties\":{\"description\":\"Шлемы и капюшоны.\",\"name\":\"Шлем\",\"hasIcon\":false},\"equipmentCategoryHash\":1053752395,\"bucketTypeHash\":3448274439,\"applyCustomArtDyes\":false,\"hash\":3448274439,\"index\":1,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-743048708",
+        "json": "{\"displayProperties\":{\"description\":\"Перчатки и рукавицы.\",\"name\":\"Перчатки\",\"hasIcon\":false},\"equipmentCategoryHash\":1053752395,\"bucketTypeHash\":3551918588,\"applyCustomArtDyes\":false,\"hash\":3551918588,\"index\":2,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-271772482",
+        "json": "{\"displayProperties\":{\"description\":\"Оболочки, которые использует призрак — ваш ассистент и проводник.\",\"name\":\"Призрак\",\"hasIcon\":false},\"equipmentCategoryHash\":978873187,\"bucketTypeHash\":4023194814,\"applyCustomArtDyes\":false,\"hash\":4023194814,\"index\":12,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-20632005",
+        "json": "{\"displayProperties\":{\"description\":\"Эмблемы, которые будут видны рядом с вашим именем в различных списках.\",\"name\":\"Эмблемы\",\"hasIcon\":false},\"equipmentCategoryHash\":978873187,\"bucketTypeHash\":4274335291,\"applyCustomArtDyes\":false,\"hash\":4274335291,\"index\":13,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-2521334",
+        "json": "{\"displayProperties\":{\"description\":\"Боевое знамя, олицетворяющее ваш клан.\",\"name\":\"Баннер клана\",\"hasIcon\":false},\"equipmentCategoryHash\":978873187,\"bucketTypeHash\":4292445962,\"applyCustomArtDyes\":false,\"hash\":4292445962,\"index\":15,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "14239492",
+        "json": "{\"displayProperties\":{\"description\":\"Кирасы, куртки и жилеты.\",\"name\":\"Нагрудник\",\"hasIcon\":false},\"equipmentCategoryHash\":1053752395,\"bucketTypeHash\":14239492,\"applyCustomArtDyes\":false,\"hash\":14239492,\"index\":4,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "18606351",
+        "json": "{\"displayProperties\":{\"description\":\"Раскрашивайте снаряжение и добавляйте к нему новые материалы.\",\"name\":\"Шейдеры\",\"hasIcon\":false},\"equipmentCategoryHash\":978873187,\"bucketTypeHash\":2973005342,\"applyCustomArtDyes\":true,\"hash\":18606351,\"index\":16,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "20886954",
+        "json": "{\"displayProperties\":{\"description\":\"Поножи и штаны.\",\"name\":\"Броня для ног\",\"hasIcon\":false},\"equipmentCategoryHash\":1053752395,\"bucketTypeHash\":20886954,\"applyCustomArtDyes\":false,\"hash\":20886954,\"index\":5,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "284967655",
+        "json": "{\"displayProperties\":{\"description\":\"Космические корабли, которые находятся в вашем распоряжении.\",\"name\":\"Корабли\",\"hasIcon\":false},\"equipmentCategoryHash\":978873187,\"bucketTypeHash\":284967655,\"applyCustomArtDyes\":false,\"hash\":284967655,\"index\":10,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "953998645",
+        "json": "{\"displayProperties\":{\"description\":\"Пулеметы и ракетные установки.\",\"name\":\"Силовое оружие\",\"hasIcon\":false},\"equipmentCategoryHash\":1885559401,\"bucketTypeHash\":953998645,\"applyCustomArtDyes\":false,\"hash\":953998645,\"index\":9,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "1269569095",
+        "json": "{\"displayProperties\":{\"description\":\"Визуальные эффекты, которые можно получить за выполнение сложных заданий.\",\"name\":\"Ауры\",\"hasIcon\":false},\"equipmentCategoryHash\":978873187,\"bucketTypeHash\":1269569095,\"applyCustomArtDyes\":false,\"hash\":1269569095,\"index\":3,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "1498876634",
+        "json": "{\"displayProperties\":{\"description\":\"Оружие, наносящее кинетический урон. Эффективно против врагов без щитов.\",\"name\":\"Кинетическое оружие\",\"hasIcon\":false},\"equipmentCategoryHash\":1885559401,\"bucketTypeHash\":1498876634,\"applyCustomArtDyes\":false,\"hash\":1498876634,\"index\":7,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "1585787867",
+        "json": "{\"displayProperties\":{\"description\":\"Метки, повязки и плащи.\",\"name\":\"Классовое снаряжение\",\"hasIcon\":false},\"equipmentCategoryHash\":1053752395,\"bucketTypeHash\":1585787867,\"applyCustomArtDyes\":false,\"hash\":1585787867,\"index\":6,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "2025709351",
+        "json": "{\"displayProperties\":{\"description\":\"Наземная техника, которая находится в вашем распоряжении.\",\"name\":\"Техника\",\"hasIcon\":false},\"equipmentCategoryHash\":978873187,\"bucketTypeHash\":2025709351,\"applyCustomArtDyes\":false,\"hash\":2025709351,\"index\":11,\"redacted\":false,\"blacklisted\":false}"
+    }
+]

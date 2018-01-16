@@ -1,0 +1,54 @@
+[
+    {
+        "id": "-2016856692",
+        "json": "{\"displayProperties\":{\"description\":\"У каждого \\\"Спэрроу\\\" и десантного корабля есть бонусы. Их нельзя изменить.\",\"name\":\"Бонусы техники\",\"hasIcon\":false},\"uiCategoryStyle\":1762428417,\"hash\":2278110604,\"index\":7,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-1776611100",
+        "json": "{\"displayProperties\":{\"description\":\"У каждого элемента брони есть бонусы. Их можно заменять неограниченное количество раз.\",\"name\":\"БОНУСЫ БРОНИ\",\"hasIcon\":false},\"uiCategoryStyle\":2656457638,\"hash\":2518356196,\"index\":0,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-1609554347",
+        "json": "{\"displayProperties\":{\"description\":\"Установите модификатор на оружие, чтобы улучшить существующие бонусы или добавить новые. Модификатор при этом будет израсходован.\",\"name\":\"МОДИФИКАТОРЫ ОРУЖИЯ\",\"hasIcon\":false},\"uiCategoryStyle\":1469714392,\"hash\":2685412949,\"index\":6,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-993648420",
+        "json": "{\"displayProperties\":{\"description\":\"У каждой оболочки призрака есть бонусы. Их можно заменять неограниченное количество раз.\",\"name\":\"БОНУСЫ ОБОЛОЧКИ ПРИЗРАКА\",\"hasIcon\":false},\"uiCategoryStyle\":1762428417,\"hash\":3301318876,\"index\":2,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-915802647",
+        "json": "{\"displayProperties\":{\"description\":\"Установите модификатор на оболочку призрака, чтобы улучшить существующие бонусы или добавить новые. Модификатор при этом будет израсходован.\",\"name\":\"МОДИФИКАТОРЫ ОБОЛОЧКИ ПРИЗРАКА\",\"hasIcon\":false},\"uiCategoryStyle\":1469714392,\"hash\":3379164649,\"index\":3,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-396810336",
+        "json": "{\"displayProperties\":{\"description\":\"Свойства клана действуют, если вы принадлежите к клану, заработавшему необходимый уровень в соответствующем сезоне.\",\"name\":\"Свойства клана\",\"hasIcon\":false},\"uiCategoryStyle\":1762428417,\"hash\":3898156960,\"index\":10,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-340348423",
+        "json": "{\"displayProperties\":{\"description\":\"Древки выдают кланам, набравшим максимальный уровень в ходе кланового сезона.\",\"name\":\"Древки знамени клана\",\"hasIcon\":false},\"uiCategoryStyle\":1469714392,\"hash\":3954618873,\"index\":12,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-338841488",
+        "json": "{\"displayProperties\":{\"description\":\"\",\"name\":\"\",\"hasIcon\":false},\"uiCategoryStyle\":2403345894,\"hash\":3956125808,\"index\":4,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-53882235",
+        "json": "{\"displayProperties\":{\"description\":\"У каждого оружия есть бонусы. Их можно заменять неограниченное количество раз.\",\"name\":\"БОНУСЫ ОРУЖИЯ\",\"hasIcon\":false},\"uiCategoryStyle\":2656457638,\"hash\":4241085061,\"index\":5,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-51486951",
+        "json": "{\"displayProperties\":{\"description\":\"Установите модификатор на \\\"Спэрроу\\\", чтобы улучшить существующие бонусы или добавить новые. Модификатор при этом будет израсходован.\",\"name\":\"МОДИФИКАТОРЫ \\\"СПЭРРОУ\\\"\",\"hasIcon\":false},\"uiCategoryStyle\":1469714392,\"hash\":4243480345,\"index\":8,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "-29884821",
+        "json": "{\"displayProperties\":{\"description\":\"Установите модификатор на \\\"Спэрроу\\\", чтобы улучшить существующие бонусы или добавить новые. Модификатор при этом будет израсходован.\",\"name\":\"МОДИФИКАТОРЫ \\\"СПЭРРОУ\\\"\",\"hasIcon\":false},\"uiCategoryStyle\":1469714392,\"hash\":4265082475,\"index\":9,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "590099826",
+        "json": "{\"displayProperties\":{\"description\":\"Установите модификатор на броню, чтобы улучшить существующие бонусы или добавить новые. Модификатор при этом будет израсходован.\",\"name\":\"УЛУЧШЕНИЯ БРОНИ\",\"hasIcon\":false},\"uiCategoryStyle\":1469714392,\"hash\":590099826,\"index\":1,\"redacted\":false,\"blacklisted\":false}"
+    },
+    {
+        "id": "1683579090",
+        "json": "{\"displayProperties\":{\"description\":\"Свойства клана действуют, если вы принадлежите к клану, заработавшему необходимый уровень в соответствующем сезоне.\",\"name\":\"Свойства клана\",\"hasIcon\":false},\"uiCategoryStyle\":1762428417,\"hash\":1683579090,\"index\":11,\"redacted\":false,\"blacklisted\":false}"
+    }
+]

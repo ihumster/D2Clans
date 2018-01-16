@@ -63,8 +63,9 @@ angular.module('SUClan')
         };
     }])
 
-    .controller('weeklyActivitiesController', ['$scope', 'weeklyActivityServices', '$state', '$stateParams', function ($scope, weeklyActivityServices, $state, $stateParams) {
+    .controller('weeklyActivitiesController', ['$scope', 'weeklyActivityServices', 'sharedServices', '$state', '$stateParams', function ($scope, weeklyActivityServices, sharedServices, $state, $stateParams) {
         weeklyActivityServices.getWeeklyMilestones();
+        $scope.appContent = sharedServices.isMobileView() ? 'appContent mobile' : 'appContent';
         $scope.settings = {
             header: {
                 model: null,
@@ -72,10 +73,12 @@ angular.module('SUClan')
                 align: 'center',
                 placeholder: undefined
             }
-        }
+        };
+        
     }])
     
-    .controller('vendorsController', ['$scope', 'vendorsServices', '$state', '$stateParams', function ($scope, vendorsServices, $state, $stateParams) {
+    .controller('vendorsController', ['$scope', 'vendorsServices', 'sharedServices', '$state', '$stateParams', function ($scope, vendorsServices, sharedServices, $state, $stateParams) {
+        $scope.appContent = sharedServices.isMobileView() ? 'appContent mobile' : 'appContent';
         $scope.settings = {
             header: {
                 model: null,
@@ -85,5 +88,4 @@ angular.module('SUClan')
             }
         }
         $scope.vendorsTitle = $stateParams.vendorName;
-        console.log(vendorsServices.getManifest());
     }])
