@@ -17,13 +17,12 @@ var clans = [{
         ];
 
 function getRequest(path) {
-    var contentType = 'application/json';
     return {
         method: 'GET',
         url: `https://www.bungie.net/Platform${path}`,
         headers: {
             'X-API-Key': apiKey,
-            'Content-Type': contentType
+            'Content-Type': 'application/json'
         }
     };
 };
@@ -36,8 +35,7 @@ function getLocalRequest(url, data){
         headers: {
             'Accept': 'application/json, text/plain, */*',
             'Content-Type': 'JSON/text'
-        },
-        body:  "data",
+        }
     }
 }
 

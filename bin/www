@@ -9,8 +9,6 @@ var debug = require('debug')('d2clans:server');
 var http = require('http');
 var _url = require('url');
 
-var mielestoneResolve = require('../utils/buildWeeklyActivities');
-
 /**
  * Get port from environment and store in Express.
  */
@@ -23,36 +21,6 @@ app.set('port', port);
  */
 
 var server = http.createServer(app);
-
-/** 
- * utils
- */
-var buildWeeklyActivities =require('../utils/buildWeeklyActivities');
-
-/**
- *  request handlers 
- */
-
-server.on('request', (req, res)=>{
-    let {method, url, headers, body} = req;
-    
-    switch (url) {
-        case '/getWeeklyActivities': 
-            console.dir(req.body)
-            writrResponse(res, buildWeeklyActivities({}));
-            break;
-    }
-});
-
-// response writer
-function writrResponse(_res, outputData){
-    mielestoneResolve();
-    _res.writeHead(200, {
-        'Content-type': 'JSON'
-    })
-    _res.end(outputData);
-    return _res;
-}
 
 /**
  * Listen on provided port, on all network interfaces.
