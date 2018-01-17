@@ -1,7 +1,5 @@
-var milestonesManifest = require('../manifest/Milestones.json');
-
 function getDefinition() {
-    console.log(milestonesManifest);
+    console.log('milestonesManifest');
 }
 
 module.exports = getDefinition;

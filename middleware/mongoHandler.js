@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
-var importedTable = require('../manifest/Milestones.json')
+
+
 // mongodb://d2clans:%GCb%uv0MGXA@ds251807.mlab.com:51807/heroku_9jgddrlc
 function DbMilestone () {
     mongoose.connect('mongodb://localhost:8080/', { useMongoClient: true });
