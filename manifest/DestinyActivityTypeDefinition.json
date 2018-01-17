@@ -1,106 +1,384 @@
-[
-    {
+[{
         "id": "-2093861715",
-        "json": "{\"displayProperties\":{\"description\":\"Отправляйтесь на поиски приключений в одиночку или в составе боевой группы. Сражайтесь с тьмой и освобождайте утраченные планеты.\",\"name\":\"Сюжет\",\"icon\":\"/common/destiny2_content/icons/cebdd81873286cb6b3097a4701dbfb87.png\",\"hasIcon\":true},\"hash\":2201105581,\"index\":11,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Отправляйтесь на поиски приключений в одиночку или в составе боевой группы. Сражайтесь с тьмой и освобождайте утраченные планеты.",
+                "name": "Сюжет",
+                "icon": "/common/destiny2_content/icons/cebdd81873286cb6b3097a4701dbfb87.png",
+                "hasIcon": true
+            },
+            "hash": 2201105581,
+            "index": 11,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "-1923916888",
-        "json": "{\"displayProperties\":{\"description\":\"\\\"Это битва Света против Света. Побеждайте в боях и получайте трофеи — оружие и броню времен Темной эпохи, когда Железные лорды служили стражами человечества\\\". — лорд Саладин\\n\\nСражайтесь на различных картах в режимах, в которых можно победить лишь благодаря слаженной командной работе и координации.\",\"name\":\"Железное знамя\",\"icon\":\"/common/destiny2_content/icons/0ee91b79ba1366243832cf810afc3b75.jpg\",\"hasIcon\":true},\"hash\":2371050408,\"index\":21,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "\"Это битва Света против Света. Побеждайте в боях и получайте трофеи — оружие и броню времен Темной эпохи, когда Железные лорды служили стражами человечества\". — лорд Саладин\\n\\nСражайтесь на различных картах в режимах, в которых можно победить лишь благодаря слаженной командной работе и координации.",
+                "name": "Железное знамя",
+                "icon": "/common/destiny2_content/icons/0ee91b79ba1366243832cf810afc3b75.jpg",
+                "hasIcon": true
+            },
+            "hash": 2371050408,
+            "index": 21,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "-1900699455",
-        "json": "{\"displayProperties\":{\"description\":\"\\\"Ставки высоки, а взаимодействие с товарищами по команде — ключевой фактор. Забудь о личной славе, и тогда вместе вы сокрушите врага\\\". – Лорд Шакс \\n\\nСражайтесь за честь и славу в различных режимах, в которых для победы важна слаженная командная работа.\",\"name\":\"Состязательная игра\",\"icon\":\"/common/destiny2_content/icons/9634866344e70aac9c8f2a23c3e5b644.png\",\"hasIcon\":true},\"hash\":2394267841,\"index\":17,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "\"Ставки высоки, а взаимодействие с товарищами по команде — ключевой фактор. Забудь о личной славе, и тогда вместе вы сокрушите врага\". – Лорд Шакс \\n\\nСражайтесь за честь и славу в различных режимах, в которых для победы важна слаженная командная работа.",
+                "name": "Состязательная игра",
+                "icon": "/common/destiny2_content/icons/9634866344e70aac9c8f2a23c3e5b644.png",
+                "hasIcon": true
+            },
+            "hash": 2394267841,
+            "index": 17,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "-1789219013",
-        "json": "{\"displayProperties\":{\"description\":\"Держите это в секрете.\",\"name\":\"Засекречено\",\"hasIcon\":false},\"hash\":2505748283,\"index\":22,\"redacted\":true,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Держите это в секрете.",
+                "name": "Засекречено",
+                "hasIcon": false
+            },
+            "hash": 2505748283,
+            "index": 22,
+            "redacted": true,
+            "blacklisted": false
+        }
     },
     {
         "id": "-1405814760",
-        "json": "{\"displayProperties\":{\"description\":\"Соберите боевую группу из 3 человек и сражайтесь с самыми страшными слугами тьмы.\",\"name\":\"Налет\",\"icon\":\"/common/destiny2_content/icons/b1e256199ee73b8916de2f4603437b4f.png\",\"hasIcon\":true},\"hash\":2889152536,\"index\":4,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Соберите боевую группу из 3 человек и сражайтесь с самыми страшными слугами тьмы.",
+                "name": "Налет",
+                "icon": "/common/destiny2_content/icons/b1e256199ee73b8916de2f4603437b4f.png",
+                "hasIcon": true
+            },
+            "hash": 2889152536,
+            "index": 4,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "-1042822869",
-        "json": "{\"displayProperties\":{\"description\":\"\\\"Рискуй, изучай искусство войны. Но не забывай о главной цели: враг должен умереть\\\". — Лорд Шакс \\n\\nНабор карт и режимов игры, составленный так, чтобы вы могли получить максимум удовольствия от игры с друзьями.\",\"name\":\"Быстрая игра\",\"icon\":\"/common/destiny2_content/icons/cb72433b4cb880007954a4eb309a95d6.png\",\"hasIcon\":true},\"hash\":3252144427,\"index\":16,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "\"Рискуй, изучай искусство войны. Но не забывай о главной цели: враг должен умереть\". — Лорд Шакс \\n\\nНабор карт и режимов игры, составленный так, чтобы вы могли получить максимум удовольствия от игры с друзьями.",
+                "name": "Быстрая игра",
+                "icon": "/common/destiny2_content/icons/cb72433b4cb880007954a4eb309a95d6.png",
+                "hasIcon": true
+            },
+            "hash": 3252144427,
+            "index": 16,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "-797199657",
-        "json": "{\"displayProperties\":{\"description\":\"Бродите по неизведанным землям. Изучайте развалины времен Золотого века, ищите жизненно важные припасы и уничтожайте врагов, где бы они вам ни встретились.\",\"name\":\"Режим исследования\",\"icon\":\"/common/destiny2_content/icons/fbc64d81359120cc7d206b3a6e9a0bd1.png\",\"hasIcon\":true},\"hash\":3497767639,\"index\":9,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Бродите по неизведанным землям. Изучайте развалины времен Золотого века, ищите жизненно важные припасы и уничтожайте врагов, где бы они вам ни встретились.",
+                "name": "Режим исследования",
+                "icon": "/common/destiny2_content/icons/fbc64d81359120cc7d206b3a6e9a0bd1.png",
+                "hasIcon": true
+            },
+            "hash": 3497767639,
+            "index": 9,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "-777780357",
-        "json": "{\"displayProperties\":{\"description\":\"\\\"Если вы соберетесь с силами, вы будете готовы к любым вражеским атакам\\\", — лорд Шакс \\n\\nБыстрое восстановление способностей и суперспособности, а также силового оружия. Победите соперников в водовороте хаоса.\",\"name\":\"Хаос\",\"icon\":\"/common/destiny2_content/icons/fb02567f0dcf6b6bd1c0d457fb67bdea.png\",\"hasIcon\":true},\"hash\":3517186939,\"index\":25,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "\"Если вы соберетесь с силами, вы будете готовы к любым вражеским атакам\", — лорд Шакс \\n\\nБыстрое восстановление способностей и суперспособности, а также силового оружия. Победите соперников в водовороте хаоса.",
+                "name": "Хаос",
+                "icon": "/common/destiny2_content/icons/fb02567f0dcf6b6bd1c0d457fb67bdea.png",
+                "hasIcon": true
+            },
+            "hash": 3517186939,
+            "index": 25,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "-589243724",
-        "json": "{\"displayProperties\":{\"description\":\"Держите это в секрете.\",\"name\":\"Засекречено\",\"hasIcon\":false},\"hash\":3705723572,\"index\":13,\"redacted\":true,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Держите это в секрете.",
+                "name": "Засекречено",
+                "hasIcon": false
+            },
+            "hash": 3705723572,
+            "index": 13,
+            "redacted": true,
+            "blacklisted": false
+        }
     },
     {
         "id": "-184361721",
-        "json": "{\"displayProperties\":{\"description\":\"Соберите боевую группу из 3 человек и сражайтесь с самыми страшными слугами тьмы.\",\"name\":\"Налет\",\"icon\":\"/common/destiny2_content/icons/b1e256199ee73b8916de2f4603437b4f.png\",\"hasIcon\":true},\"hash\":4110605575,\"index\":3,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Соберите боевую группу из 3 человек и сражайтесь с самыми страшными слугами тьмы.",
+                "name": "Налет",
+                "icon": "/common/destiny2_content/icons/b1e256199ee73b8916de2f4603437b4f.png",
+                "hasIcon": true
+            },
+            "hash": 4110605575,
+            "index": 3,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "-153551982",
-        "json": "{\"displayProperties\":{\"description\":\"\\\"Осирис вернулся. Арена Горнила снова открывает для вас двери. Рискуйте жизнью, учитесь на своих ошибках и не переставайте сражаться!\\\" — лорд Шакс \\n\\nУчаствуйте в матчах Горнила на классических и новых картах расширения.\",\"name\":\"Осирис: Быстрая игра\",\"icon\":\"/common/destiny2_content/icons/cb72433b4cb880007954a4eb309a95d6.png\",\"hasIcon\":true},\"hash\":4141415314,\"index\":23,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "\"Осирис вернулся. Арена Горнила снова открывает для вас двери. Рискуйте жизнью, учитесь на своих ошибках и не переставайте сражаться!\" — лорд Шакс \\n\\nУчаствуйте в матчах Горнила на классических и новых картах расширения.",
+                "name": "Осирис: Быстрая игра",
+                "icon": "/common/destiny2_content/icons/cb72433b4cb880007954a4eb309a95d6.png",
+                "hasIcon": true
+            },
+            "hash": 4141415314,
+            "index": 23,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "-130395901",
-        "json": "{\"displayProperties\":{\"description\":\"Соберите боевую группу из 3 человек и сражайтесь с самыми страшными слугами тьмы.\",\"name\":\"Налет\",\"icon\":\"/img/theme/destiny/icons/node_strike_featured.png\",\"hasIcon\":true},\"hash\":4164571395,\"index\":12,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Соберите боевую группу из 3 человек и сражайтесь с самыми страшными слугами тьмы.",
+                "name": "Налет",
+                "icon": "/img/theme/destiny/icons/node_strike_featured.png",
+                "hasIcon": true
+            },
+            "hash": 4164571395,
+            "index": 12,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "-34909233",
-        "json": "{\"displayProperties\":{\"description\":\"Держите это в секрете.\",\"name\":\"Засекречено\",\"hasIcon\":false},\"hash\":4260058063,\"index\":14,\"redacted\":true,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Держите это в секрете.",
+                "name": "Засекречено",
+                "hasIcon": false
+            },
+            "hash": 4260058063,
+            "index": 14,
+            "redacted": true,
+            "blacklisted": false
+        }
     },
     {
         "id": "-18850824",
-        "json": "{\"displayProperties\":{\"description\":\"Общайтесь с другими стражами, пока они готовятся к новым приключениям.\",\"name\":\"Социальные локации\",\"icon\":\"/common/destiny2_content/icons/fe1177ca51097555964708a220cbf74b.png\",\"hasIcon\":true},\"hash\":4276116472,\"index\":6,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Общайтесь с другими стражами, пока они готовятся к новым приключениям.",
+                "name": "Социальные локации",
+                "icon": "/common/destiny2_content/icons/fe1177ca51097555964708a220cbf74b.png",
+                "hasIcon": true
+            },
+            "hash": 4276116472,
+            "index": 6,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "73015004",
-        "json": "{\"displayProperties\":{\"icon\":\"/img/misc/missing_icon_d2.png\",\"hasIcon\":false},\"hash\":73015004,\"index\":18,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "icon": "/img/misc/missing_icon_d2.png",
+                "hasIcon": false
+            },
+            "hash": 73015004,
+            "index": 18,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "147238405",
-        "json": "{\"displayProperties\":{\"description\":\"Отправляйтесь на поиски приключений в одиночку или в составе боевой группы. Сражайтесь с тьмой и освобождайте утраченные планеты.\",\"name\":\"Сюжет\",\"icon\":\"/img/theme/destiny/icons/node_story_featured.png\",\"hasIcon\":true},\"hash\":147238405,\"index\":2,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Отправляйтесь на поиски приключений в одиночку или в составе боевой группы. Сражайтесь с тьмой и освобождайте утраченные планеты.",
+                "name": "Сюжет",
+                "icon": "/img/theme/destiny/icons/node_story_featured.png",
+                "hasIcon": true
+            },
+            "hash": 147238405,
+            "index": 2,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "575572995",
-        "json": "{\"displayProperties\":{\"description\":\"Соберите боевую группу из 3 человек и сражайтесь с самыми страшными слугами тьмы.\",\"name\":\"Сумрачный налет\",\"icon\":\"/common/destiny2_content/icons/b1e256199ee73b8916de2f4603437b4f.png\",\"hasIcon\":true},\"hash\":575572995,\"index\":5,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Соберите боевую группу из 3 человек и сражайтесь с самыми страшными слугами тьмы.",
+                "name": "Сумрачный налет",
+                "icon": "/common/destiny2_content/icons/b1e256199ee73b8916de2f4603437b4f.png",
+                "hasIcon": true
+            },
+            "hash": 575572995,
+            "index": 5,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "680256650",
-        "json": "{\"displayProperties\":{\"description\":\"Держите это в секрете.\",\"name\":\"Засекречено\",\"hasIcon\":false},\"hash\":680256650,\"index\":8,\"redacted\":true,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Держите это в секрете.",
+                "name": "Засекречено",
+                "hasIcon": false
+            },
+            "hash": 680256650,
+            "index": 8,
+            "redacted": true,
+            "blacklisted": false
+        }
     },
     {
         "id": "964120289",
-        "json": "{\"displayProperties\":{\"description\":\"Сразитесь с другими стражами в честном бою. Покажите, чего вы стоите, и будете вознаграждены.\",\"name\":\"Стычка\",\"icon\":\"/common/destiny2_content/icons/1a6e3e810dd15855ae4b72fe6dbddca4.png\",\"hasIcon\":true},\"hash\":964120289,\"index\":15,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Сразитесь с другими стражами в честном бою. Покажите, чего вы стоите, и будете вознаграждены.",
+                "name": "Стычка",
+                "icon": "/common/destiny2_content/icons/1a6e3e810dd15855ae4b72fe6dbddca4.png",
+                "hasIcon": true
+            },
+            "hash": 964120289,
+            "index": 15,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "1299744814",
-        "json": "{\"displayProperties\":{\"description\":\"Отправляйтесь на поиски приключений в одиночку или в составе боевой группы. Сражайтесь с тьмой и освобождайте утраченные планеты.\",\"name\":\"Сюжет\",\"icon\":\"/common/destiny2_content/icons/cebdd81873286cb6b3097a4701dbfb87.png\",\"hasIcon\":true},\"hash\":1299744814,\"index\":1,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Отправляйтесь на поиски приключений в одиночку или в составе боевой группы. Сражайтесь с тьмой и освобождайте утраченные планеты.",
+                "name": "Сюжет",
+                "icon": "/common/destiny2_content/icons/cebdd81873286cb6b3097a4701dbfb87.png",
+                "hasIcon": true
+            },
+            "hash": 1299744814,
+            "index": 1,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "1434366740",
-        "json": "{\"displayProperties\":{\"description\":\"\\\"Я позаботился о том, чтобы к возвращению Осириса в Горниле появились новые награды. Сразите соперников. Да не дрогнет ваша рука\\\". — лорд Шакс \\n\\nСражайтесь за награды и славу на классических и новых картах расширения.\",\"name\":\"Осирис: Состязательная игра\",\"icon\":\"/common/destiny2_content/icons/9634866344e70aac9c8f2a23c3e5b644.png\",\"hasIcon\":true},\"hash\":1434366740,\"index\":24,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "\"Я позаботился о том, чтобы к возвращению Осириса в Горниле появились новые награды. Сразите соперников. Да не дрогнет ваша рука\". — лорд Шакс \\n\\nСражайтесь за награды и славу на классических и новых картах расширения.",
+                "name": "Осирис: Состязательная игра",
+                "icon": "/common/destiny2_content/icons/9634866344e70aac9c8f2a23c3e5b644.png",
+                "hasIcon": true
+            },
+            "hash": 1434366740,
+            "index": 24,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "1589650888",
-        "json": "{\"displayProperties\":{\"description\":\"Общайтесь с другими стражами, пока они готовятся к новым приключениям.\",\"name\":\"Социальные локации\",\"icon\":\"/common/destiny2_content/icons/fe1177ca51097555964708a220cbf74b.png\",\"hasIcon\":true},\"hash\":1589650888,\"index\":20,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Общайтесь с другими стражами, пока они готовятся к новым приключениям.",
+                "name": "Социальные локации",
+                "icon": "/common/destiny2_content/icons/fe1177ca51097555964708a220cbf74b.png",
+                "hasIcon": true
+            },
+            "hash": 1589650888,
+            "index": 20,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "1686739444",
-        "json": "{\"displayProperties\":{\"description\":\"Отправляйтесь на поиски приключений в одиночку или в составе боевой группы. Сражайтесь с тьмой и освобождайте утраченные планеты.\",\"name\":\"Сюжет\",\"icon\":\"/common/destiny2_content/icons/cebdd81873286cb6b3097a4701dbfb87.png\",\"hasIcon\":true},\"hash\":1686739444,\"index\":0,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Отправляйтесь на поиски приключений в одиночку или в составе боевой группы. Сражайтесь с тьмой и освобождайте утраченные планеты.",
+                "name": "Сюжет",
+                "icon": "/common/destiny2_content/icons/cebdd81873286cb6b3097a4701dbfb87.png",
+                "hasIcon": true
+            },
+            "hash": 1686739444,
+            "index": 0,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "1957882444",
-        "json": "{\"displayProperties\":{\"description\":\"Держите это в секрете.\",\"name\":\"Засекречено\",\"hasIcon\":false},\"hash\":1957882444,\"index\":10,\"redacted\":true,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Держите это в секрете.",
+                "name": "Засекречено",
+                "hasIcon": false
+            },
+            "hash": 1957882444,
+            "index": 10,
+            "redacted": true,
+            "blacklisted": false
+        }
     },
     {
         "id": "2043403989",
-        "json": "{\"displayProperties\":{\"description\":\"Соберите боевую группу из шести игроков и отправляйтесь исследовать странные миры наших могущественных врагов.\",\"name\":\"Рейд\",\"icon\":\"/common/destiny2_content/icons/638f177c49ff5b7d64e87d605b542a9d.png\",\"hasIcon\":true},\"hash\":2043403989,\"index\":7,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Соберите боевую группу из шести игроков и отправляйтесь исследовать странные миры наших могущественных врагов.",
+                "name": "Рейд",
+                "icon": "/common/destiny2_content/icons/638f177c49ff5b7d64e87d605b542a9d.png",
+                "hasIcon": true
+            },
+            "hash": 2043403989,
+            "index": 7,
+            "redacted": false,
+            "blacklisted": false
+        }
     },
     {
         "id": "2112637710",
-        "json": "{\"displayProperties\":{\"description\":\"Присоединитесь к Испытаниям Девяти и сразитесь с другими Стражами. Приготовьтесь к тому, что вас будут судить.\",\"name\":\"Испытания Девяти\",\"icon\":\"/img/misc/missing_icon_d2.png\",\"hasIcon\":false},\"hash\":2112637710,\"index\":19,\"redacted\":false,\"blacklisted\":false}"
+        "json": {
+            "displayProperties": {
+                "description": "Присоединитесь к Испытаниям Девяти и сразитесь с другими Стражами. Приготовьтесь к тому, что вас будут судить.",
+                "name": "Испытания Девяти",
+                "icon": "/img/misc/missing_icon_d2.png",
+                "hasIcon": false
+            },
+            "hash": 2112637710,
+            "index": 19,
+            "redacted": false,
+            "blacklisted": false
+        }
     }
 ]
