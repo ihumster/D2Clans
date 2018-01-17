@@ -28,14 +28,16 @@ function getRequest(path) {
     };
 };
 
-function getLocalRequest(url, args){
-    args = args || [];
+//  args is an array with hashIds
+function getLocalRequest(url, data){
     return {
         method: 'GET',
-        url: url + '?' + args.join['?'],
+        url: url,
         headers: {
-            'Content-Type': 'JSON'
-        }
+            'Accept': 'application/json, text/plain, */*',
+            'Content-Type': 'JSON/text'
+        },
+        body:  "data",
     }
 }
 
@@ -108,20 +110,13 @@ angular.module('SUClan')
         function getWeeklyMilestones() {
             $http(getRequest('/Destiny2/Milestones/')).then((response)=>{
                 var milestones = response.data.Response;
-                getDefinition();
-                for (item in milestones) {
-                    if (milestones[item].availableQuests){
-                        console.log(milestones[item]);
-                        let hash = milestones[item].availableQuests[0].questItemHash;
-                        
-                    }
-                }
+                console.log(milestones);
+                getDefinition(milestones);
             });
         };
         
-        function getDefinition(hashIds){
-            console.log('response sent');
-            return $http(getLocalRequest('/getWeeklyActivities')).then((response)=>{
+        function getDefinition(data){
+            return $http(getLocalRequest('/getWeeklyActivities', data)).then((response)=>{
                 if (response) {
                     console.log(response);
                 }
