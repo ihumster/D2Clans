@@ -64,7 +64,10 @@ angular.module('SUClan')
     }])
 
     .controller('weeklyActivitiesController', ['$scope', 'weeklyActivityServices', 'sharedServices', '$state', '$stateParams', function ($scope, weeklyActivityServices, sharedServices, $state, $stateParams) {
-        weeklyActivityServices.getWeeklyMilestones();
+        $scope.milestones = [];
+        weeklyActivityServices.getWeeklyMilestones(function(response){
+            $scope.milestones = response;
+        });
         $scope.appContent = sharedServices.isMobileView() ? 'appContent mobile' : 'appContent';
         $scope.settings = {
             header: {

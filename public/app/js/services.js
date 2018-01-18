@@ -105,21 +105,20 @@ angular.module('SUClan')
 
     .factory('weeklyActivityServices', ['$http', function($http){
         var milestoneList = [];
-        function getWeeklyMilestones() {
+        function getWeeklyMilestones(callback) {
             $http(getRequest('/Destiny2/Milestones/')).then((response)=>{
                 var milestones = response.data.Response;
-                console.log(milestones);
                 getDefinition(milestones);
             });
+            
+            function getDefinition(data){
+                return $http.post('/getWeeklyActivities', JSON.stringify(data)).then((response)=>{
+                    if (response.data) {
+                        callback(response.data);
+                    }
+                });
+            }
         };
-        
-        function getDefinition(data){
-            return $http(getLocalRequest('/getWeeklyActivities', data)).then((response)=>{
-                if (response) {
-                    console.log(response);
-                }
-            });
-        }
 
         return {
             getWeeklyMilestones: getWeeklyMilestones
