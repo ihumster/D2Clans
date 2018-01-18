@@ -40,8 +40,7 @@ function getLocalRequest(url, data){
 }
 
 angular.module('SUClan')
-    .factory('clanListServices', ['$http', function ($http) {
-        
+    .factory('clanListServices', ['$http', function ($http) {    
         function loadAllData(clanNumber, callback) {
             var isLoading = true;
             return $http(getRequest(`/GroupV2/${clans[clanNumber].id}/Members/?currentPage=1`))
@@ -108,9 +107,10 @@ angular.module('SUClan')
         function getWeeklyMilestones(callback) {
             $http(getRequest('/Destiny2/Milestones/')).then((response)=>{
                 var milestones = response.data.Response;
+                console.log(milestones);
                 getDefinition(milestones);
             });
-            
+
             function getDefinition(data){
                 return $http.post('/getWeeklyActivities', JSON.stringify(data)).then((response)=>{
                     if (response.data) {

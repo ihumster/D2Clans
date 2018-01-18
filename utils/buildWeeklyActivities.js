@@ -10,17 +10,25 @@ function hashMapping(base){
     return hashMap;
 }
 
-function resolveQuests ( milstoneIndex, questHash) {};
-
 function buildWeeklyActivities(inputData) {;
     var map = hashMapping(definition); 
     var outputData = [];
+
     for (let item in inputData) {
-        var displayProperties = definition[map[item]].json.displayProperties;
-        let newItem = {
-            title: displayProperties ? displayProperties.name : ''
+        let inputQuests = inputData[item].availableQuests
+        let quests = definition[map[item]].json.quests;
+        let questHash;
+        if (inputQuests){
+            let questHash = inputQuests[0].questItemHash;
+            console.log(quests[questHash]);
+            let displayProperties = quests[questHash].displayProperties;
+            let newItem = {
+                title: displayProperties ? displayProperties.name : '',
+                // icon: displayProperties.icon
+                about: displayProperties ? displayProperties.description : ''
+            }
+            outputData.push(newItem);
         }
-        outputData.push(newItem);
     }
     return outputData;
 }

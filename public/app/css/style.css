@@ -317,3 +317,6 @@ a.clanNodesNavItems:hover {
     z-index: 1;
     cursor: pointer;
 }
+.milestoneContent{
+    padding: 0 15px;
+}

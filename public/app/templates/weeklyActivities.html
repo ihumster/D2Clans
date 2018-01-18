@@ -1,14 +1,17 @@
 <su-header header-config="settings.header"></su-header>
 <div ng-class="appContent">
     <h2 class="mb20 heading">
-        Weekly Activities
+        Недельные рубежи
     </h2>
     <div class="milestoneContent">
         <ul>
             <li ng-repeat="item in milestones" class="mb20">
                 <h4>
-                    {{item.title}}.
+                    {{item.title}}
                 </h4>
+                <p>
+                    {{item.about}}  
+                </p>
             </li>
         </ul>
     </div>

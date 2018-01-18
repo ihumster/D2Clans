@@ -35,7 +35,6 @@ angular.module('SUClan', ['ui.router'])
             controller: 'vendorsController'
         };
 
-
         $stateProvider.state(clanStatistic);
         $stateProvider.state(vendors);
         $stateProvider.state(homeState);
