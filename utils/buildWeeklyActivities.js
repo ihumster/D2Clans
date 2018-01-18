@@ -20,7 +20,6 @@ function buildWeeklyActivities(inputData) {;
         let questHash;
         if (inputQuests){
             let questHash = inputQuests[0].questItemHash;
-            console.log(quests[questHash]);
             let displayProperties = quests[questHash].displayProperties;
             let newItem = {
                 title: displayProperties ? displayProperties.name : '',
