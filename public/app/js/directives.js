@@ -48,3 +48,12 @@ angular.module('SUClan')
             }
         };
     })
+    .directive('suSpinner', function(){
+        return {
+            restrict: 'E',
+            scope: {
+                isActiveSpinner: '='
+            },
+            templateUrl: 'app/templates/suSpinner.html'
+        }
+    })
