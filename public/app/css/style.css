@@ -188,7 +188,7 @@ div {
     -ms-flex-pack: distribute;
         justify-content: space-around;
 }
-.hasExpandableMenu{
+.hasExpandableMenu {
     cursor: pointer;
     color: var(--us-black);
 }
@@ -197,7 +197,7 @@ div {
     color: #fff;
 }
 
-.hasExpandableMenu:hover a {
+.hasExpandableMenu:hover a, .hasExpandableMenu:hover p, .hasExpandableMenu:hover h4, .hasExpandableMenu:hover li{
     color: var(--us-black);
 }
 

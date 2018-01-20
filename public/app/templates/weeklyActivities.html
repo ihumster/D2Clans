@@ -5,7 +5,7 @@
     </h2>
     <div class="milestoneContent">
         <ul>
-            <li ng-repeat="item in milestones" class="mb20">
+            <li ng-repeat="item in milestones" class="hasExpandableMenu mb20">
                 <h4>
                     {{item.title}}
                 </h4>
@@ -13,7 +13,16 @@
                     {{item.about}}  
                 </p>
                 <p>
-                    {{item.modification}}
+                    <ul>
+                        <li ng-repeat="quest in item.modification">
+                            <p>
+                                {{quest.title}}
+                            </p>
+                            <p ng-repeat="mod in quest.mods">
+                                <b>{{mod.title}}:</b> {{mod.description}}
+                            </p>
+                        </li>
+                    </ul>
                 </p>
             </li>
         </ul>
