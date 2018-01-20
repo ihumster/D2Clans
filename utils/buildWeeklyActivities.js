@@ -1,6 +1,7 @@
 var definition = require('../manifest/DestinyMilestoneDefinition.json');
 var activities = require('../manifest/DestinyActivityDefinition.json');
 var modifier = require('../manifest/DestinyActivityModifierDefinition.json');
+var challenges = require('../manifest/DestinyObjectiveDefinition.json');
 
 function hashMapping(base){
     var hashMap = {};
@@ -10,6 +11,10 @@ function hashMapping(base){
         index++ ;
     };
     return hashMap;
+}
+
+function getChallenge (objectives) {
+    var map = hashMapping(challenges);
 }
 
 function getModification(quests) {
@@ -55,10 +60,15 @@ function buildWeeklyActivities(inputData) {;
             let newItem = {
                 title: displayProperties ? displayProperties.name : '',
                 modification: getModification(inputQuests) || [],
-                // icon: displayProperties.icon
+                challenges: getChallenge() || [],
                 about: displayProperties ? displayProperties.description : ''
             }
             outputData.push(newItem);
+        } else if (definition[map[item]].json.displayProperties) {
+            outputData.push({
+                title: definition[map[item]].json.displayProperties.name,
+                about: definition[map[item]].json.displayProperties.description
+            });
         }
     }
     return outputData;
