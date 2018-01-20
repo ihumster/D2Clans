@@ -15,6 +15,20 @@ function hashMapping(base){
 
 function getChallenge (objectives) {
     var map = hashMapping(challenges);
+    var output = [];
+    var contentChecker = {};
+    for (let item in objectives) {
+        let writtenProperty = challenges[map[objectives[item].objectiveHash]].json.displayProperties.name;
+        if (!contentChecker[writtenProperty]) {
+            let newItem = {
+                title: writtenProperty,
+                description: challenges[map[objectives[item].objectiveHash]].json.displayProperties.description
+            }
+            output.push(newItem);
+            contentChecker[writtenProperty] = true;
+        }
+    };
+    return output;
 }
 
 function getModification(quests) {
@@ -23,13 +37,13 @@ function getModification(quests) {
     var outputMods = [];
     
     var hash;
-    var outpuQuests = [];
+    var outputQuests = [];
+    var outputChallenges = [];
     for (let number in quests){
         if (quests[number].activity) {
             hash = quests[number].activity.activityHash;
             let modHashes = quests[number].activity.modifierHashes;
-            if (modHashes) {
-                
+            if (modHashes) {          
                 for (let modItem in modHashes) {
                     outputMods.push({
                         title: modifier[mod[modHashes[modItem]]].json.displayProperties.name,
@@ -37,13 +51,17 @@ function getModification(quests) {
                     })
                 }
             }
-            outpuQuests.push({
-                    title: activities[map[hash]].json.displayProperties.name,
-                    mods: outputMods
-                });
+            if (quests[number].challenges) {
+                outputChallenges = getChallenge(quests[number].challenges);
+            }
+            outputQuests.push({
+                title: activities[map[hash]].json.displayProperties.name,
+                challenges: outputChallenges ,
+                mods: outputMods
+            });
         }
     }
-    return outpuQuests;
+    return outputQuests;
 };
 
 function buildWeeklyActivities(inputData) {;
@@ -60,7 +78,6 @@ function buildWeeklyActivities(inputData) {;
             let newItem = {
                 title: displayProperties ? displayProperties.name : '',
                 modification: getModification(inputQuests) || [],
-                challenges: getChallenge() || [],
                 about: displayProperties ? displayProperties.description : ''
             }
             outputData.push(newItem);

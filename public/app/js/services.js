@@ -107,7 +107,6 @@ angular.module('SUClan')
         function getWeeklyMilestones(callback) {
             $http(getRequest('/Destiny2/Milestones/')).then((response)=>{
                 var milestones = response.data.Response;
-                console.log(milestones);
                 getDefinition(milestones);
             });
 

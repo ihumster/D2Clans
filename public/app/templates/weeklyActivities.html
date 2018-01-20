@@ -7,7 +7,7 @@
     <su-spinner is-active-spinner="isSpinnerActive"></su-spinner>
     <div class="milestoneContent">
         <ul>
-            <li ng-repeat="item in milestones" class="hasExpandableMenu mb20">
+            <li ng-repeat="item in milestones" class="hasExpandableMenu mb30">
                 <h4>
                     {{item.title}}
                 </h4>
@@ -16,12 +16,15 @@
                 </p>
                 <p>
                     <ul>
-                        <li ng-repeat="quest in item.modification">
+                        <li ng-repeat="quest in item.modification" class="mt5">
                             <p>
-                                {{quest.title}}
+                                <b>{{quest.title}}</b>
                             </p>
-                            <p ng-repeat="mod in quest.mods">
-                                <b>{{mod.title}}:</b> {{mod.description}}
+                            <p ng-repeat="mod in quest.mods" class="mt5">
+                                <b>{{mod.title}}: </b>{{mod.description}}
+                            </p>
+                            <p ng-repeat="objective in quest.challenges" class="mt5">
+                                <b>{{objective.title}}:</b>{{objective.description}}
                             </p>
                         </li>
                     </ul>
