@@ -114,7 +114,7 @@ angular.module('SUClan')
             function getDefinition(data){
                 return $http.post('/getWeeklyActivities', JSON.stringify(data)).then((response)=>{
                     if (response.data) {
-                        callback(response.data);
+                        callback(response.data , false);
                     }
                 });
             }

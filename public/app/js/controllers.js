@@ -65,8 +65,10 @@ angular.module('SUClan')
 
     .controller('weeklyActivitiesController', ['$scope', 'weeklyActivityServices', 'sharedServices', '$state', '$stateParams', function ($scope, weeklyActivityServices, sharedServices, $state, $stateParams) {
         $scope.milestones = [];
-        weeklyActivityServices.getWeeklyMilestones(function(response){
+        $scope.isSpinnerActive = true;
+        weeklyActivityServices.getWeeklyMilestones(function(response, activeSpinner){
             $scope.milestones = response;
+            $scope.isSpinnerActive =activeSpinner;
         });
         $scope.appContent = sharedServices.isMobileView() ? 'appContent mobile' : 'appContent';
         $scope.settings = {
