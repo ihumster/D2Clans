@@ -73,6 +73,7 @@ function buildWeeklyActivities(inputData) {;
         let inputQuests = inputData[item].availableQuests
         let quests = definition[map[item]].json.quests;
         let questHash;
+
         if (inputQuests){
             let questHash = inputQuests[0].questItemHash;
             let displayProperties = quests[questHash].displayProperties;
@@ -80,9 +81,10 @@ function buildWeeklyActivities(inputData) {;
                 title: displayProperties ? displayProperties.name : '',
                 modification: getModification(inputQuests) || [],
                 about: displayProperties ? displayProperties.description : '',
-                img: definition[map[item]].json.pgcrImage || definition[map[item]].json.image ||  ''
+                img: definition[map[item]].json.image || quests[questHash].image ||  quests[questHash].overrideImage || quests[questHash].pgcrImage ||  ''
             }
             outputData.push(newItem);
+
         } else if (definition[map[item]].json.displayProperties) {
             outputData.push({
                 title: definition[map[item]].json.displayProperties.name,
@@ -91,6 +93,7 @@ function buildWeeklyActivities(inputData) {;
             });
         }
     }
+    
     return outputData;
 }
 

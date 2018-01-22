@@ -79,10 +79,13 @@ body {
     margin: 60px auto;
 
 }
-.appContent.mobile {
-    width: 100%;
-    min-width: 100%;
+@media (max-width: 420px) {
+    .appContent {
+        width: 100%;
+        min-width: 320px;
+    }
 }
+
 .contentList {
     display: -webkit-box;
     display: -ms-flexbox;

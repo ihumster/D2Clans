@@ -1,6 +1,5 @@
 angular.module('SUClan')
-    .controller('homeStateController', ['$scope', 'sharedServices', 'clanListServices', '$state', function ($scope, sharedServices, clanListServices, $state) {
-        $scope.appContent = sharedServices.isMobileView() ? 'appContent mobile' : 'appContent';
+    .controller('homeStateController', ['$scope', 'clanListServices', '$state', function ($scope, clanListServices, $state) {
         $scope.settings = {
             header: {
                 model: null,
@@ -20,8 +19,7 @@ angular.module('SUClan')
         $scope.appHeaderContainer = true;
     }])
 
-    .controller('clanStatisticController', ['$scope', 'clanListServices', 'sharedServices', '$state', '$stateParams', 'orderByFilter', function ($scope, clanListServices, sharedServices, $state, $stateParams, orderBy) {
-        $scope.appContent = sharedServices.isMobileView() ? 'appContent mobile' : 'appContent';
+    .controller('clanStatisticController', ['$scope', 'clanListServices', '$state', '$stateParams', 'orderByFilter', function ($scope, clanListServices, $state, $stateParams, orderBy) {
         $scope.settings = {
             header: {
                 model: '',
@@ -63,14 +61,13 @@ angular.module('SUClan')
         };
     }])
 
-    .controller('weeklyActivitiesController', ['$scope', 'weeklyActivityServices', 'sharedServices', '$state', '$stateParams', function ($scope, weeklyActivityServices, sharedServices, $state, $stateParams) {
+    .controller('weeklyActivitiesController', ['$scope', 'weeklyActivityServices', '$state', '$stateParams', function ($scope, weeklyActivityServices, $state, $stateParams) {
         $scope.milestones = [];
         $scope.isSpinnerActive = true;
         weeklyActivityServices.getWeeklyMilestones(function(response, activeSpinner){
             $scope.milestones = response;
             $scope.isSpinnerActive =activeSpinner;
         });
-        $scope.appContent = sharedServices.isMobileView() ? 'appContent mobile' : 'appContent';
         $scope.settings = {
             header: {
                 model: null,
@@ -82,8 +79,7 @@ angular.module('SUClan')
         
     }])
     
-    .controller('vendorsController', ['$scope', 'vendorsServices', 'sharedServices', '$state', '$stateParams', function ($scope, vendorsServices, sharedServices, $state, $stateParams) {
-        $scope.appContent = sharedServices.isMobileView() ? 'appContent mobile' : 'appContent';
+    .controller('vendorsController', ['$scope', 'vendorsServices', '$state', '$stateParams', function ($scope, vendorsServices, $state, $stateParams) {
         $scope.settings = {
             header: {
                 model: null,

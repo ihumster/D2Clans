@@ -851,7 +851,7 @@
         "id": "-889448132",
         "json": {
             "displayProperties": {
-                "description": "",
+                "description": "Завершите три героических налёта",
                 "name": "Героические налеты",
                 "icon": "/common/destiny2_content/icons/0c6102774937642b7022e1f3d7688288.png",
                 "hasIcon": true
@@ -865,7 +865,7 @@
                 "2173086903": {
                     "questItemHash": 2173086903,
                     "displayProperties": {
-                        "description": "",
+                        "description": "Завершите три героических налёта",
                         "name": "Героические налеты",
                         "icon": "/common/destiny2_content/icons/0c6102774937642b7022e1f3d7688288.png",
                         "hasIcon": true
@@ -2445,6 +2445,7 @@
                         "hasIcon": true
                     },
                     "overrideImage": "/img/destiny_content/pgcr/freeroam_mercury.jpg",
+                    "image": "/img/destiny_content/pgcr/freeroam_mercury.jpg",
                     "questRewards": {
                         "items": [{
                             "vendorHash": 1303210083,

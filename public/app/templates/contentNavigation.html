@@ -1,9 +1,9 @@
-<h2 class="mb20 mt20">
-    Content navigation
+<h2 class="mb20 mt20 heading">
+    Навигация
 </h2>
 <ul class="contentList" role="menu">
     <li expandable-menu class="hasExpandableMenu" role="menuitem">
-        > Clan lists ...
+        > Списки составов ...
         <ul class="expandableSubMenu hide" role="list">
             <li class="mt5" ng-repeat="clan in clans" role="listitem">
                 <a ui-sref="clanStatistic({clanNumber: $index + 1})" class="clanNodesNavItems">
@@ -14,11 +14,11 @@
     </li>
     <li role="menuitem" class="mt20">
         <a ui-sref="weeklyActivities" class="clanNodesNavItems">
-            > Weekly activities
+            > Текущие активности
         </a>
     </li>
     <li expandable-menu role="menuitem" class="hasExpandableMenu mt20">
-        > Vendors
+        > Вендоры
         <ul class="expandableSubMenu hide" role="list">
             <li class="mt5"role="listitem">
                 <a ui-sref="vendors({vendorName: 'Eververse'})" class="clanNodesNavItems">
