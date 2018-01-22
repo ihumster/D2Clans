@@ -16,7 +16,7 @@
                 </p>
                 <p>
                     <ul>
-                        <li ng-repeat="quest in item.modification" class="mt5">
+                        <li ng-repeat="quest in item.modification" class="mt5" ng-init="img = item.img">
                             <p>
                                 <b>{{quest.title}}</b>
                             </p>
@@ -26,9 +26,15 @@
                             <p ng-repeat="objective in quest.challenges" class="mt5">
                                 <b>{{objective.title}}:</b>{{objective.description}}
                             </p>
+                            <div>
+                                <img class="milestoneImg" ng-src="https://www.bungie.net{{quest.img}}" alt=""/>
+                            </div>
                         </li>
                     </ul>
                 </p>
+                <div>
+                    <img class="milestoneImg" ng-src="https://www.bungie.net{{item.img}}" alt=""/>
+                </div>
             </li>
         </ul>
     </div>

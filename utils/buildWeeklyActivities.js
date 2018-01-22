@@ -56,8 +56,9 @@ function getModification(quests) {
             }
             outputQuests.push({
                 title: activities[map[hash]].json.displayProperties.name,
-                challenges: outputChallenges ,
-                mods: outputMods
+                challenges: outputChallenges,
+                mods: outputMods,
+                img: activities[map[hash]].json.pgcrImage || activities[map[hash]].json.image || ''
             });
         }
     }
@@ -78,13 +79,15 @@ function buildWeeklyActivities(inputData) {;
             let newItem = {
                 title: displayProperties ? displayProperties.name : '',
                 modification: getModification(inputQuests) || [],
-                about: displayProperties ? displayProperties.description : ''
+                about: displayProperties ? displayProperties.description : '',
+                img: definition[map[item]].json.pgcrImage || definition[map[item]].json.image ||  ''
             }
             outputData.push(newItem);
         } else if (definition[map[item]].json.displayProperties) {
             outputData.push({
                 title: definition[map[item]].json.displayProperties.name,
-                about: definition[map[item]].json.displayProperties.description
+                about: definition[map[item]].json.displayProperties.description,
+                img: definition[map[item]].json.image || definition[map[item]].json.pgcrImage || '' 
             });
         }
     }
