@@ -6,6 +6,7 @@
     --us-black: rgb(61, 61, 61);
     --us-bg-gray: rgb(207, 207, 207);
     --us-bg-blue: #5e68f5;
+    color: var(--us-black);
 }
 
 
