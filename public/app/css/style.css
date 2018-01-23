@@ -65,11 +65,16 @@ h2 {
 }
 
 body {
-    background: var(--us-bg-gray);
+    background: var(--us-black);
 }
 
 .appWrapper {
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--us-bg-gray);
 }
 
 .appContent {
@@ -468,7 +473,30 @@ a.clanNodesNavItems:hover {
   40% { opacity: 1; } 
 }
 
-
 .milestoneImg {
     width: 100%;
+}
+
+.footer {
+    width: 100%;
+    background-color: var(--us-black);
+    position: relative;
+    bottom: 0;
+}
+.footerContainer{
+    width: max-content;
+    margin: 0 auto;
+}
+.footerContainer a {
+    color: #fff;
+}
+.footerContainer a:hover {
+    color: var(--us-bg-gray);
+}
+.footerContainer li {
+    text-align: center;
+    margin: 5px 0;
+}
+.footerContainer .heading {
+    color: #fff;
 }
