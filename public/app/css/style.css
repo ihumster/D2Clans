@@ -482,10 +482,11 @@ a.clanNodesNavItems:hover {
     background-color: var(--us-black);
     position: relative;
     bottom: 0;
+    padding-bottom: 15px;
 }
 .footerContainer{
     width: max-content;
-    margin: 0 auto 15px;
+    margin: 0 auto;
 }
 .footerContainer a {
     color: #fff;
