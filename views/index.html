@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="SUClan">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
     <script src="https://unpkg.com/@uirouter/angularjs@1.0.10/release/angular-ui-router.js"></script>
     <script>
-        (function(){
+        (function () {
             angular.module('SUClan', ['ui.router']);
         })();
     </script>
@@ -17,16 +18,42 @@
     <script src="app/js/services.js"></script>
     <script src="app/js/controllers.js"></script>
     <script src="app/js/filters.js"></script>
-    <link rel="stylesheet" href="app/css/style.css"/>
-
+    <link rel="stylesheet" href="app/css/style.min.css" />
     <!-- favicon should be added -->
     <!-- <link rel="shortcut icon" href="favicon.ico" /> -->
     <title>KOCMOC HAIII</title>
 </head>
+
 <body>
-   <div class="appWrapper">   
-        <ui-view> 
+    <div class="appWrapper">
+        <ui-view>
         </ui-view>
-   </div>   
+        <div class="footer" role="footer">
+            <div class="footerContainer">
+                <h4 class="heading mt20">Ссылки для вступления в клан</h2>
+                <ul class="mt5">
+                    <li>
+                        <a href="https://www.bungie.net/ru/ClanV2?groupid=568218">КОСМОС НАШ 1-й состав</a>
+                    </li>
+                    <li>
+                        <a href="https://www.bungie.net/ru/ClanV2?groupid=2103469">КОСМОС НАШ 2-й состав</a>
+                    </li>
+                    <li>
+                        <a href="https://www.bungie.net/en/ClanV2/Chat?groupId=2489839">КОСМОС НАШ 3-й состав</a>
+                    </li>
+                    <li>
+                        <a href="https://www.bungie.net/en/ClanV2?groupid=2895088">КОСМОС НАШ 4-й состав</a>
+                    </li>
+                </ul>
+                <h4 class="heading mt20">Каналы в Telegram</h2>
+                <ul class="mb20">
+                    <li><a href="https://t.me/KOCMOC_HAIII">Общий чат</a></li>
+                    <li><a href="https://t.me/KOCMOC_HAIII_FIRE_TEAM">Поиск активностей</a></li>
+                    <li><a href="https://t.me/KOCMOC_HAIII_INFO">Инфо канал</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
-</html> 
+
+</html>

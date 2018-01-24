@@ -28,3 +28,11 @@ node_modules
 
 # Debug log from npm
 npm-debug.log
+
+#Remove apiKey		
+apiKey.js
+public/app/js/apiKey.js
+
+root
+manifest-content
+manifestData
