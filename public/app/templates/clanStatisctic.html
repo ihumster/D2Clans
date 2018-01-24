@@ -1,22 +1,28 @@
-<h2 class="mb20" ng-show="clanList">
-    Statisctic. {{isLoading ? "Loading:" : "Loading is done. It's"}} {{clanList ? clanList.length : 0}} members from 100
-</h2>
-<div ng-show="!clanList" class="onLoadMessage mt20">
-    Waiting for respons from Destiny server...
+
+<su-header header-config="settings.header"></su-header>
+<su-scroll-to-top-button></su-scroll-to-top-button>
+<div class="appContent">
+    <h2 class="mb20 heading" ng-show="clanList">
+        Список участников.<br/>{{isLoading ? "Загрузка:" : "Загрузка завершена. Состав клана:"}} {{clanList ? clanList.length : 0}} из 100
+    </h2>
+    <h2 ng-show="!clanList" class="onLoadMessage mt20 heading">
+        Ожидание ответа <br>сервера Destiny...
+    </h2>
+    <su-spinner is-active-spinner="!clanList"></su-spinner>
+    <ul>
+        <li ng-show="clanList">
+            <ul class="listHead mb20">
+                <li ng-click="sortBy('$index')" class="sortButton">№<span class="sortorder" ng-show="propertyName === '$index'" ng-class="{reverse: reverse}"></span></li>
+                <li ng-click="sortBy('name')" class="sortButton">имя<span class="sortorder" ng-show="propertyName === 'name'" ng-class="{reverse: reverse}"></span></li>
+                <li ng-click="sortBy('lastTime')" class="sortButton">Последний раз в игре <span class="sortorder" ng-show="propertyName === 'lastTime'" ng-class="{reverse: reverse}"></span></li>
+            </ul>
+        </li>
+        <li ng-repeat="member in clanList | filter: settings.header.model" class="profileListLine">
+            <ul>
+                <li>{{::$index+1}}</li>
+                <li>{{::member.name }}</li>
+                <li>{{::member.lastTime | timeFilter}}</li>
+            </ul>
+        </li>
+    </ul>
 </div>
-<ul>
-    <li ng-show="clanList">
-        <ul class="listHead mb20">
-            <li ng-click="sortBy('$index')" class="sortButton">№<span class="sortorder" ng-show="propertyName === '$index'" ng-class="{reverse: reverse}"></span></li>
-            <li ng-click="sortBy('name')" class="sortButton">Name<span class="sortorder" ng-show="propertyName === 'name'" ng-class="{reverse: reverse}"></span></li>
-            <li ng-click="sortBy('lastTime')" class="sortButton">Last time in game  <span class="sortorder" ng-show="propertyName === 'lastTime'" ng-class="{reverse: reverse}"></span></li>
-        </ul>
-    </li>
-    <li ng-repeat="member in clanList" class="profileListLine">
-        <ul>
-            <li>{{::$index+1}}</li>
-            <li>{{::member.name}}</li>
-            <li>{{::member.lastTime | timeFilter}}</li>
-        </ul>
-    </li>
-</ul>

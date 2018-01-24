@@ -1,0 +1,41 @@
+<su-header header-config="settings.header"></su-header>
+<su-scroll-to-top-button></su-scroll-to-top-button>
+<div class="appContent">
+    <h2 class="mb20 heading">
+        Недельные рубежи
+    </h2>
+    <su-spinner is-active-spinner="isSpinnerActive"></su-spinner>
+    <div class="milestoneContent">
+        <ul>
+            <li ng-repeat="item in milestones" class="hasExpandableMenu mb30">
+                <h4>
+                    {{item.title}}
+                </h4>
+                <p>
+                    {{item.about}}  
+                </p>
+                <p>
+                    <ul>
+                        <li ng-repeat="quest in item.modification" class="mt5">
+                            <p>
+                                <b>{{quest.title}}</b>
+                            </p>
+                            <p ng-repeat="mod in quest.mods" class="mt5">
+                                <b>{{mod.title}}: </b>{{mod.description}}
+                            </p>
+                            <p ng-repeat="objective in quest.challenges" class="mt5">
+                                <b>{{objective.title}}:</b>{{objective.description}}
+                            </p>
+                            <div ng-value="item.img = quest.img ? '': item.img">
+                                <img class="milestoneImg mt5" ng-src="https://www.bungie.net{{quest.img}}"  alt=""/>
+                            </div>
+                        </li>
+                    </ul>
+                </p>
+                <div ng-if="item.title">
+                    <img class="milestoneImg mt5" ng-src="https://www.bungie.net{{item.img}}" alt=""/>
+                </div>
+            </li>
+        </ul>
+    </divc>
+</div> 

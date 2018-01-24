@@ -5,9 +5,13 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var index = require('./routes/index');
+var scheduling = require('./scheduing');
+scheduling.updateDB.invoke();
 
+var index = require('./routes/index');
 var app = express();
+
+var buildWeeklyActivities = require('./utils/buildWeeklyActivities');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

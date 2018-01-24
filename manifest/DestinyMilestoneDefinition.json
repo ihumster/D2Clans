@@ -1,0 +1,2952 @@
+[{
+        "id": "-2123537791",
+        "json": {
+            "displayProperties": {
+                "description": "Завершите еженедельный Сумрачный налет.",
+                "name": "Сумрачный налет",
+                "icon": "/common/destiny2_content/icons/0c6102774937642b7022e1f3d7688288.png",
+                "hasIcon": true
+            },
+            "milestoneType": 3,
+            "recruitable": true,
+            "friendlyName": "Nightfall",
+            "showInExplorer": true,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "2296274682": {
+                    "questItemHash": 2296274682,
+                    "displayProperties": {
+                        "description": "Завершите еженедельный Сумрачный налет.",
+                        "name": "Сумрачный налет",
+                        "icon": "/common/destiny2_content/icons/0c6102774937642b7022e1f3d7688288.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 69482069,
+                            "vendorItemIndex": 66,
+                            "itemHash": 1204101093,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 69482069,
+                            "vendorItemIndex": 72,
+                            "itemHash": 1800172820,
+                            "quantity": 1
+                        }]
+                    },
+                    "activities": {
+                        "926940962": {
+                            "conceptualActivityHash": 926940962,
+                            "variants": {
+                                "926940962": {
+                                    "activityHash": 926940962,
+                                    "order": 0
+                                },
+                                "1129066976": {
+                                    "activityHash": 1129066976,
+                                    "order": 1
+                                }
+                            }
+                        },
+                        "3368226533": {
+                            "conceptualActivityHash": 3368226533,
+                            "variants": {
+                                "3368226533": {
+                                    "activityHash": 3368226533,
+                                    "order": 0
+                                },
+                                "3050465729": {
+                                    "activityHash": 3050465729,
+                                    "order": 1
+                                }
+                            }
+                        },
+                        "1357019430": {
+                            "conceptualActivityHash": 1357019430,
+                            "variants": {
+                                "1357019430": {
+                                    "activityHash": 1357019430,
+                                    "order": 0
+                                },
+                                "1792985204": {
+                                    "activityHash": 1792985204,
+                                    "order": 1
+                                }
+                            }
+                        },
+                        "145302664": {
+                            "conceptualActivityHash": 145302664,
+                            "variants": {
+                                "145302664": {
+                                    "activityHash": 145302664,
+                                    "order": 0
+                                },
+                                "601540706": {
+                                    "activityHash": 601540706,
+                                    "order": 1
+                                }
+                            }
+                        },
+                        "1975064760": {
+                            "conceptualActivityHash": 1975064760,
+                            "variants": {
+                                "1975064760": {
+                                    "activityHash": 1975064760,
+                                    "order": 0
+                                },
+                                "585071442": {
+                                    "activityHash": 585071442,
+                                    "order": 1
+                                }
+                            }
+                        },
+                        "2322829199": {
+                            "conceptualActivityHash": 2322829199,
+                            "variants": {
+                                "2322829199": {
+                                    "activityHash": 2322829199,
+                                    "order": 0
+                                },
+                                "2688061647": {
+                                    "activityHash": 2688061647,
+                                    "order": 1
+                                }
+                            }
+                        },
+                        "2046332536": {
+                            "conceptualActivityHash": 2046332536,
+                            "variants": {
+                                "2046332536": {
+                                    "activityHash": 2046332536,
+                                    "order": 0
+                                },
+                                "2416546450": {
+                                    "activityHash": 2416546450,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 2171429505,
+            "index": 0,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-1995793629",
+        "json": {
+            "displayProperties": {
+                "description": "Узнайте о новых симуляциях, которые можно исследовать в Бесконечном лесу.",
+                "name": "Бесконечные ветви",
+                "icon": "/common/destiny2_content/icons/976aebaa22c768c6d5f3784ac46711ba.png",
+                "hasIcon": true
+            },
+            "milestoneType": 1,
+            "recruitable": false,
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "2151517341": {
+                    "questItemHash": 2151517341,
+                    "displayProperties": {
+                        "description": "Узнайте о новых симуляциях, которые можно исследовать в Бесконечном лесу.",
+                        "name": "Бесконечные ветви",
+                        "icon": "/common/destiny2_content/icons/976aebaa22c768c6d5f3784ac46711ba.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 2398407866,
+                            "vendorItemIndex": 62,
+                            "itemHash": 1540812339,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 2299173667,
+            "index": 32,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-1983926672",
+        "json": {
+            "displayProperties": {
+                "description": "Увеличьте вашу Силу до 260, зарабатывая снаряжение во время налетов, при выполнении различных заданий или в Горниле.",
+                "name": "Испытания Девяти",
+                "icon": "/common/destiny2_content/icons/fba20dc84777aae846517a36a85ee23f.png",
+                "hasIcon": true
+            },
+            "milestoneType": 1,
+            "recruitable": false,
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "981091409": {
+                    "questItemHash": 981091409,
+                    "displayProperties": {
+                        "description": "Увеличьте вашу Силу до 260, зарабатывая снаряжение во время налетов, при выполнении различных заданий или в Горниле.",
+                        "name": "Испытания Девяти",
+                        "icon": "/common/destiny2_content/icons/fba20dc84777aae846517a36a85ee23f.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 1204579875,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 2311040624,
+            "index": 18,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-1879548815",
+        "json": {
+            "displayProperties": {
+                "description": "Тесс Эверис приготовила для вас подарок в честь смены сезонов. Поговорите с ней в Башне.",
+                "name": "Смена сезонов",
+                "icon": "/common/destiny2_content/icons/8fbc1976cb263d61ac878fd93c0f6b2c.png",
+                "hasIcon": true
+            },
+            "milestoneType": 1,
+            "recruitable": false,
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "3261697759": {
+                    "questItemHash": 3261697759,
+                    "displayProperties": {
+                        "description": "Тесс Эверис приготовила для вас подарок в честь смены сезонов. Поговорите с ней в Башне.",
+                        "name": "Смена сезонов",
+                        "icon": "/common/destiny2_content/icons/8fbc1976cb263d61ac878fd93c0f6b2c.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 3361454721,
+                            "vendorItemIndex": 465,
+                            "itemHash": 2922587693,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 3361454721,
+                            "vendorItemIndex": 468,
+                            "itemHash": 1376713467,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 2415418481,
+            "index": 31,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-1863678448",
+        "json": {
+            "displayProperties": {
+                "description": "Встретьтесь с лордом Саладином",
+                "name": "Железное знамя",
+                "icon": "/common/destiny2_content/icons/8932cb64d915d8cc91bcfd7616d87bac.png",
+                "hasIcon": true
+            },
+            "image": "/img/destiny_content/pgcr/conceptual_iron_banner.jpg",
+            "milestoneType": 1,
+            "recruitable": false,
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "1379539620": {
+                    "questItemHash": 1379539620,
+                    "displayProperties": {
+                        "description": "Встретьтесь с лордом Саладином",
+                        "name": "Железное знамя",
+                        "icon": "/common/destiny2_content/icons/8932cb64d915d8cc91bcfd7616d87bac.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 2181932625,
+                            "quantity": 0
+                        }]
+                    },
+                    "activities": {
+                        "2319065780": {
+                            "conceptualActivityHash": 2319065780,
+                            "variants": {
+                                "2319065780": {
+                                    "activityHash": 2319065780,
+                                    "order": 0
+                                }
+                            }
+                        },
+                        "3616746132": {
+                            "conceptualActivityHash": 3616746132,
+                            "variants": {
+                                "3616746132": {
+                                    "activityHash": 3616746132,
+                                    "order": 0
+                                }
+                            }
+                        },
+                        "2014552458": {
+                            "conceptualActivityHash": 2014552458,
+                            "variants": {
+                                "2014552458": {
+                                    "activityHash": 2014552458,
+                                    "order": 0
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 2431288848,
+            "index": 10,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-1122522349",
+        "json": {
+            "displayProperties": {
+                "description": "Завершите 3 испытания налета.",
+                "name": "Испытания налетов",
+                "icon": "/common/destiny2_content/icons/ada9b2bac9156fc0da7291dae87aff6a.png",
+                "hasIcon": true
+            },
+            "milestoneType": 4,
+            "recruitable": true,
+            "friendlyName": "DailyStrikes",
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": true,
+            "quests": {
+                "2084715888": {
+                    "questItemHash": 2084715888,
+                    "displayProperties": {
+                        "description": "Завершите 3 испытания налета.",
+                        "name": "Испытания налетов",
+                        "icon": "/common/destiny2_content/icons/ada9b2bac9156fc0da7291dae87aff6a.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 69482069,
+                            "vendorItemIndex": 62,
+                            "itemHash": 3244905727,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 3172444947,
+            "index": 8,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-1089958235",
+        "json": {
+            "image": "/img/destiny_content/pgcr/conceptual_faction_rally.jpg",
+            "milestoneType": 5,
+            "recruitable": true,
+            "friendlyName": "FactionRally",
+            "showInExplorer": true,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": true,
+            "quests": {
+                "2314823948": {
+                    "questItemHash": 2314823948,
+                    "displayProperties": {
+                        "description": "Уничтожьте вражеские припасы в затерянных секторах в ЕМЗ сегодня.",
+                        "name": "Гонка фракций: ЕМЗ",
+                        "icon": "/common/destiny2_content/icons/55bcf4cd2684050e8ca96e8c2bbdac6c.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 2001380918,
+                            "quantity": 15
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "2216433660": {
+                    "questItemHash": 2216433660,
+                    "displayProperties": {
+                        "description": "Уничтожьте вражеские припасы в затерянных секторах на Ио сегодня.",
+                        "name": "Гонка фракций: Ио",
+                        "icon": "/common/destiny2_content/icons/55bcf4cd2684050e8ca96e8c2bbdac6c.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 2001380918,
+                            "quantity": 15
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "3443201438": {
+                    "questItemHash": 3443201438,
+                    "displayProperties": {
+                        "description": "Уничтожьте вражеские припасы в затерянных секторах на Титане сегодня.",
+                        "name": "Гонка фракций: Титан",
+                        "icon": "/common/destiny2_content/icons/55bcf4cd2684050e8ca96e8c2bbdac6c.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 2001380918,
+                            "quantity": 15
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "1086754904": {
+                    "questItemHash": 1086754904,
+                    "displayProperties": {
+                        "description": "Уничтожьте вражеские припасы в затерянных секторах на Нессе сегодня.",
+                        "name": "Гонка фракций: Несс",
+                        "icon": "/common/destiny2_content/icons/55bcf4cd2684050e8ca96e8c2bbdac6c.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 2001380918,
+                            "quantity": 15
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "3263338200": {
+                    "questItemHash": 3263338200,
+                    "displayProperties": {
+                        "description": "Завершите 3 налета, играя за вашу фракцию сегодня.",
+                        "name": "Гонка фракций: налеты",
+                        "icon": "/common/destiny2_content/icons/55bcf4cd2684050e8ca96e8c2bbdac6c.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 2001380918,
+                            "quantity": 15
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "3581161070": {
+                    "questItemHash": 3581161070,
+                    "displayProperties": {
+                        "description": "Представьте вашу фракцию в 5 матчах в Горниле сегодня.",
+                        "name": "Гонка фракций: Горнило",
+                        "icon": "/common/destiny2_content/icons/55bcf4cd2684050e8ca96e8c2bbdac6c.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 2001380918,
+                            "quantity": 15
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "2617987912": {
+                    "questItemHash": 2617987912,
+                    "displayProperties": {
+                        "description": "Представьте вашу фракцию в открытых мероприятиях сегодня.",
+                        "name": "Гонка фракций: Открытые мероприятия",
+                        "icon": "/common/destiny2_content/icons/55bcf4cd2684050e8ca96e8c2bbdac6c.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 2001380918,
+                            "quantity": 15
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "vendorsDisplayTitle": "Награды фракций",
+            "vendors": [{
+                "vendorHash": 3354631265
+            }, {
+                "vendorHash": 2260557667
+            }, {
+                "vendorHash": 3819664660
+            }],
+            "isInGameMilestone": true,
+            "hash": 3205009061,
+            "index": 27,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-1075731830",
+        "json": {
+            "displayProperties": {
+                "description": "",
+                "name": "Бесконечность плюс один",
+                "icon": "/common/destiny2_content/icons/976aebaa22c768c6d5f3784ac46711ba.png",
+                "hasIcon": true
+            },
+            "milestoneType": 1,
+            "recruitable": false,
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "1730486624": {
+                    "questItemHash": 1730486624,
+                    "displayProperties": {
+                        "description": "",
+                        "name": "Бесконечность плюс один",
+                        "icon": "/common/destiny2_content/icons/976aebaa22c768c6d5f3784ac46711ba.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 2398407866,
+                            "vendorItemIndex": 62,
+                            "itemHash": 1540812339,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 3219235466,
+            "index": 33,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-1048981398",
+        "json": {
+            "displayProperties": {
+                "description": "Поговорите с Икорой Рей и поразмышляйте над своими недавними приключениями.",
+                "name": "Медитации",
+                "icon": "/img/destiny_content/milestones/icons/meditations.png",
+                "hasIcon": true
+            },
+            "image": "/img/destiny_content/pgcr/conceptual_meditations.jpg",
+            "milestoneType": 3,
+            "recruitable": true,
+            "friendlyName": "Meditations",
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "3336275007": {
+                    "questItemHash": 3336275007,
+                    "activities": {
+                        "3336275007": {
+                            "conceptualActivityHash": 3336275007,
+                            "variants": {
+                                "3336275007": {
+                                    "activityHash": 3336275007,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "2264636552": {
+                    "questItemHash": 2264636552,
+                    "activities": {
+                        "2264636552": {
+                            "conceptualActivityHash": 2264636552,
+                            "variants": {
+                                "2264636552": {
+                                    "activityHash": 2264636552,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "3580793473": {
+                    "questItemHash": 3580793473,
+                    "activities": {
+                        "3580793473": {
+                            "conceptualActivityHash": 3580793473,
+                            "variants": {
+                                "3580793473": {
+                                    "activityHash": 3580793473,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "255819671": {
+                    "questItemHash": 255819671,
+                    "activities": {
+                        "255819671": {
+                            "conceptualActivityHash": 255819671,
+                            "variants": {
+                                "255819671": {
+                                    "activityHash": 255819671,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "60002467": {
+                    "questItemHash": 60002467,
+                    "activities": {
+                        "60002467": {
+                            "conceptualActivityHash": 60002467,
+                            "variants": {
+                                "60002467": {
+                                    "activityHash": 60002467,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "3417504239": {
+                    "questItemHash": 3417504239,
+                    "activities": {
+                        "3417504239": {
+                            "conceptualActivityHash": 3417504239,
+                            "variants": {
+                                "3417504239": {
+                                    "activityHash": 3417504239,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "667604912": {
+                    "questItemHash": 667604912,
+                    "activities": {
+                        "667604912": {
+                            "conceptualActivityHash": 667604912,
+                            "variants": {
+                                "667604912": {
+                                    "activityHash": 667604912,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "2708828207": {
+                    "questItemHash": 2708828207,
+                    "activities": {
+                        "2708828207": {
+                            "conceptualActivityHash": 2708828207,
+                            "variants": {
+                                "2708828207": {
+                                    "activityHash": 2708828207,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "464789944": {
+                    "questItemHash": 464789944,
+                    "activities": {
+                        "464789944": {
+                            "conceptualActivityHash": 464789944,
+                            "variants": {
+                                "464789944": {
+                                    "activityHash": 464789944,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "3738159218": {
+                    "questItemHash": 3738159218,
+                    "activities": {
+                        "3738159218": {
+                            "conceptualActivityHash": 3738159218,
+                            "variants": {
+                                "3738159218": {
+                                    "activityHash": 3738159218,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "4239233351": {
+                    "questItemHash": 4239233351,
+                    "activities": {
+                        "4239233351": {
+                            "conceptualActivityHash": 4239233351,
+                            "variants": {
+                                "4239233351": {
+                                    "activityHash": 4239233351,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "3982474534": {
+                    "questItemHash": 3982474534,
+                    "activities": {
+                        "3982474534": {
+                            "conceptualActivityHash": 3982474534,
+                            "variants": {
+                                "3982474534": {
+                                    "activityHash": 3982474534,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "1019362992": {
+                    "questItemHash": 1019362992,
+                    "activities": {
+                        "1019362992": {
+                            "conceptualActivityHash": 1019362992,
+                            "variants": {
+                                "1019362992": {
+                                    "activityHash": 1019362992,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "4291922223": {
+                    "questItemHash": 4291922223,
+                    "activities": {
+                        "4291922223": {
+                            "conceptualActivityHash": 4291922223,
+                            "variants": {
+                                "4291922223": {
+                                    "activityHash": 4291922223,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "1646219807": {
+                    "questItemHash": 1646219807,
+                    "activities": {
+                        "1646219807": {
+                            "conceptualActivityHash": 1646219807,
+                            "variants": {
+                                "1646219807": {
+                                    "activityHash": 1646219807,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 3245985898,
+            "index": 13,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-982949176",
+        "json": {
+            "displayProperties": {
+                "description": "Выполните 3 испытания в Горниле.",
+                "name": "Испытания Горнила",
+                "icon": "/common/destiny2_content/icons/ada9b2bac9156fc0da7291dae87aff6a.png",
+                "hasIcon": true
+            },
+            "milestoneType": 4,
+            "recruitable": true,
+            "friendlyName": "DailyPvP",
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": true,
+            "quests": {
+                "3050270967": {
+                    "questItemHash": 3050270967,
+                    "displayProperties": {
+                        "description": "Выполните 3 испытания в Горниле.",
+                        "name": "Испытания Горнила",
+                        "icon": "/common/destiny2_content/icons/ada9b2bac9156fc0da7291dae87aff6a.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 3603221665,
+                            "vendorItemIndex": 66,
+                            "itemHash": 3244905727,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 3312018120,
+            "index": 7,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-889448132",
+        "json": {
+            "displayProperties": {
+                "description": "Завершите три героических налёта",
+                "name": "Героические налеты",
+                "icon": "/common/destiny2_content/icons/0c6102774937642b7022e1f3d7688288.png",
+                "hasIcon": true
+            },
+            "milestoneType": 3,
+            "recruitable": false,
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": true,
+            "quests": {
+                "2173086903": {
+                    "questItemHash": 2173086903,
+                    "displayProperties": {
+                        "description": "Завершите три героических налёта",
+                        "name": "Героические налеты",
+                        "icon": "/common/destiny2_content/icons/0c6102774937642b7022e1f3d7688288.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 69482069,
+                            "vendorItemIndex": 79,
+                            "itemHash": 1800172820,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 3405519164,
+            "index": 30,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-743211852",
+        "json": {
+            "displayProperties": {
+                "description": "Узрите. Правосудие.",
+                "name": "Испытания Девяти",
+                "hasIcon": false
+            },
+            "milestoneType": 5,
+            "recruitable": true,
+            "friendlyName": "Trials",
+            "showInExplorer": true,
+            "explorePrioritizesActivityImage": true,
+            "hasPredictableDates": true,
+            "quests": {
+                "3087029318": {
+                    "questItemHash": 3087029318,
+                    "displayProperties": {
+                        "description": "Победите в одном из испытаний Девяти.",
+                        "name": "Испытания Девяти",
+                        "icon": "/common/destiny2_content/icons/fba20dc84777aae846517a36a85ee23f.png",
+                        "hasIcon": true
+                    },
+                    "overrideImage": "/img/destiny_content/pgcr/conceptual_trials_of_the_nine.jpg",
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 1123098464,
+                            "quantity": 0
+                        }]
+                    },
+                    "activities": {
+                        "3799743268": {
+                            "conceptualActivityHash": 3799743268,
+                            "variants": {
+                                "3799743268": {
+                                    "activityHash": 3799743268,
+                                    "order": 0
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "vendorsDisplayTitle": "Награды от Посланницы",
+            "vendors": [{
+                "vendorHash": 3190557730
+            }, {
+                "vendorHash": 3190557731
+            }, {
+                "vendorHash": 3190557728
+            }, {
+                "vendorHash": 3190557729
+            }, {
+                "vendorHash": 3190557734
+            }],
+            "values": {
+                "wins": {
+                    "key": "wins",
+                    "displayProperties": {
+                        "description": "Количество побед в Испытаниях Девяти.",
+                        "name": "Победы",
+                        "hasIcon": false
+                    },
+                    "unlockValueHash": 0
+                },
+                "maxWins": {
+                    "key": "maxWins",
+                    "displayProperties": {
+                        "description": "Максимум ваших побед в Испытаниях Девяти на этой неделе.",
+                        "name": "Максимум побед на этой неделе",
+                        "hasIcon": false
+                    },
+                    "unlockValueHash": 0
+                },
+                "losses": {
+                    "key": "losses",
+                    "displayProperties": {
+                        "description": "Количество поражений в Испытаниях Девяти.",
+                        "name": "Поражения",
+                        "hasIcon": false
+                    },
+                    "unlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 3551755444,
+            "index": 5,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-703212883",
+        "json": {
+            "image": "/img/destiny_content/pgcr/conceptual_faction_rally.jpg",
+            "milestoneType": 5,
+            "recruitable": true,
+            "friendlyName": "FactionRallyWinner",
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": true,
+            "quests": {
+                "950547792": {
+                    "questItemHash": 950547792,
+                    "displayProperties": {
+                        "description": "В честь праздника \"Новая монархия\" дарит Стражам легендарное оружие.",
+                        "name": "Праздновать вместе с \"Новой монархией\"",
+                        "icon": "/common/destiny2_content/icons/55bcf4cd2684050e8ca96e8c2bbdac6c.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 3083564121,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "2452190556": {
+                    "questItemHash": 2452190556,
+                    "displayProperties": {
+                        "description": "В честь праздника \"Мертвая орбита\" дарит Стражам легендарное оружие.",
+                        "name": "Праздновать вместе с \"Мертвой орбитой\"",
+                        "icon": "/common/destiny2_content/icons/55bcf4cd2684050e8ca96e8c2bbdac6c.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 1877819680,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "569007276": {
+                    "questItemHash": 569007276,
+                    "displayProperties": {
+                        "description": "В честь праздника \"Культ грядущей войны\" дарит Стражам легендарное оружие.",
+                        "name": "Праздновать с \"Культом грядущей войны\"",
+                        "icon": "/common/destiny2_content/icons/55bcf4cd2684050e8ca96e8c2bbdac6c.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 666779958,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "vendorsDisplayTitle": "Награды фракций",
+            "vendors": [{
+                "vendorHash": 3354631265
+            }, {
+                "vendorHash": 2260557667
+            }, {
+                "vendorHash": 3819664660
+            }],
+            "isInGameMilestone": true,
+            "hash": 3591754413,
+            "index": 29,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-691868732",
+        "json": {
+            "displayProperties": {
+                "description": "Зарабатывайте опыт клана, принимая участие в налетах, рейдах, боях Горнила и различных заданиях.",
+                "name": "Опыт клана",
+                "icon": "/common/destiny2_content/icons/01d35b94693ed62201aa54b631726100.png",
+                "hasIcon": true
+            },
+            "milestoneType": 3,
+            "recruitable": true,
+            "friendlyName": "ClanProgress",
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": true,
+            "quests": {
+                "1433913940": {
+                    "questItemHash": 1433913940,
+                    "displayProperties": {
+                        "description": "Зарабатывайте опыт клана, принимая участие в налетах, рейдах, боях Горнила и различных заданиях.",
+                        "name": "Опыт клана",
+                        "icon": "/common/destiny2_content/icons/01d35b94693ed62201aa54b631726100.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 3347378076,
+                            "vendorItemIndex": 142,
+                            "itemHash": 2646629159,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 3347378076,
+                            "vendorItemIndex": 152,
+                            "itemHash": 2769545932,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 3603098564,
+            "index": 14,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-670727690",
+        "json": {
+            "displayProperties": {
+                "description": "Выслушайте Араха Джалаала",
+                "name": "Гонка фракций",
+                "icon": "/common/destiny2_content/icons/55bcf4cd2684050e8ca96e8c2bbdac6c.png",
+                "hasIcon": true
+            },
+            "image": "/img/destiny_content/pgcr/conceptual_faction_rally.jpg",
+            "milestoneType": 1,
+            "recruitable": true,
+            "friendlyName": "FactionRallyIntro",
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "2927008654": {
+                    "questItemHash": 2927008654,
+                    "displayProperties": {
+                        "description": "Выслушайте Араха Джалаала",
+                        "name": "Гонка фракций",
+                        "icon": "/common/destiny2_content/icons/55bcf4cd2684050e8ca96e8c2bbdac6c.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 422795638,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 3624239606,
+            "index": 25,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-634130771",
+        "json": {
+            "displayProperties": {
+                "description": "Выполняйте рейд еженедельно, чтобы заполучить отборный лут, которым будет нестыдно похвастаться.",
+                "name": "Рейд \"Левиафан\"",
+                "hasIcon": false
+            },
+            "milestoneType": 3,
+            "recruitable": true,
+            "friendlyName": "Raid",
+            "showInExplorer": true,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": true,
+            "quests": {
+                "82550967": {
+                    "questItemHash": 82550967,
+                    "displayProperties": {
+                        "description": "Потягайтесь с императором Кабал в рейде \"Левиафан\" или в рейде-логове \"Пожиратель миров\".",
+                        "name": "\"Левиафан\"",
+                        "icon": "/common/destiny2_content/icons/26c78a95512d153fc080f1eea135fb7b.png",
+                        "hasIcon": true
+                    },
+                    "overrideImage": "/img/destiny_content/pgcr/raid_gluttony.jpg",
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 4039143015,
+                            "quantity": 0
+                        }]
+                    },
+                    "activities": {
+                        "2693136601": {
+                            "conceptualActivityHash": 2693136601,
+                            "variants": {
+                                "2693136601": {
+                                    "activityHash": 2693136601,
+                                    "order": 0
+                                },
+                                "3879860661": {
+                                    "activityHash": 3879860661,
+                                    "order": 1
+                                }
+                            }
+                        },
+                        "2693136600": {
+                            "conceptualActivityHash": 2693136600,
+                            "variants": {
+                                "2693136600": {
+                                    "activityHash": 2693136600,
+                                    "order": 0
+                                },
+                                "2449714930": {
+                                    "activityHash": 2449714930,
+                                    "order": 1
+                                }
+                            }
+                        },
+                        "2693136603": {
+                            "conceptualActivityHash": 2693136603,
+                            "variants": {
+                                "2693136603": {
+                                    "activityHash": 2693136603,
+                                    "order": 0
+                                },
+                                "3446541099": {
+                                    "activityHash": 3446541099,
+                                    "order": 1
+                                }
+                            }
+                        },
+                        "2693136602": {
+                            "conceptualActivityHash": 2693136602,
+                            "variants": {
+                                "2693136602": {
+                                    "activityHash": 2693136602,
+                                    "order": 0
+                                },
+                                "417231112": {
+                                    "activityHash": 417231112,
+                                    "order": 1
+                                }
+                            }
+                        },
+                        "2693136605": {
+                            "conceptualActivityHash": 2693136605,
+                            "variants": {
+                                "2693136605": {
+                                    "activityHash": 2693136605,
+                                    "order": 0
+                                },
+                                "1685065161": {
+                                    "activityHash": 1685065161,
+                                    "order": 1
+                                }
+                            }
+                        },
+                        "2693136604": {
+                            "conceptualActivityHash": 2693136604,
+                            "variants": {
+                                "2693136604": {
+                                    "activityHash": 2693136604,
+                                    "order": 0
+                                },
+                                "757116822": {
+                                    "activityHash": 757116822,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 3660836525,
+            "index": 4,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-419221371",
+        "json": {
+            "displayProperties": {
+                "description": "Поговорите с Икорой.",
+                "name": "Испытания",
+                "icon": "/common/destiny2_content/icons/ada9b2bac9156fc0da7291dae87aff6a.png",
+                "hasIcon": true
+            },
+            "milestoneType": 1,
+            "recruitable": false,
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "2234606252": {
+                    "questItemHash": 2234606252,
+                    "displayProperties": {
+                        "description": "Поговорите с Икорой.",
+                        "name": "Испытания",
+                        "icon": "/common/destiny2_content/icons/ada9b2bac9156fc0da7291dae87aff6a.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 1976548992,
+                            "vendorItemIndex": 44,
+                            "itemHash": 2159363321,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 1976548992,
+                            "vendorItemIndex": 45,
+                            "itemHash": 3250112431,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 1976548992,
+                            "vendorItemIndex": 46,
+                            "itemHash": 2082184158,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 3875745925,
+            "index": 17,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-185607399",
+        "json": {
+            "milestoneType": 5,
+            "recruitable": true,
+            "friendlyName": "CallToAction",
+            "showInExplorer": true,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "1378449462": {
+                    "questItemHash": 1378449462,
+                    "displayProperties": {
+                        "description": "Посетите Хоторн и выслушайте ее предложение.",
+                        "name": "Мобилизация: кланы",
+                        "icon": "/common/destiny2_content/icons/d2a8091d274e8c57c11bc27f50cebf36.png",
+                        "hasIcon": true
+                    },
+                    "overrideImage": "/img/destiny_content/pgcr/conceptual_clarion_call_clans.jpg",
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 3347378076,
+                            "vendorItemIndex": 135,
+                            "itemHash": 3215463713,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "3368376909": {
+                    "questItemHash": 3368376909,
+                    "displayProperties": {
+                        "description": "Ашер Мир созывает Стражей на Ио. Присоединяйтесь к борьбе",
+                        "name": "Мобилизация: Ио",
+                        "icon": "/common/destiny2_content/icons/d2a8091d274e8c57c11bc27f50cebf36.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 3712099029,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "667082542": {
+                    "questItemHash": 667082542,
+                    "displayProperties": {
+                        "description": "Деврим Кей объявил мобилизацию Стражей в ЕМЗ. Присоединяйтесь к борьбе!",
+                        "name": "Мобилизация: ЕМЗ",
+                        "icon": "/common/destiny2_content/icons/d2a8091d274e8c57c11bc27f50cebf36.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 3712099029,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "2007408845": {
+                    "questItemHash": 2007408845,
+                    "displayProperties": {
+                        "description": "Слоун созывает Стражей на Титане. Присоединяйтесь к борьбе!",
+                        "name": "Мобилизация: Титан",
+                        "icon": "/common/destiny2_content/icons/d2a8091d274e8c57c11bc27f50cebf36.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 3712099029,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "1736204665": {
+                    "questItemHash": 1736204665,
+                    "displayProperties": {
+                        "description": "Кейд-6 созывает всех охотников. Присоединяйтесь к борьбе!",
+                        "name": "Мобилизация: охотники",
+                        "icon": "/common/destiny2_content/icons/d2a8091d274e8c57c11bc27f50cebf36.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 3712099029,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "3194255107": {
+                    "questItemHash": 3194255107,
+                    "displayProperties": {
+                        "description": "Нейроматрица собирает Стражей на Нессе. Присоединяйтесь к борьбе!",
+                        "name": "Мобилизация: Несс",
+                        "icon": "/common/destiny2_content/icons/d2a8091d274e8c57c11bc27f50cebf36.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 3712099029,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "200707795": {
+                    "questItemHash": 200707795,
+                    "displayProperties": {
+                        "description": "Шакс призывает Стражей показать себя в Горниле.",
+                        "name": "Мобилизация: Горнило",
+                        "icon": "/common/destiny2_content/icons/d2a8091d274e8c57c11bc27f50cebf36.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 3712099029,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "3127037131": {
+                    "questItemHash": 3127037131,
+                    "displayProperties": {
+                        "description": "Завала созывает всех титанов. Присоединяйтесь к борьбе!",
+                        "name": "Мобилизация: титаны",
+                        "icon": "/common/destiny2_content/icons/d2a8091d274e8c57c11bc27f50cebf36.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 3712099029,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "2360690104": {
+                    "questItemHash": 2360690104,
+                    "displayProperties": {
+                        "description": "Девять хотят, чтобы Стражи прошли их Испытания.",
+                        "name": "Мобилизация: титаны",
+                        "icon": "/common/destiny2_content/icons/d2a8091d274e8c57c11bc27f50cebf36.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 3712099029,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "3692657070": {
+                    "questItemHash": 3692657070,
+                    "displayProperties": {
+                        "description": "Икора созывает всех варлоков. Присоединяйтесь к борьбе!",
+                        "name": "Мобилизация: варлоки",
+                        "icon": "/common/destiny2_content/icons/d2a8091d274e8c57c11bc27f50cebf36.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 3712099029,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 4109359897,
+            "index": 1,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-166156339",
+        "json": {
+            "displayProperties": {
+                "description": "Поговорите с Тесс Эверис в Башне.",
+                "name": "Добро пожаловать на Рассвет",
+                "icon": "/common/destiny2_content/icons/273546f2c62e0a3cf888069f9f0980e3.png",
+                "hasIcon": true
+            },
+            "milestoneType": 1,
+            "recruitable": false,
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "3688853099": {
+                    "questItemHash": 3688853099,
+                    "displayProperties": {
+                        "description": "Поговорите с Тесс Эверис в Башне.",
+                        "name": "Добро пожаловать на Рассвет",
+                        "icon": "/common/destiny2_content/icons/273546f2c62e0a3cf888069f9f0980e3.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 3361454721,
+                            "vendorItemIndex": 466,
+                            "itemHash": 4164424444,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 3361454721,
+                            "vendorItemIndex": 469,
+                            "itemHash": 2802980754,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 4128810957,
+            "index": 34,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-46690427",
+        "json": {
+            "displayProperties": {
+                "description": "Соберите 10 свертков Железного знамени за весь первый сезон.",
+                "name": "Железное знамя: сезон 1",
+                "icon": "/common/destiny2_content/icons/8932cb64d915d8cc91bcfd7616d87bac.png",
+                "hasIcon": true
+            },
+            "image": "/img/destiny_content/pgcr/conceptual_iron_banner.jpg",
+            "milestoneType": 5,
+            "recruitable": true,
+            "friendlyName": "IronBannerSeason1",
+            "showInExplorer": true,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "612307426": {
+                    "questItemHash": 612307426,
+                    "displayProperties": {
+                        "description": "Соберите 10 свертков Железного знамени за весь первый сезон.",
+                        "name": "Железное знамя: сезон 1",
+                        "icon": "/common/destiny2_content/icons/8932cb64d915d8cc91bcfd7616d87bac.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 956266256,
+                            "quantity": 0
+                        }]
+                    },
+                    "activities": {
+                        "2319065780": {
+                            "conceptualActivityHash": 2319065780,
+                            "variants": {
+                                "2319065780": {
+                                    "activityHash": 2319065780,
+                                    "order": 0
+                                }
+                            }
+                        },
+                        "3616746132": {
+                            "conceptualActivityHash": 3616746132,
+                            "variants": {
+                                "3616746132": {
+                                    "activityHash": 3616746132,
+                                    "order": 0
+                                }
+                            }
+                        },
+                        "2014552458": {
+                            "conceptualActivityHash": 2014552458,
+                            "variants": {
+                                "2014552458": {
+                                    "activityHash": 2014552458,
+                                    "order": 0
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 4248276869,
+            "index": 12,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "-41829105",
+        "json": {
+            "displayProperties": {
+                "description": "Выполняйте задания всем кланом, чтобы заработать крутой лут.",
+                "name": "Еженедельные клановые задания",
+                "icon": "/img/destiny_content/milestones/icons/clan_objectives.png",
+                "hasIcon": true
+            },
+            "image": "/img/destiny_content/pgcr/conceptual_weekly_clan_challenges.jpg",
+            "milestoneType": 3,
+            "recruitable": true,
+            "friendlyName": "ClanObjectives",
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": true,
+            "quests": {},
+            "rewards": {
+                "1064137897": {
+                    "categoryHash": 1064137897,
+                    "categoryIdentifier": "milestone_clan_current_week",
+                    "displayProperties": {
+                        "description": "Награды, полученные за действия клана.",
+                        "name": "Награды клана",
+                        "hasIcon": false
+                    },
+                    "rewardEntries": {
+                        "3789021730": {
+                            "rewardEntryHash": 3789021730,
+                            "rewardEntryIdentifier": "nightfall",
+                            "items": [{
+                                "itemHash": 2505971849,
+                                "quantity": 1
+                            }, {
+                                "itemHash": 807877700,
+                                "quantity": 1
+                            }],
+                            "vendorHash": 3347378076,
+                            "displayProperties": {
+                                "description": "Сумрачный налетКогда ваш клан успешно завершает сумрачный налет в составе группы, каждый его участник получает эту награду.",
+                                "name": "Сумрачный налет",
+                                "icon": "/img/destiny_content/milestones/reward_icons/nightfall.png",
+                                "hasIcon": true
+                            },
+                            "order": 1,
+                            "earnedUnlockHash": 0,
+                            "redeemedUnlockHash": 0
+                        },
+                        "2112637710": {
+                            "rewardEntryHash": 2112637710,
+                            "rewardEntryIdentifier": "trials",
+                            "items": [{
+                                "itemHash": 2515691897,
+                                "quantity": 1
+                            }, {
+                                "itemHash": 4111259840,
+                                "quantity": 1
+                            }],
+                            "vendorHash": 3347378076,
+                            "displayProperties": {
+                                "description": "Когда ваш клан успешно завершает Испытания Девяти в составе группы, каждый его участник получает эту награду.",
+                                "name": "Испытания Девяти",
+                                "icon": "/img/destiny_content/milestones/reward_icons/trials.png",
+                                "hasIcon": true
+                            },
+                            "order": 2,
+                            "earnedUnlockHash": 0,
+                            "redeemedUnlockHash": 0
+                        },
+                        "2043403989": {
+                            "rewardEntryHash": 2043403989,
+                            "rewardEntryIdentifier": "raid",
+                            "items": [{
+                                "itemHash": 2371161810,
+                                "quantity": 1
+                            }, {
+                                "itemHash": 3326830047,
+                                "quantity": 1
+                            }],
+                            "vendorHash": 3347378076,
+                            "displayProperties": {
+                                "description": "Когда ваш клан успешно завершает рейд в составе группы, каждый его участник получает эту награду.",
+                                "name": "Рейд",
+                                "icon": "/img/destiny_content/milestones/reward_icons/raid.png",
+                                "hasIcon": true
+                            },
+                            "order": 3,
+                            "earnedUnlockHash": 0,
+                            "redeemedUnlockHash": 0
+                        },
+                        "964120289": {
+                            "rewardEntryHash": 964120289,
+                            "rewardEntryIdentifier": "pvp",
+                            "items": [{
+                                "itemHash": 1574678248,
+                                "quantity": 1
+                            }, {
+                                "itemHash": 2360283797,
+                                "quantity": 1
+                            }],
+                            "vendorHash": 3347378076,
+                            "displayProperties": {
+                                "description": "Когда ваш клан сражается в Горниле в составе группы, каждый его участник получает эту награду.",
+                                "name": "Горнило",
+                                "icon": "/img/destiny_content/milestones/reward_icons/pvp.png",
+                                "hasIcon": true
+                            },
+                            "order": 4,
+                            "earnedUnlockHash": 0,
+                            "redeemedUnlockHash": 0
+                        }
+                    },
+                    "order": 1
+                },
+                "4258746474": {
+                    "categoryHash": 4258746474,
+                    "categoryIdentifier": "milestone_clan_past_week",
+                    "displayProperties": {
+                        "description": "Награды, полученные за действия клана на прошлой неделе. Берите их, пока можно!",
+                        "name": "Награды клана за прошлую неделю",
+                        "hasIcon": false
+                    },
+                    "rewardEntries": {
+                        "305996677": {
+                            "rewardEntryHash": 305996677,
+                            "rewardEntryIdentifier": "nightfall_pastweek",
+                            "items": [{
+                                "itemHash": 2505971849,
+                                "quantity": 1
+                            }, {
+                                "itemHash": 807877700,
+                                "quantity": 1
+                            }],
+                            "vendorHash": 3347378076,
+                            "displayProperties": {
+                                "description": "Если ваш клан получил награду за сумрачный налет на прошлой неделе, вы еще можете ее забрать.",
+                                "name": "Сумрачный налет (прошлая неделя)",
+                                "icon": "/img/destiny_content/milestones/reward_icons/nightfall.png",
+                                "hasIcon": true
+                            },
+                            "order": 1,
+                            "earnedUnlockHash": 0,
+                            "redeemedUnlockHash": 0
+                        },
+                        "1685071777": {
+                            "rewardEntryHash": 1685071777,
+                            "rewardEntryIdentifier": "trials_pastweek",
+                            "items": [{
+                                "itemHash": 2515691897,
+                                "quantity": 1
+                            }, {
+                                "itemHash": 4111259840,
+                                "quantity": 1
+                            }],
+                            "vendorHash": 3347378076,
+                            "displayProperties": {
+                                "description": "Если ваш клан получил награду за Испытания на прошлой неделе, вы еще можете ее забрать.",
+                                "name": "Испытания Девяти (прошлая неделя)",
+                                "icon": "/img/destiny_content/milestones/reward_icons/trials.png",
+                                "hasIcon": true
+                            },
+                            "order": 2,
+                            "earnedUnlockHash": 0,
+                            "redeemedUnlockHash": 0
+                        },
+                        "783563440": {
+                            "rewardEntryHash": 783563440,
+                            "rewardEntryIdentifier": "raid_pastweek",
+                            "items": [{
+                                "itemHash": 2371161810,
+                                "quantity": 1
+                            }, {
+                                "itemHash": 3326830047,
+                                "quantity": 1
+                            }],
+                            "vendorHash": 3347378076,
+                            "displayProperties": {
+                                "description": "Если ваш клан получил награду за рейд на прошлой неделе, вы еще можете ее забрать.",
+                                "name": "Рейд (прошлая неделя)",
+                                "icon": "/img/destiny_content/milestones/reward_icons/raid.png",
+                                "hasIcon": true
+                            },
+                            "order": 3,
+                            "earnedUnlockHash": 0,
+                            "redeemedUnlockHash": 0
+                        },
+                        "1478801436": {
+                            "rewardEntryHash": 1478801436,
+                            "rewardEntryIdentifier": "pvp_pastweek",
+                            "items": [{
+                                "itemHash": 1574678248,
+                                "quantity": 1
+                            }, {
+                                "itemHash": 2360283797,
+                                "quantity": 1
+                            }],
+                            "vendorHash": 3347378076,
+                            "displayProperties": {
+                                "description": "Если ваш клан получил награду за Горнило на прошлой неделе, вы еще можете ее забрать.",
+                                "name": "Горнило (прошлая неделя)",
+                                "icon": "/img/destiny_content/milestones/reward_icons/pvp.png",
+                                "hasIcon": true
+                            },
+                            "order": 4,
+                            "earnedUnlockHash": 0,
+                            "redeemedUnlockHash": 0
+                        }
+                    },
+                    "order": 2
+                }
+            },
+            "isInGameMilestone": false,
+            "hash": 4253138191,
+            "index": 24,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "202035466",
+        "json": {
+            "displayProperties": {
+                "description": "Завоевывайте славу, сражаясь в битвах Горнила.",
+                "name": "Призыв к оружию",
+                "icon": "/common/destiny2_content/icons/ba5f28369d4cc381eaf5ca1ce5090eb0.png",
+                "hasIcon": true
+            },
+            "milestoneType": 3,
+            "recruitable": true,
+            "friendlyName": "CallToArms",
+            "showInExplorer": true,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": true,
+            "quests": {
+                "1923022191": {
+                    "questItemHash": 1923022191,
+                    "displayProperties": {
+                        "description": "Завоевывайте славу, сражаясь в битвах Горнила.",
+                        "name": "Призыв к оружию",
+                        "icon": "/common/destiny2_content/icons/ba5f28369d4cc381eaf5ca1ce5090eb0.png",
+                        "hasIcon": true
+                    },
+                    "overrideImage": "/img/destiny_content/pgcr/conceptual_call_to_arms.jpg",
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 3603221665,
+                            "vendorItemIndex": 60,
+                            "itemHash": 993006552,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 3603221665,
+                            "vendorItemIndex": 67,
+                            "itemHash": 2770239081,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 202035466,
+            "index": 2,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "342166397",
+        "json": {
+            "displayProperties": {
+                "description": "Поговорите с Шаксом.",
+                "name": "Горнило",
+                "icon": "/common/destiny2_content/icons/ba5f28369d4cc381eaf5ca1ce5090eb0.png",
+                "hasIcon": true
+            },
+            "milestoneType": 1,
+            "recruitable": false,
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "4026286266": {
+                    "questItemHash": 4026286266,
+                    "displayProperties": {
+                        "description": "Поговорите с Шаксом.",
+                        "name": "Горнило",
+                        "icon": "/common/destiny2_content/icons/ba5f28369d4cc381eaf5ca1ce5090eb0.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 3603221665,
+                            "vendorItemIndex": 59,
+                            "itemHash": 3746952128,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 342166397,
+            "index": 22,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "347073893",
+        "json": {
+            "displayProperties": {
+                "description": "Увеличьте вашу силу до 290, зарабатывая снаряжение во время налетов и различных заданий, а также в Горниле.",
+                "name": "\"Левиафан\"",
+                "icon": "/common/destiny2_content/icons/26c78a95512d153fc080f1eea135fb7b.png",
+                "hasIcon": true
+            },
+            "milestoneType": 1,
+            "recruitable": false,
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "1022868936": {
+                    "questItemHash": 1022868936,
+                    "displayProperties": {
+                        "description": "Увеличьте вашу силу до 290, зарабатывая снаряжение во время налетов и различных заданий, а также в Горниле.",
+                        "name": "\"Левиафан\"",
+                        "icon": "/common/destiny2_content/icons/26c78a95512d153fc080f1eea135fb7b.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 772256950,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 347073893,
+            "index": 19,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "364880304",
+        "json": {
+            "image": "/img/destiny_content/pgcr/conceptual_faction_rally.jpg",
+            "milestoneType": 5,
+            "recruitable": true,
+            "friendlyName": "FactionRallyWinAnnouncement",
+            "showInExplorer": true,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": true,
+            "quests": {
+                "1433383514": {
+                    "questItemHash": 1433383514,
+                    "displayProperties": {
+                        "description": "В честь праздника \"Новая монархия\" дарит Стражам легендарное оружие.",
+                        "name": "Праздновать вместе с \"Новой монархией\"",
+                        "icon": "/common/destiny2_content/icons/55bcf4cd2684050e8ca96e8c2bbdac6c.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 3083564121,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "767586604": {
+                    "questItemHash": 767586604,
+                    "displayProperties": {
+                        "description": "В честь праздника \"Mертвая орбита\" дарит Стражам легендарное оружие.",
+                        "name": "Праздновать вместе с \"Мертвой орбитой\"",
+                        "icon": "/common/destiny2_content/icons/55bcf4cd2684050e8ca96e8c2bbdac6c.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 1877819680,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "2770925848": {
+                    "questItemHash": 2770925848,
+                    "displayProperties": {
+                        "description": "В честь праздника \"Культ грядущей войны\" дарит Стражам легендарное оружие.",
+                        "name": "Праздновать с \"Культом грядущей войны\"",
+                        "icon": "/common/destiny2_content/icons/55bcf4cd2684050e8ca96e8c2bbdac6c.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 666779958,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "vendorsDisplayTitle": "Награды фракций",
+            "vendors": [{
+                "vendorHash": 3354631265
+            }, {
+                "vendorHash": 2260557667
+            }, {
+                "vendorHash": 3819664660
+            }],
+            "isInGameMilestone": true,
+            "hash": 364880304,
+            "index": 28,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "383198939",
+        "json": {
+            "milestoneType": 4,
+            "recruitable": true,
+            "friendlyName": "DailyFreeroam",
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": true,
+            "quests": {
+                "2986264586": {
+                    "questItemHash": 2986264586,
+                    "displayProperties": {
+                        "description": "Выполните 3 испытания во время путешествий по ЕМЗ.",
+                        "name": "Испытания ЕМЗ",
+                        "icon": "/common/destiny2_content/icons/ada9b2bac9156fc0da7291dae87aff6a.png",
+                        "hasIcon": true
+                    },
+                    "overrideImage": "/img/destiny_content/pgcr/patrol_edz.jpg",
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 396892126,
+                            "vendorItemIndex": 182,
+                            "itemHash": 3244905727,
+                            "quantity": 1
+                        }]
+                    },
+                    "activities": {
+                        "3143798436": {
+                            "conceptualActivityHash": 3143798436,
+                            "variants": {
+                                "3143798436": {
+                                    "activityHash": 3143798436,
+                                    "order": 0
+                                }
+                            }
+                        },
+                        "145302664": {
+                            "conceptualActivityHash": 145302664,
+                            "variants": {
+                                "145302664": {
+                                    "activityHash": 145302664,
+                                    "order": 0
+                                },
+                                "3920643231": {
+                                    "activityHash": 3920643231,
+                                    "order": 1
+                                },
+                                "601540706": {
+                                    "activityHash": 601540706,
+                                    "order": 2
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "2224319023": {
+                    "questItemHash": 2224319023,
+                    "displayProperties": {
+                        "description": "Выполните 3 испытания во время путешествий по Несс.",
+                        "name": "Испытания Несса",
+                        "icon": "/common/destiny2_content/icons/ada9b2bac9156fc0da7291dae87aff6a.png",
+                        "hasIcon": true
+                    },
+                    "overrideImage": "/img/destiny_content/pgcr/patrol_nessus.jpg",
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 1576276905,
+                            "vendorItemIndex": 179,
+                            "itemHash": 3244905727,
+                            "quantity": 1
+                        }]
+                    },
+                    "activities": {
+                        "3966792859": {
+                            "conceptualActivityHash": 3966792859,
+                            "variants": {
+                                "3966792859": {
+                                    "activityHash": 3966792859,
+                                    "order": 0
+                                }
+                            }
+                        },
+                        "3368226533": {
+                            "conceptualActivityHash": 3368226533,
+                            "variants": {
+                                "3368226533": {
+                                    "activityHash": 3368226533,
+                                    "order": 0
+                                },
+                                "4054968718": {
+                                    "activityHash": 4054968718,
+                                    "order": 1
+                                },
+                                "3050465729": {
+                                    "activityHash": 3050465729,
+                                    "order": 2
+                                }
+                            }
+                        },
+                        "1357019430": {
+                            "conceptualActivityHash": 1357019430,
+                            "variants": {
+                                "1357019430": {
+                                    "activityHash": 1357019430,
+                                    "order": 0
+                                },
+                                "642256373": {
+                                    "activityHash": 642256373,
+                                    "order": 1
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "3150987025": {
+                    "questItemHash": 3150987025,
+                    "displayProperties": {
+                        "description": "Выполните 3 испытания во время путешествий по Титану.",
+                        "name": "Испытания Титана",
+                        "icon": "/common/destiny2_content/icons/ada9b2bac9156fc0da7291dae87aff6a.png",
+                        "hasIcon": true
+                    },
+                    "overrideImage": "/img/destiny_content/pgcr/patrol_titan.jpg",
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 1062861569,
+                            "vendorItemIndex": 192,
+                            "itemHash": 3244905727,
+                            "quantity": 1
+                        }]
+                    },
+                    "activities": {
+                        "4166562681": {
+                            "conceptualActivityHash": 4166562681,
+                            "variants": {
+                                "4166562681": {
+                                    "activityHash": 4166562681,
+                                    "order": 0
+                                }
+                            }
+                        },
+                        "1975064760": {
+                            "conceptualActivityHash": 1975064760,
+                            "variants": {
+                                "1975064760": {
+                                    "activityHash": 1975064760,
+                                    "order": 0
+                                },
+                                "1863334927": {
+                                    "activityHash": 1863334927,
+                                    "order": 1
+                                },
+                                "585071442": {
+                                    "activityHash": 585071442,
+                                    "order": 2
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "1226111329": {
+                    "questItemHash": 1226111329,
+                    "displayProperties": {
+                        "description": "Выполните 3 испытания во время путешествий по Ио.",
+                        "name": "Испытания Ио",
+                        "icon": "/common/destiny2_content/icons/ada9b2bac9156fc0da7291dae87aff6a.png",
+                        "hasIcon": true
+                    },
+                    "overrideImage": "/img/destiny_content/pgcr/patrol_Io.jpg",
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 3982706173,
+                            "vendorItemIndex": 182,
+                            "itemHash": 3244905727,
+                            "quantity": 1
+                        }]
+                    },
+                    "activities": {
+                        "4159221189": {
+                            "conceptualActivityHash": 4159221189,
+                            "variants": {
+                                "4159221189": {
+                                    "activityHash": 4159221189,
+                                    "order": 0
+                                }
+                            }
+                        },
+                        "926940962": {
+                            "conceptualActivityHash": 926940962,
+                            "variants": {
+                                "926940962": {
+                                    "activityHash": 926940962,
+                                    "order": 0
+                                },
+                                "642277473": {
+                                    "activityHash": 642277473,
+                                    "order": 1
+                                },
+                                "1129066976": {
+                                    "activityHash": 1129066976,
+                                    "order": 2
+                                }
+                            }
+                        },
+                        "1792985204": {
+                            "conceptualActivityHash": 1792985204,
+                            "variants": {
+                                "1792985204": {
+                                    "activityHash": 1792985204,
+                                    "order": 0
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 383198939,
+            "index": 9,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "449068913",
+        "json": {
+            "displayProperties": {
+                "description": "Выполните 3 испытания в Железном знамени.",
+                "name": "Ежедневное: Железное знамя",
+                "icon": "/common/destiny2_content/icons/8932cb64d915d8cc91bcfd7616d87bac.png",
+                "hasIcon": true
+            },
+            "image": "/img/destiny_content/pgcr/conceptual_iron_banner.jpg",
+            "milestoneType": 5,
+            "recruitable": true,
+            "friendlyName": "IronBannerDaily",
+            "showInExplorer": true,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "2083599276": {
+                    "questItemHash": 2083599276,
+                    "displayProperties": {
+                        "description": "Выполните 3 испытания в Железном знамени.",
+                        "name": "Ежедневное: Железное знамя",
+                        "icon": "/common/destiny2_content/icons/8932cb64d915d8cc91bcfd7616d87bac.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 2001380918,
+                            "quantity": 15
+                        }]
+                    },
+                    "activities": {
+                        "2319065780": {
+                            "conceptualActivityHash": 2319065780,
+                            "variants": {
+                                "2319065780": {
+                                    "activityHash": 2319065780,
+                                    "order": 0
+                                }
+                            }
+                        },
+                        "3616746132": {
+                            "conceptualActivityHash": 3616746132,
+                            "variants": {
+                                "3616746132": {
+                                    "activityHash": 3616746132,
+                                    "order": 0
+                                }
+                            }
+                        },
+                        "2014552458": {
+                            "conceptualActivityHash": 2014552458,
+                            "variants": {
+                                "2014552458": {
+                                    "activityHash": 2014552458,
+                                    "order": 0
+                                }
+                            }
+                        }
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 449068913,
+            "index": 11,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "463010297",
+        "json": {
+            "milestoneType": 3,
+            "recruitable": true,
+            "friendlyName": "Hotspot",
+            "showInExplorer": true,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": true,
+            "quests": {
+                "2144675440": {
+                    "questItemHash": 2144675440,
+                    "displayProperties": {
+                        "description": "Завершите открытые мероприятия в ЕМЗ.",
+                        "name": "Горячая точка: ЕМЗ",
+                        "icon": "/img/destiny_content/milestones/icons/hotspot.png",
+                        "hasIcon": true
+                    },
+                    "overrideImage": "/img/destiny_content/pgcr/patrol_edz.jpg",
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 1303210083,
+                            "vendorItemIndex": 96,
+                            "itemHash": 2484791497,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 1303210083,
+                            "vendorItemIndex": 104,
+                            "itemHash": 3829523414,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "1881837031": {
+                    "questItemHash": 1881837031,
+                    "displayProperties": {
+                        "description": "Завершите открытые мероприятия на Нессе.",
+                        "name": "Горячая точка: Несс",
+                        "icon": "/img/destiny_content/milestones/icons/hotspot.png",
+                        "hasIcon": true
+                    },
+                    "overrideImage": "/img/destiny_content/pgcr/patrol_nessus.jpg",
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 1303210083,
+                            "vendorItemIndex": 96,
+                            "itemHash": 2484791497,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 1303210083,
+                            "vendorItemIndex": 104,
+                            "itemHash": 3829523414,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "1111180031": {
+                    "questItemHash": 1111180031,
+                    "displayProperties": {
+                        "description": "Завершите открытые мероприятия на Титане.",
+                        "name": "Горячая точка: Титан",
+                        "icon": "/img/destiny_content/milestones/icons/hotspot.png",
+                        "hasIcon": true
+                    },
+                    "overrideImage": "/img/destiny_content/pgcr/patrol_titan.jpg",
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 1303210083,
+                            "vendorItemIndex": 96,
+                            "itemHash": 2484791497,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 1303210083,
+                            "vendorItemIndex": 104,
+                            "itemHash": 3829523414,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "2878046419": {
+                    "questItemHash": 2878046419,
+                    "displayProperties": {
+                        "description": "Завершите открытые мероприятия на Ио.",
+                        "name": "Горячая точка: Ио",
+                        "icon": "/img/destiny_content/milestones/icons/hotspot.png",
+                        "hasIcon": true
+                    },
+                    "overrideImage": "/img/destiny_content/pgcr/patrol_Io.jpg",
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 1303210083,
+                            "vendorItemIndex": 96,
+                            "itemHash": 2484791497,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 1303210083,
+                            "vendorItemIndex": 104,
+                            "itemHash": 3829523414,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                },
+                "3786778617": {
+                    "questItemHash": 3786778617,
+                    "displayProperties": {
+                        "description": "Завершайте открытые мероприятия и уничтожайте Кабал и вексов на Меркурии.",
+                        "name": "Горячая точка: Меркурий",
+                        "icon": "/img/destiny_content/milestones/icons/hotspot.png",
+                        "hasIcon": true
+                    },
+                    "overrideImage": "/img/destiny_content/pgcr/freeroam_mercury.jpg",
+                    "image": "/img/destiny_content/pgcr/freeroam_mercury.jpg",
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 1303210083,
+                            "vendorItemIndex": 96,
+                            "itemHash": 2484791497,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 1303210083,
+                            "vendorItemIndex": 104,
+                            "itemHash": 3829523414,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 463010297,
+            "index": 3,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "466653501",
+        "json": {
+            "displayProperties": {
+                "description": "Завершите матчи в плейлисте Горнила \"Хаос\".",
+                "name": "Праздничное настроение",
+                "icon": "/common/destiny2_content/icons/273546f2c62e0a3cf888069f9f0980e3.png",
+                "hasIcon": true
+            },
+            "milestoneType": 5,
+            "recruitable": false,
+            "showInExplorer": true,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": true,
+            "quests": {
+                "2690615084": {
+                    "questItemHash": 2690615084,
+                    "displayProperties": {
+                        "description": "Завершите матчи в плейлисте Горнила \"Хаос\".",
+                        "name": "Праздничное настроение",
+                        "icon": "/common/destiny2_content/icons/273546f2c62e0a3cf888069f9f0980e3.png",
+                        "hasIcon": true
+                    },
+                    "overrideImage": "/img/destiny_content/pgcr/conceptual_dawning.jpg",
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 1976548992,
+                            "vendorItemIndex": 55,
+                            "itemHash": 3228456715,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 466653501,
+            "index": 35,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "466653502",
+        "json": {
+            "displayProperties": {
+                "description": "Завершите матчи в плейлисте Горнила \"Хаос\".",
+                "name": "Пора восстановить спокойствие",
+                "icon": "/common/destiny2_content/icons/273546f2c62e0a3cf888069f9f0980e3.png",
+                "hasIcon": true
+            },
+            "milestoneType": 1,
+            "recruitable": false,
+            "showInExplorer": true,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": true,
+            "quests": {
+                "2690615087": {
+                    "questItemHash": 2690615087,
+                    "displayProperties": {
+                        "description": "Завершите матчи в плейлисте Горнила \"Хаос\".",
+                        "name": "Пора восстановить спокойствие",
+                        "icon": "/common/destiny2_content/icons/273546f2c62e0a3cf888069f9f0980e3.png",
+                        "hasIcon": true
+                    },
+                    "overrideImage": "/img/destiny_content/pgcr/conceptual_dawning.jpg",
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 1748437699,
+                            "vendorItemIndex": 10,
+                            "itemHash": 3228456715,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 466653502,
+            "index": 36,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "466653503",
+        "json": {
+            "displayProperties": {
+                "description": "Завершите матчи в плейлисте Горнила \" Хаос\".",
+                "name": "Радость в битве",
+                "icon": "/common/destiny2_content/icons/273546f2c62e0a3cf888069f9f0980e3.png",
+                "hasIcon": true
+            },
+            "milestoneType": 5,
+            "recruitable": false,
+            "showInExplorer": true,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": true,
+            "quests": {
+                "2690615086": {
+                    "questItemHash": 2690615086,
+                    "displayProperties": {
+                        "description": "Завершите матчи в плейлисте Горнила \"Хаос\".",
+                        "name": "Радость в битве",
+                        "icon": "/common/destiny2_content/icons/273546f2c62e0a3cf888069f9f0980e3.png",
+                        "hasIcon": true
+                    },
+                    "overrideImage": "/img/destiny_content/pgcr/conceptual_dawning.jpg",
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 1976548992,
+                            "vendorItemIndex": 55,
+                            "itemHash": 3228456715,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 466653503,
+            "index": 37,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "534869653",
+        "json": {
+            "displayProperties": {
+                "description": "Взгляните на его товары прежде, чем он снова исчезнет...",
+                "name": "Зур",
+                "icon": "/img/destiny_content/milestones/icons/xur.png",
+                "hasIcon": true
+            },
+            "image": "/img/destiny_content/pgcr/conceptual_xur.jpg",
+            "milestoneType": 3,
+            "recruitable": false,
+            "showInExplorer": true,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {},
+            "vendorsDisplayTitle": "Просмотреть товары",
+            "vendors": [{
+                "vendorHash": 2190858386
+            }],
+            "isInGameMilestone": false,
+            "hash": 534869653,
+            "index": 23,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "828676398",
+        "json": {
+            "displayProperties": {
+                "description": "Красный Легион атакует Последний город. Настало время дать им отпор.",
+                "name": "Красная война",
+                "icon": "/common/destiny2_content/icons/f0b12776242c5cf4121c40f02cfac122.png",
+                "hasIcon": true
+            },
+            "milestoneType": 2,
+            "recruitable": false,
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "4199920776": {
+                    "questItemHash": 4199920776,
+                    "displayProperties": {
+                        "description": "Красный Легион атакует Последний город. Настало время дать им отпор.",
+                        "name": "Красная война",
+                        "icon": "/common/destiny2_content/icons/f0b12776242c5cf4121c40f02cfac122.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 460529231,
+                            "vendorItemIndex": 10,
+                            "itemHash": 238898903,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 460529231,
+                            "vendorItemIndex": 11,
+                            "itemHash": 238898902,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 460529231,
+                            "vendorItemIndex": 12,
+                            "itemHash": 238898901,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 460529231,
+                            "vendorItemIndex": 13,
+                            "itemHash": 3875012143,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 828676398,
+            "index": 21,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "1142551194",
+        "json": {
+            "displayProperties": {
+                "description": "Поговорите с Завалой.",
+                "name": "Налеты",
+                "icon": "/common/destiny2_content/icons/0c6102774937642b7022e1f3d7688288.png",
+                "hasIcon": true
+            },
+            "milestoneType": 1,
+            "recruitable": false,
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "2148117737": {
+                    "questItemHash": 2148117737,
+                    "displayProperties": {
+                        "description": "Поговорите с Завалой.",
+                        "name": "Налеты",
+                        "icon": "/common/destiny2_content/icons/0c6102774937642b7022e1f3d7688288.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 69482069,
+                            "vendorItemIndex": 63,
+                            "itemHash": 1644162710,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 69482069,
+                            "vendorItemIndex": 64,
+                            "itemHash": 339163900,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 69482069,
+                            "vendorItemIndex": 65,
+                            "itemHash": 1960218487,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 1142551194,
+            "index": 15,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "1478219986",
+        "json": {
+            "displayProperties": {
+                "description": "Увеличьте вашу Силу до 260, зарабатывая снаряжение во время налетов, при выполнении различных заданий или в Горниле.",
+                "name": "Сумрачный налет",
+                "icon": "/common/destiny2_content/icons/0c6102774937642b7022e1f3d7688288.png",
+                "hasIcon": true
+            },
+            "milestoneType": 1,
+            "recruitable": false,
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "3957339989": {
+                    "questItemHash": 3957339989,
+                    "displayProperties": {
+                        "description": "Увеличьте вашу Силу до 260, зарабатывая снаряжение во время налетов, при выполнении различных заданий или в Горниле.",
+                        "name": "Сумрачный налет",
+                        "icon": "/common/destiny2_content/icons/0c6102774937642b7022e1f3d7688288.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 207641887,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 1478219986,
+            "index": 16,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "1520809393",
+        "json": {
+            "displayProperties": {
+                "description": "Вексы что-то затевают на Меркурии. В этом замешан легендарный Страж Осирис, который был изгнан из \"Авангарда\". Доберитесь до Маяка и узнайте, что происходит.",
+                "name": "Проклятие Осириса",
+                "icon": "/common/destiny2_content/icons/6524cc5f061428264ea989b65ccd8fd0.png",
+                "hasIcon": true
+            },
+            "milestoneType": 2,
+            "recruitable": false,
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "2208283297": {
+                    "questItemHash": 2208283297,
+                    "displayProperties": {
+                        "description": "Вексы что-то затевают на Меркурии. В этом замешан легендарный Страж Осирис, который был изгнан из \"Авангарда\". Доберитесь до Маяка и узнайте, что происходит.",
+                        "name": "Проклятие Осириса",
+                        "icon": "/common/destiny2_content/icons/6524cc5f061428264ea989b65ccd8fd0.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 1976548992,
+                            "vendorItemIndex": 57,
+                            "itemHash": 3393130645,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 1976548992,
+                            "vendorItemIndex": 58,
+                            "itemHash": 2957542878,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 1976548992,
+                            "vendorItemIndex": 59,
+                            "itemHash": 1927800278,
+                            "quantity": 1
+                        }, {
+                            "vendorHash": 1976548992,
+                            "vendorItemIndex": 60,
+                            "itemHash": 807877700,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 1520809393,
+            "index": 38,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "1680677066",
+        "json": {
+            "displayProperties": {
+                "description": "Поговорите с Кейдом-6.",
+                "name": "Патрули",
+                "icon": "/common/destiny2_content/icons/8ba717a255d9bf00b75f6195d749c817.png",
+                "hasIcon": true
+            },
+            "milestoneType": 1,
+            "recruitable": false,
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": false,
+            "quests": {
+                "3791214989": {
+                    "questItemHash": 3791214989,
+                    "displayProperties": {
+                        "description": "Поговорите с Кейдом-6.",
+                        "name": "Патрули",
+                        "icon": "/common/destiny2_content/icons/8ba717a255d9bf00b75f6195d749c817.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 1303210083,
+                            "vendorItemIndex": 103,
+                            "itemHash": 3746952128,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 1680677066,
+            "index": 20,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "1718587363",
+        "json": {
+            "displayProperties": {
+                "description": "Присягните на верность одной из фракций Города.",
+                "name": "Выбрать фракцию",
+                "icon": "/common/destiny2_content/icons/55bcf4cd2684050e8ca96e8c2bbdac6c.png",
+                "hasIcon": true
+            },
+            "image": "/img/destiny_content/pgcr/conceptual_faction_rally.jpg",
+            "milestoneType": 5,
+            "recruitable": true,
+            "friendlyName": "FactionRallyPledge",
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": true,
+            "quests": {
+                "4026328052": {
+                    "questItemHash": 4026328052,
+                    "displayProperties": {
+                        "description": "Присягните на верность одной из фракций Города.",
+                        "name": "Выбрать фракцию",
+                        "icon": "/common/destiny2_content/icons/55bcf4cd2684050e8ca96e8c2bbdac6c.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "itemHash": 3248108163,
+                            "quantity": 0
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 1718587363,
+            "index": 26,
+            "redacted": false,
+            "blacklisted": false
+        }
+    },
+    {
+        "id": "2122634728",
+        "json": {
+            "displayProperties": {
+                "description": "Завершите 5 испытаний.",
+                "name": "Испытание Икоры",
+                "icon": "/common/destiny2_content/icons/ada9b2bac9156fc0da7291dae87aff6a.png",
+                "hasIcon": true
+            },
+            "image": "/img/destiny_content/pgcr/conceptual_daily_challenges.jpg",
+            "milestoneType": 4,
+            "recruitable": true,
+            "friendlyName": "DailyChallenges",
+            "showInExplorer": false,
+            "explorePrioritizesActivityImage": false,
+            "hasPredictableDates": true,
+            "quests": {
+                "3741857065": {
+                    "questItemHash": 3741857065,
+                    "displayProperties": {
+                        "description": "Завершите 5 испытаний.",
+                        "name": "Испытание Икоры",
+                        "icon": "/common/destiny2_content/icons/ada9b2bac9156fc0da7291dae87aff6a.png",
+                        "hasIcon": true
+                    },
+                    "questRewards": {
+                        "items": [{
+                            "vendorHash": 1976548992,
+                            "vendorItemIndex": 47,
+                            "itemHash": 3244905727,
+                            "quantity": 1
+                        }]
+                    },
+                    "trackingUnlockValueHash": 0
+                }
+            },
+            "isInGameMilestone": true,
+            "hash": 2122634728,
+            "index": 6,
+            "redacted": false,
+            "blacklisted": false
+        }
+    }
+]
