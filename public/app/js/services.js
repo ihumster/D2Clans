@@ -28,7 +28,7 @@ function getRequest(path) {
 };
 
 //  args is an array with hashIds
-function getLocalRequest(url, data){
+function getLocalRequest(url){
     return {
         method: 'GET',
         url: url,
@@ -125,6 +125,12 @@ angular.module('SUClan')
     }])
 
     .factory('vendorsServices', ['$http', function($http){
+        function getVendors(callback) {
+            $http(getRequest('/Destiny2/Milestones/')).then((response)=>{
+                
+            });
+        }
         return {
+            getVendors: getVendors
         };
     }])
