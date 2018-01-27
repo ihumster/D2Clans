@@ -78,7 +78,7 @@ angular.module('SUClan')
         };
         
     }])
-    
+
     .controller('vendorsController', ['$scope', 'vendorsServices', '$state', '$stateParams', function ($scope, vendorsServices, $state, $stateParams) {
         $scope.settings = {
             header: {
@@ -89,4 +89,6 @@ angular.module('SUClan')
             }
         }
         $scope.vendorsTitle = $stateParams.vendorName;
+        vendorsServices.getVendor();
+
     }])
