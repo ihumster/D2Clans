@@ -73,24 +73,31 @@ function buildWeeklyActivities(inputData) {;
         let inputQuests = inputData[item].availableQuests
         let quests = definition[map[item]].json.quests;
         let questHash;
+        try {
+            if (inputQuests){
+                let questHash = inputQuests[0].questItemHash;
+                let displayProperties = quests[questHash] ? quests[questHash].displayProperties : false;
+                if (!quests[questHash]) {
+                    console.log(' quest hash ' + questHash +' not found');
+                }
+                
+                let newItem = {
+                    title: displayProperties ? displayProperties.name : '',
+                    modification: getModification(inputQuests) || [],
+                    about: displayProperties ? displayProperties.description : '',
+                    img: definition[map[item]].json.image || quests[questHash].image ||  quests[questHash].overrideImage || quests[questHash].pgcrImage ||  ''
+                }
+                outputData.push(newItem);
 
-        if (inputQuests){
-            let questHash = inputQuests[0].questItemHash;
-            let displayProperties = quests[questHash].displayProperties;
-            let newItem = {
-                title: displayProperties ? displayProperties.name : '',
-                modification: getModification(inputQuests) || [],
-                about: displayProperties ? displayProperties.description : '',
-                img: definition[map[item]].json.image || quests[questHash].image ||  quests[questHash].overrideImage || quests[questHash].pgcrImage ||  ''
+            } else if (definition[map[item]].json.displayProperties) {
+                outputData.push({
+                    title: definition[map[item]].json.displayProperties.name,
+                    about: definition[map[item]].json.displayProperties.description,
+                    img: definition[map[item]].json.image || definition[map[item]].json.pgcrImage || '' 
+                });
             }
-            outputData.push(newItem);
-
-        } else if (definition[map[item]].json.displayProperties) {
-            outputData.push({
-                title: definition[map[item]].json.displayProperties.name,
-                about: definition[map[item]].json.displayProperties.description,
-                img: definition[map[item]].json.image || definition[map[item]].json.pgcrImage || '' 
-            });
+        } catch (err) {
+            console.log(err.message);
         }
     }
     
