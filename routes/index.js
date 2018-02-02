@@ -5,7 +5,7 @@ var milestoneBuilder = require('../utils/buildWeeklyActivities');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.sendFile(path.join(__dirname, '../', 'views', 'index.html'));
+  res.sendFile(path.join(__dirname, '../', 'views', 'index.html'));  
 });
 
 router.post('/getWeeklyActivities', function(req, res){

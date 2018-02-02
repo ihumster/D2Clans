@@ -77,6 +77,10 @@ body {
     background: var(--us-bg-gray);
 }
 
+.appWrapper {
+    width: 100%;
+}
+
 .appContent {
     padding: 10px 0px 5px;
     font-size: 1em;
