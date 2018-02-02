@@ -77,6 +77,10 @@ function buildWeeklyActivities(inputData) {;
             if (inputQuests){
                 let questHash = inputQuests[0].questItemHash;
                 let displayProperties = quests[questHash] ? quests[questHash].displayProperties : false;
+                if (!quests[questHash]) {
+                    console.log(' quest hash ' + questHash +' not found');
+                }
+                
                 let newItem = {
                     title: displayProperties ? displayProperties.name : '',
                     modification: getModification(inputQuests) || [],
