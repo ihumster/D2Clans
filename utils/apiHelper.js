@@ -1,0 +1,1 @@
+const Destiny2API = require('node-destiny-2');
