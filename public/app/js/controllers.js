@@ -1,5 +1,9 @@
 angular.module('SUClan')
-    .controller('homeStateController', ['$scope', 'clanListServices', '$state', function ($scope, clanListServices, $state) {
+    .controller('homeStateController', ['$scope', 'clanListServices', '$state', 'sharedServices', function ($scope, clanListServices, $state, sharedServices) {
+        if (!window.location.href.includes('code')) {
+            window.location.replace(`https://www.bungie.net/en/OAuth/Authorize?client_id=${sharedServices.apiConfig.clientId}&response_type=code`);
+        }
+        sharedServices.oauth();
         $scope.settings = {
             header: {
                 model: null,
