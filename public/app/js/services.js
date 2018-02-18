@@ -56,9 +56,6 @@ angular.module('SUClan')
                     function getEachProfile(iteration) {
                         $http(getRequest(`/Destiny2/${base[iteration].destinyUserInfo.membershipType}/Profile/${base[iteration].destinyUserInfo.membershipId}/?components=100`))
                             .then(function (activityRes) {
-                                if (base[iteration].destinyUserInfo.displayName == 'chernjaga') {
-                                    console.log(base[iteration]);
-                                }
                                 clans[clanNumber].members.push({
                                     name: base[iteration].destinyUserInfo.displayName,
                                     lastTime: activityRes.data.Response ? activityRes.data.Response.profile.data.dateLastPlayed : '0, never played'
@@ -150,23 +147,14 @@ angular.module('SUClan')
     }])
 
     .factory('vendorsServices', ['$http', function ($http) {
-        // Hunter
-        // (3) ["2305843009265185311", "2305843009265185314", "2305843009265185316"] membershipId = "4611686018459909000"
-        // var memberId = 13503654 type 254;
-
-        var characterId = 2305843009265185314;
         var xurHash = 2190858386;
-        var membershipId = 4611686018459909000;
  
 
         function getVendor(callback) {
-            // profile
-            $http(getRequest(`/Destiny2/1/Profile/${membershipId}/?components=100`)).then((response)=>{
-                console.log(response.data.Response.profile.data);
-            });
-            $http(getRequest(`/Destiny2/1/Profile/${membershipId}/Character/${characterId}/Vendors/`, true)).then((response) => {
-                console.dir(response);
-            }).catch((e)=>{console.log('request has been failed')});
+            console.log('service is not available');;
+            // $http(getRequest(`/Destiny2/1/Profile/4611686018459909434/Character/2305843009265185311/Vendors/`, true)).then((response) => {
+            //     console.dir(response);
+            // }).catch((e)=>{console.log('request has been failed')});
         }
         return {
             getVendor: getVendor
