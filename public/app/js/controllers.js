@@ -25,6 +25,7 @@ angular.module('SUClan')
 
     .controller('clanStatisticController', ['$scope', 'clanListServices', '$state', '$stateParams', 'orderByFilter', '$http',
         function ($scope, clanListServices, $state, $stateParams, orderBy, $http) {
+            var clanList;
             $scope.settings = {
                 header: {
                     model: '',
@@ -34,38 +35,32 @@ angular.module('SUClan')
                 }
             };
 
-            var clanList;
-
-            // $http.post('/getList', JSON.stringify({number: $stateParams.clanNumber - 1})).then((res) => {
-            //     console.log(res);
-            // });
-
-            var membersList = $http.post('/getList' , JSON.stringify({number: $stateParams.clanNumber - 1}))
+            $http.post('/getList', JSON.stringify({number: $stateParams.clanNumber - 1}))
                 .then((res)=>{
+                    clanList = res.data[1];
                     $scope.clanList = res.data[1];
-                    $scope.lastDate = res.data[0].replace('T',' ').split('.')[0];
+                    $scope.lastDate = res.data[0].replace('T', ' ').split('.')[0];
                 });
+                
             $scope.update = function() {
+                $scope.showSpinner = true;
                 clanListServices.getData($stateParams.clanNumber - 1, function (response, isLoading) {
                     clanList = response;
                     $scope.clanList = response;
                     $scope.isLoading = isLoading;
+                    $scope.showSpinner = false;
                     if (!isLoading) {
-                        // $http.post('/sendList', JSON.stringify({
-                        //     number: $stateParams.clanNumber - 1,
-                        //     data: [
-                        //         new Date,
-                        //         response
-                        //     ]
-                        // })).catch((e)=>{
-                        //     console.log(e);
-                        // });
-                        console.log('sent to update')
+                        $http.post('/sendList', JSON.stringify({
+                            number: $stateParams.clanNumber - 1,
+                            data: [
+                                new Date,
+                                response
+                            ]
+                        })).catch((e)=>{
+                            console.log(e);
+                        });
                     }
                 });
-            }
-            if (!membersList) {
-                $state.transitionTo('home');
             }
 
             $scope.propertyName = '$index';

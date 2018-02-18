@@ -4,16 +4,16 @@
 <div class="appContent">
     <h2 class="heading" ng-show="clanList">
         Список участников.<br/>{{isLoading ? "Загрузка:" : "Загрузка завершена. Состав клана:"}} {{clanList ? clanList.length : 0}} из 100.<br>
-        Последнее обновление : {{lastDate}}
+        Последнее обновление : {{isLoading ? "..." : lastDate}}
     </h2>
     <h2 ng-show="!clanList" class="onLoadMessage mt20 heading">
         Ожидание ответа <br>сервера Destiny...
     </h2>
     <div class="heading mb20">
-        <button>Обновить Список</button>
+        <button ng-click="update()">Обновить Список</button>
     </div>
-    <su-spinner is-active-spinner="!clanList"></su-spinner>
-    <ul>
+    <su-spinner is-active-spinner="!clanList || showSpinner"></su-spinner>
+    <ul ng-show="!showSpinner">
         <li ng-show="clanList">
             <ul class="listHead mb20">
                 <li ng-click="sortBy('$index')" class="sortButton">№<span class="sortorder" ng-show="propertyName === '$index'" ng-class="{reverse: reverse}"></span></li>
@@ -21,7 +21,7 @@
                 <li ng-click="sortBy('lastTime')" class="sortButton">Последний раз в игре <span class="sortorder" ng-show="propertyName === 'lastTime'" ng-class="{reverse: reverse}"></span></li>
             </ul>
         </li>
-        <li ng-repeat="member in clanList | filter: settings.header.model track by $index" class="profileListLine">
+        <li ng-repeat="member in clanList | filter: settings.header.model" class="profileListLine">
             <ul>
                 <li>{{::$index+1}}</li>
                 <li>{{::member.name }}</li>
