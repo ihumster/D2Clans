@@ -52,6 +52,7 @@ angular.module('SUClan')
 
                     var base = res.data.Response.results;
                     var count = 0;
+                    console.log(res.data.Response.results);
 
                     function getEachProfile(iteration) {
                         $http(getRequest(`/Destiny2/${base[iteration].destinyUserInfo.membershipType}/Profile/${base[iteration].destinyUserInfo.membershipId}/?components=100`))
@@ -61,15 +62,17 @@ angular.module('SUClan')
                                     lastTime: activityRes.data.Response ? activityRes.data.Response.profile.data.dateLastPlayed : '0, never played'
                                 });
 
-                                iteration++;
+                                iteration = iteration + 1;
 
-                                if (iteration !== base.length) {
+                                if (iteration < base.length) {
                                     getEachProfile(iteration);
                                     callback(clans[clanNumber].members, isLoading);
                                 } else {
                                     isLoading = false;
                                     callback(clans[clanNumber].members, isLoading);
                                 }
+                            }).catch((e)=>{
+                                console.log(e);
                             })
                     };
                     getEachProfile(count);
