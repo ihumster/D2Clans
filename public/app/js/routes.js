@@ -14,6 +14,12 @@ angular.module('SUClan', ['ui.router'])
             templateUrl: '/app/templates/weeklyActivities.html',
             controller: 'weeklyActivitiesController'
         };
+        var weeklyLegends = {
+            name: 'weeklyLegends',
+            url: '/weeklyLegends',
+            templateUrl: '/app/templates/weeklyLegends.html',
+            controller: 'weeklyLegendsController'
+        };
 
         var clanStatistic = {
             name: 'clanStatistic',
@@ -39,5 +45,6 @@ angular.module('SUClan', ['ui.router'])
         $stateProvider.state(vendors);
         $stateProvider.state(homeState);
         $stateProvider.state(weeklyActivities);
+        $stateProvider.state(weeklyLegends);
         $urlRouterProvider.otherwise('/home');
     });

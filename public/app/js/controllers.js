@@ -23,37 +23,63 @@ angular.module('SUClan')
         $scope.appHeaderContainer = true;
     }])
 
-    .controller('clanStatisticController', ['$scope', 'clanListServices', '$state', '$stateParams', 'orderByFilter', function ($scope, clanListServices, $state, $stateParams, orderBy) {
-        $scope.settings = {
-            header: {
-                model: '',
-                isShownSearch: true,
-                align: '',
-                placeholder: 'search member'
+    .controller('clanStatisticController', ['$scope', 'clanListServices', '$state', '$stateParams', 'orderByFilter', '$http',
+        function ($scope, clanListServices, $state, $stateParams, orderBy, $http) {
+            $scope.settings = {
+                header: {
+                    model: '',
+                    isShownSearch: true,
+                    align: '',
+                    placeholder: 'search member'
+                }
+            };
+
+            var clanList;
+
+            // $http.post('/getList', JSON.stringify({number: $stateParams.clanNumber - 1})).then((res) => {
+            //     console.log(res);
+            // });
+
+            var membersList = $http.post('/getList' , JSON.stringify({number: $stateParams.clanNumber - 1}))
+                .then((res)=>{
+                    $scope.clanList = res.data[1];
+                    $scope.lastDate = res.data[0].replace('T',' ').split('.')[0];
+                });
+            $scope.update = function() {
+                clanListServices.getData($stateParams.clanNumber - 1, function (response, isLoading) {
+                    clanList = response;
+                    $scope.clanList = response;
+                    $scope.isLoading = isLoading;
+                    if (!isLoading) {
+                        // $http.post('/sendList', JSON.stringify({
+                        //     number: $stateParams.clanNumber - 1,
+                        //     data: [
+                        //         new Date,
+                        //         response
+                        //     ]
+                        // })).catch((e)=>{
+                        //     console.log(e);
+                        // });
+                        console.log('sent to update')
+                    }
+                });
             }
-        }
+            if (!membersList) {
+                $state.transitionTo('home');
+            }
 
-        var clanList;
-        var membersList = clanListServices.getData($stateParams.clanNumber - 1, function (response, isLoading) {
-            clanList = response;
-            $scope.clanList = response;
-            $scope.isLoading = isLoading;
-        });
-        if (!membersList) {
-            $state.transitionTo('home');
-        }
-
-        $scope.propertyName = '$index';
-        $scope.reverse = true;
-        $scope.clanList = orderBy(clanList, $scope.propertyName, $scope.reverse);
-
-        $scope.sortBy = function (propertyName) {
-            $scope.reverse = (propertyName !== null && $scope.propertyName === propertyName) ?
-                !$scope.reverse : false;
-            $scope.propertyName = propertyName;
+            $scope.propertyName = '$index';
+            $scope.reverse = true;
             $scope.clanList = orderBy(clanList, $scope.propertyName, $scope.reverse);
-        };
-    }])
+
+            $scope.sortBy = function (propertyName) {
+                $scope.reverse = (propertyName !== null && $scope.propertyName === propertyName) ?
+                    !$scope.reverse : false;
+                $scope.propertyName = propertyName;
+                $scope.clanList = orderBy(clanList, $scope.propertyName, $scope.reverse);
+            };
+        }
+    ])
 
     .controller('suScrollTopController', ['$scope', function ($scope) {
         $scope.scrollToTop = function () {
@@ -68,9 +94,9 @@ angular.module('SUClan')
     .controller('weeklyActivitiesController', ['$scope', 'weeklyActivityServices', '$state', '$stateParams', function ($scope, weeklyActivityServices, $state, $stateParams) {
         $scope.milestones = [];
         $scope.isSpinnerActive = true;
-        weeklyActivityServices.getWeeklyMilestones(function(response, activeSpinner){
+        weeklyActivityServices.getWeeklyMilestones(function (response, activeSpinner) {
             $scope.milestones = response;
-            $scope.isSpinnerActive =activeSpinner;
+            $scope.isSpinnerActive = activeSpinner;
         });
         $scope.settings = {
             header: {
@@ -80,7 +106,7 @@ angular.module('SUClan')
                 placeholder: undefined
             }
         };
-        
+
     }])
 
     .controller('vendorsController', ['$scope', 'vendorsServices', '$state', '$stateParams', function ($scope, vendorsServices, $state, $stateParams) {
@@ -95,3 +121,17 @@ angular.module('SUClan')
         $scope.vendorsTitle = $stateParams.vendorName;
         // vendorsServices.getVendor();
     }])
+
+    .controller('weeklyLegendsController', ['$scope', '$http', function ($scope, $http) {
+        $scope.settings = {
+            header: {
+                model: null,
+                isShownSearch: false,
+                align: 'center',
+                placeholder: undefined
+            }
+        };
+        $http.post('/getLeaderBoard').then((res) => {
+            console.log(res)
+        });
+    }]);
