@@ -110,7 +110,7 @@ function buildWeeklyActivities(inputData) {;
                 console.log('can not build response');
             }
         } catch (e) {
-            console.log('inputQuest or quest is not defined', );
+            console.log('inputQuest or quest is not defined');
             destiny.getPublicMilestoneContent(item)
                 .then((res) => {
                     console.dir(res.Response);
