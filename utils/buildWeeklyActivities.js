@@ -16,7 +16,7 @@ function hashMapping(base){
     var hashMap = {};
     var index = 0;
     for(let item of base){
-        hashMap[item.json.hash] = index;
+        hashMap[item[1].hash] = index;
         index++ ;
     };
     return hashMap;
@@ -27,11 +27,11 @@ function getChallenge (objectives) {
     var output = [];
     var contentChecker = {};
     for (let item in objectives) {
-        let writtenProperty = challenges[map[objectives[item].objectiveHash]].json.displayProperties.name;
+        let writtenProperty = challenges[map[objectives[item].objectiveHash]][1].displayProperties.name;
         if (!contentChecker[writtenProperty]) {
             let newItem = {
                 title: writtenProperty,
-                description: challenges[map[objectives[item].objectiveHash]].json.displayProperties.description
+                description: challenges[map[objectives[item].objectiveHash]][1].displayProperties.description
             }
             output.push(newItem);
             contentChecker[writtenProperty] = true;
@@ -55,8 +55,8 @@ function getModification(quests) {
             if (modHashes) {          
                 for (let modItem in modHashes) {
                     outputMods.push({
-                        title: modifier[mod[modHashes[modItem]]].json.displayProperties.name,
-                        description: modifier[mod[modHashes[modItem]]].json.displayProperties.description,
+                        title: modifier[mod[modHashes[modItem]]][1].displayProperties.name,
+                        description: modifier[mod[modHashes[modItem]]][1].displayProperties.description,
                     })
                 }
             }
@@ -64,10 +64,10 @@ function getModification(quests) {
                 outputChallenges = getChallenge(quests[number].challenges);
             }
             outputQuests.push({
-                title: activities[map[hash]].json.displayProperties.name,
+                title: activities[map[hash]][1].displayProperties.name,
                 challenges: outputChallenges,
                 mods: outputMods,
-                img: activities[map[hash]].json.pgcrImage || activities[map[hash]].json.image || ''
+                img: activities[map[hash]][1].pgcrImage || activities[map[hash]][1].image || ''
             });
         }
     }
@@ -82,7 +82,7 @@ function buildWeeklyActivities(inputData) {;
         let questHash;
         try {
             let inputQuests = inputData[item].availableQuests
-            let quests = definition[map[item]].json.quests;
+            let quests = definition[map[item]][1].quests;
             try {
                 if (inputQuests){
                     let questHash = inputQuests[0].questItemHash;
@@ -95,15 +95,15 @@ function buildWeeklyActivities(inputData) {;
                         title: displayProperties ? displayProperties.name : '',
                         modification: getModification(inputQuests) || [],
                         about: displayProperties ? displayProperties.description : '',
-                        img: definition[map[item]].json.image || quests[questHash].image ||  quests[questHash].overrideImage || quests[questHash].pgcrImage ||  ''
+                        img: definition[map[item]][1].image || quests[questHash].image ||  quests[questHash].overrideImage || quests[questHash].pgcrImage ||  ''
                     }
                     outputData.push(newItem);
     
-                } else if (definition[map[item]].json.displayProperties) {
+                } else if (definition[map[item]][1].displayProperties) {
                     outputData.push({
-                        title: definition[map[item]].json.displayProperties.name,
-                        about: definition[map[item]].json.displayProperties.description,
-                        img: definition[map[item]].json.image || definition[map[item]].json.pgcrImage || '' 
+                        title: definition[map[item]][1].displayProperties.name,
+                        about: definition[map[item]][1].displayProperties.description,
+                        img: definition[map[item]][1].image || definition[map[item]][1].pgcrImage || '' 
                     });
                 }
             } catch (err) {
