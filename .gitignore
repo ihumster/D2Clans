@@ -36,3 +36,7 @@ public/app/js/apiKey.js
 root
 manifest-content
 manifestData
+.eslintignore
+.eslintrc.json
+public/app/js/apiKey.js
+package.json

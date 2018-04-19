@@ -150,15 +150,28 @@ angular.module('SUClan')
     }])
 
     .factory('vendorsServices', ['$http', function ($http) {
-        var xurHash = 2190858386;
- 
+        var characterIds = [
+            '2305843009261635013',
+            '2305843009272296749',
+            '2305843009277505941'
+        ];
+        var vendorsHash = {
+            xursHash: 2190858386
+        };
+
+        // ['2305843009262525090',
+        // '2305843009262525091',
+        // '2305843009315154768' ] }
+
+        // Path: /Destiny2/{membershipType}/Profile/{destinyMembershipId}/Character/{characterId}/Vendors/{vendorHash}/
+        // Path: /Destiny2/{membershipType}/Profile/{destinyMembershipId}/Character/{characterId}/Vendors/
 
         function getVendor(callback) {
-            console.log('service is not available');;
-            // $http(getRequest(`/Destiny2/1/Profile/4611686018459909434/Character/2305843009265185311/Vendors/`, true)).then((response) => {
-            //     console.dir(response);
-            // }).catch((e)=>{console.log('request has been failed')});
-        }
+            console.log('service is not available');
+            $http(getRequest(`/Destiny2/1/Profile/4611686018440526389/Character/${characterIds[0]}/Vendors/`)).then((response)=>{
+                console.log(response)
+            });
+        };
         return {
             getVendor: getVendor
         };

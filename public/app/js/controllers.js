@@ -114,7 +114,7 @@ angular.module('SUClan')
             }
         }
         $scope.vendorsTitle = $stateParams.vendorName;
-        // vendorsServices.getVendor();
+        vendorsServices.getVendor();
     }])
 
     .controller('weeklyLegendsController', ['$scope', '$http', function ($scope, $http) {

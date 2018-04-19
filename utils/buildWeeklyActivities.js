@@ -12,6 +12,26 @@ var activities = require('../manifest/DestinyActivityDefinition.json');
 var modifier = require('../manifest/DestinyActivityModifierDefinition.json');
 var challenges = require('../manifest/DestinyObjectiveDefinition.json');
 
+
+// destiny.searchDestinyPlayer(-1, 'MuuGHouST')
+//     .then((res) => {
+//         const data = res.Response;
+//         console.log(data);
+//         console.log('\n\n');
+//     })
+//     .catch((error) => {
+//         console.error(`searchPlayer Error: ${error}`);
+//     });
+
+// destiny.getProfile(1, '4611686018440526389', [100])
+//     .then((res) => {
+//         console.log(res.Response.profile.data);
+//     })
+//     .catch((error) => {
+//         console.error(`getProfile Error: ${error}`);
+//     });
+
+
 function hashMapping(base){
     var hashMap = {};
     var index = 0;
