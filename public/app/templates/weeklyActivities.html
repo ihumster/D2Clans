@@ -16,14 +16,14 @@
                 </p>
                 <p>
                     <ul>
-                        <li ng-repeat="quest in item.quests" class="mt5">
+                        <li ng-repeat="quest in item.quests" ng-class='{mt5 : !!item.quests.length}'>
                             <h4>{{quest.title}}</h4>
                             <p>{{quest.about}}</p>
-                            <p class="mt5">
+                            <p ng-class='{ mt5 : quest.activity.lengt}'>
                                 <b>{{quest.activity.title}}</b>
                             </p>
                             <p>{{quest.activity.about}}</p>
-                            <ul class="mt5">
+                            <ul ng-class='{ mt5 : quest.challenges.length}'>
                                 <li ng-repeat="challenge in quest.challenges track by $index" class="mt5">
                                     <b>{{challenge.title}}: </b>{{challenge.about}}
                                 </li>
@@ -31,6 +31,7 @@
                         </li>
                     </ul>
                 </p>
+                <img ng-class="{'milestoneImg mt15' : item.img}" ng-src="https://www.bungie.net{{item.img}}" alt="">
             </li>
         </ul>
     </div>

@@ -20,7 +20,6 @@ function buildWeeklyActivities(inputData) {
             try {
                 let responseItem = {};
                 let isHotSpot = milestones[item].friendlyName == 'Hotspot';
-
                 if (inputData[item].availableQuests) {
                     responseItem.quests = getQuests(inputData[item]);
                 }
@@ -29,10 +28,12 @@ function buildWeeklyActivities(inputData) {
                     responseItem.title = responseItem.quests[0].title;
                     responseItem.about = responseItem.quests[0].about;
                     responseItem.icon = responseItem.quests[0].icon;
-                } else {
+                    responseItem.img = responseItem.quests[0].img;
+                } else if (milestones[item].displayProperties) {
                     responseItem.title = milestones[item].displayProperties.name;
                     responseItem.about = milestones[item].displayProperties.description;
                     responseItem.icon = milestones[item].displayProperties.icon || null;
+                    responseItem.img =  inputData[item].availableQuests ? responseItem.quests[0].img || milestones[item].image : milestones[item].image || null;
                 } 
                 
                 if (inputData[item].availableQuests) {
@@ -49,13 +50,13 @@ function buildWeeklyActivities(inputData) {
 
                 if (responseItem.title) {
                     if (!responseItem.about) {
-                        errors.push(item + ' description is not found');
+                        errors.push(item + ' description is not found.');
                     } else {
                         outputData.push(responseItem);
                     }
                 }
             } catch (error) {
-                errors.push(item + ' item is not found');
+                errors.push(item + ' item is not found. ' + error.message);
             }
         }
     }
@@ -69,6 +70,7 @@ function buildWeeklyActivities(inputData) {
         // currentPathQuests - here are all quest hashes
         let currentPathQuests = milestones[data.milestoneHash].quests;
         let inputQuestsArray = data.availableQuests
+        
         for (let item of inputQuestsArray) {
             let currentHash = item.questItemHash;
             let newObjectToPush = {};
@@ -78,11 +80,15 @@ function buildWeeklyActivities(inputData) {
             if (item.activity){
                 newObjectToPush.activity = getActivities (item.activity);
             }
-
             if (currentPathQuests[currentHash].displayProperties) {
                 newObjectToPush.title = currentPathQuests[currentHash].displayProperties.name || null;
                 newObjectToPush.about = currentPathQuests[currentHash].displayProperties.description || null;
                 newObjectToPush.icon = currentPathQuests[currentHash].displayProperties.icon || null;
+                if (item.challenges) {
+                    newObjectToPush.img = newObjectToPush.activity ? newObjectToPush.activity.img || currentPathQuests[currentHash].overrideImage : currentPathQuests[currentHash].overrideImage || null;
+                } else { 
+                    newObjectToPush.img = currentPathQuests[currentHash].overrideImage || null;
+                }
             }
             outputQuests.push(newObjectToPush);
         }
@@ -97,10 +103,11 @@ function buildWeeklyActivities(inputData) {
             itemToOutput = {
                 title: activityItem.displayProperties.name || null,
                 about: activityItem.displayProperties.description || null,
-                img: activityItem.displayProperties.pgcrImage || null,
+                icon: activityItem.displayProperties.icon || null,
+                img: activityItem.pgcrImage || null,
             };
         } catch (error) {
-            errors.push(item + ' activity is not found');
+            errors.push(item + ' activity is not found.' + error.message);
         }
         return itemToOutput;
     }
@@ -117,7 +124,7 @@ function buildWeeklyActivities(inputData) {
                 output.push({
                     title: currentObjective.name || null,
                     about: currentObjective.description || null,
-                    img: currentObjective || null
+                    icon: currentObjective.icon || null
                 });
             }
         }
