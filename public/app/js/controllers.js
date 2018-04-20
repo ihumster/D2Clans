@@ -90,8 +90,10 @@ angular.module('SUClan')
         $scope.milestones = [];
         $scope.isSpinnerActive = true;
         weeklyActivityServices.getWeeklyMilestones(function (response, activeSpinner) {
-            $scope.milestones = response;
+            $scope.milestones = response.outputData;
             $scope.isSpinnerActive = activeSpinner;
+            console.dir(response.errors);
+            console.dir(response.outputData);
         });
         $scope.settings = {
             header: {

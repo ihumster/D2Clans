@@ -131,7 +131,6 @@ angular.module('SUClan')
         function getWeeklyMilestones(callback) {
             $http(getRequest('/Destiny2/Milestones/')).then((response) => {
                 var milestones = response.data.Response;
-                console.log(milestones);
                 getDefinition(milestones);
             });
 
@@ -151,24 +150,20 @@ angular.module('SUClan')
 
     .factory('vendorsServices', ['$http', function ($http) {
         var characterIds = [
-            '2305843009261635013',
-            '2305843009272296749',
-            '2305843009277505941'
+            '2305843009262525090',
+            '2305843009262525091',
+            '2305843009315154768'
         ];
         var vendorsHash = {
             xursHash: 2190858386
         };
-
-        // ['2305843009262525090',
-        // '2305843009262525091',
-        // '2305843009315154768' ] }
 
         // Path: /Destiny2/{membershipType}/Profile/{destinyMembershipId}/Character/{characterId}/Vendors/{vendorHash}/
         // Path: /Destiny2/{membershipType}/Profile/{destinyMembershipId}/Character/{characterId}/Vendors/
 
         function getVendor(callback) {
             console.log('service is not available');
-            $http(getRequest(`/Destiny2/1/Profile/4611686018440526389/Character/${characterIds[0]}/Vendors/`)).then((response)=>{
+            $http(getRequest(`/Destiny2/1/Profile/4611686018459909434/Character/${characterIds[0]}/Vendors/${vendorsHash.xursHash}`)).then((response)=>{
                 console.log(response)
             });
         };

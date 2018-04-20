@@ -8,34 +8,30 @@
     <div class="milestoneContent">
         <ul>
             <li ng-repeat="item in milestones" class="hasExpandableMenu mb30">
-                <h4>
+                <h3>
                     {{item.title}}
-                </h4>
+                </h3>
                 <p>
-                    {{item.about}}  
+                    {{item.about}}
                 </p>
                 <p>
                     <ul>
-                        <li ng-repeat="quest in item.modification" class="mt5">
-                            <p>
-                                <b>{{quest.title}}</b>
+                        <li ng-repeat="quest in item.quests" class="mt5">
+                            <h4>{{quest.title}}</h4>
+                            <p>{{quest.about}}</p>
+                            <p class="mt5">
+                                <b>{{quest.activity.title}}</b>
                             </p>
-                            <p ng-repeat="mod in quest.mods" class="mt5">
-                                <b>{{mod.title}}: </b>{{mod.description}}
-                            </p>
-                            <p ng-repeat="objective in quest.challenges" class="mt5">
-                                <b>{{objective.title}}: </b>{{objective.description}}
-                            </p>
-                            <div ng-value="item.img = quest.img ? '': item.img">
-                                <img class="milestoneImg mt5" ng-src="https://www.bungie.net{{quest.img}}"  alt=""/>
-                            </div>
+                            <p>{{quest.activity.about}}</p>
+                            <ul class="mt5">
+                                <li ng-repeat="challenge in quest.challenges track by $index" class="mt5">
+                                    <b>{{challenge.title}}: </b>{{challenge.about}}
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </p>
-                <div ng-if="item.title">
-                    <img class="milestoneImg mt5" ng-src="https://www.bungie.net{{item.img}}" alt=""/>
-                </div>
             </li>
         </ul>
     </div>
-</div> 
+</div>

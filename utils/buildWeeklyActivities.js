@@ -13,7 +13,7 @@ var modifier = require('../manifest/DestinyActivityModifierDefinition.json');
 var challenges = require('../manifest/DestinyObjectiveDefinition.json');
 
 
-// destiny.searchDestinyPlayer(-1, 'MuuGHouST')
+// destiny.searchDestinyPlayer(-1, 'chernjaga')
 //     .then((res) => {
 //         const data = res.Response;
 //         console.log(data);
@@ -23,7 +23,7 @@ var challenges = require('../manifest/DestinyObjectiveDefinition.json');
 //         console.error(`searchPlayer Error: ${error}`);
 //     });
 
-// destiny.getProfile(1, '4611686018440526389', [100])
+// destiny.getProfile(1, '4611686018459909434', [100])
 //     .then((res) => {
 //         console.log(res.Response.profile.data);
 //     })
@@ -113,7 +113,7 @@ function buildWeeklyActivities(inputData) {;
                     
                     let newItem = {
                         title: displayProperties ? displayProperties.name : '',
-                        modification: getModification(inputQuests) || [],
+                        quests: getModification(inputQuests) || [],
                         about: displayProperties ? displayProperties.description : '',
                         img: definition[map[item]][1].image || quests[questHash].image ||  quests[questHash].overrideImage || quests[questHash].pgcrImage ||  ''
                     }
@@ -142,7 +142,10 @@ function buildWeeklyActivities(inputData) {;
         }
     }
     
-    return outputData;
+    return {
+        outputData: outputData,
+        errors: null
+    };
 }
 
 module.exports = buildWeeklyActivities;
