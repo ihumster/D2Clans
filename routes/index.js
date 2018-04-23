@@ -11,7 +11,7 @@ router.get('/', function (req, res, next) {
     res.sendFile(path.join(__dirname, '../', 'views', 'index.html'));
 });
 
-// get weekly reset instant view
+/* GET weekly reset view page. */
 router.get('/weeklyResetView', function (req, res, next) {
     res.sendFile(path.join(__dirname, '../', 'views', 'weeklyResetView.html'));
 });
