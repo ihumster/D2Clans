@@ -11,6 +11,11 @@ router.get('/', function (req, res, next) {
     res.sendFile(path.join(__dirname, '../', 'views', 'index.html'));
 });
 
+// get weekly reset instant view
+router.get('/weeklyResetView', function (req, res, next) {
+    res.sendFile(path.join(__dirname, '../', 'views', 'weeklyResetView.html'));
+});
+
 router.post('/getWeeklyActivities', function (req, res) {
     var resData = milestoneBuilder(req.body);
     res.setHeader('Content-Type', 'application/json');
