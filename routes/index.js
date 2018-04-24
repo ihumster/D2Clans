@@ -5,6 +5,8 @@ var milestoneBuilder = require('../utils/getWeeklyActivities');
 var buildLeaderBoard = require('../utils/LeaderBoards');
 var buildClanList = require('../utils/buildClanList');
 var getResetView = require('../utils/resetViewBuilder');
+var fs = require('fs');
+
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -19,11 +21,8 @@ router.get('/weeklyResetView', function (req, res, next) {
             var resolvedContent = getResetView.buildView(data.outputData);
             resolve(resolvedContent);
         });
-    }).then((htmlContent)=>{    
-        res.writeHead(200, {
-            'Content-type': 'html'
-        });
-        res.end(`<!DOCTYPE html>
+    }).then((htmlContent)=>{  
+        fs.writeFile(`../views/weeklyResetView.html`, `<!DOCTYPE html>
             <html>
             <head>
                 <meta charset="UTF-8">
@@ -54,7 +53,8 @@ router.get('/weeklyResetView', function (req, res, next) {
             <body>
                 <div class="iv">${htmlContent.html}</div>
             </body>
-            </html>`);
+            </html>` ,(err)=>{})
+        res.sendFile(path.join(__dirname, '../', 'views', 'weeklyResetView.html'));
     }).catch((e)=>console.log(e.message));
 });
 
