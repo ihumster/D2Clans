@@ -1,12 +1,12 @@
 const Destiny2API = require('node-destiny-2');
-const apiKey = require('./apiKey')
-const destiny = new Destiny2API({
-    key: apiKey,
-    oauthConfg: {
-        id: 23137,
-        secret: null
-    }
-});
+// const apiKey = require('./apiKey')
+// const destiny = new Destiny2API({
+//     key: apiKey,
+//     oauthConfg: {
+//         id: 23137,
+//         secret: null
+//     }
+// });
 
 const milestones = require('../_manifest/DestinyMilestoneDefinition.json');
 const activities = require('../_manifest/DestinyActivityDefinition.json');
