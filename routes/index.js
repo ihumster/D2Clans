@@ -22,7 +22,7 @@ router.get('/weeklyResetView', function (req, res, next) {
             resolve(resolvedContent);
         });
     }).then((htmlContent)=>{  
-        fs.writeFile(`../views/weeklyResetView.html`, `<!DOCTYPE html>
+        fs.writeFileSync(path.join(__dirname, '../', 'views', 'weeklyResetView.html'), `<!DOCTYPE html>
             <html>
             <head>
                 <meta charset="UTF-8">
@@ -53,8 +53,9 @@ router.get('/weeklyResetView', function (req, res, next) {
             <body>
                 <div class="iv">${htmlContent.html}</div>
             </body>
-            </html>` ,(err)=>{})
-        res.sendFile(path.join(__dirname, '../', 'views', 'weeklyResetView.html'));
+            </html>` , (err)=>{
+            })
+             res.sendFile(path.join(__dirname, '../', 'views', 'weeklyResetView.html'));
     }).catch((e)=>console.log(e.message));
 });
 
