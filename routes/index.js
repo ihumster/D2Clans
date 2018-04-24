@@ -4,7 +4,7 @@ var path = require('path');
 var milestoneBuilder = require('../utils/getWeeklyActivities');
 var buildLeaderBoard = require('../utils/LeaderBoards');
 var buildClanList = require('../utils/buildClanList');
-
+var getResetView = require('../utils/resetViewBuilder');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -13,7 +13,49 @@ router.get('/', function (req, res, next) {
 
 /* GET weekly reset view page. */
 router.get('/weeklyResetView', function (req, res, next) {
-    res.sendFile(path.join(__dirname, '../', 'views', 'weeklyResetView.html'));
+    new Promise ((resolve, reject)=>{
+        getResetView.fetchData().then((content)=>{
+            var data = milestoneBuilder(content.Response);
+            var resolvedContent = getResetView.buildView(data.outputData);
+            resolve(resolvedContent);
+        });
+    }).then((htmlContent)=>{    
+        res.writeHead(200, {
+            'Content-type': 'html'
+        });
+        res.end(`<!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <title>Document</title>
+                <style>
+                    * {
+                        font-family: sans-serif;
+                        font-size: 18px;
+                    }
+                    .iv {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin: 0 auto;
+                        min-width: 400px;
+                        max-width: 800px;
+                    }
+                    img {
+                        width: 100%;
+                    }
+                    h1 {
+                        font-size: 25px;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="iv">${htmlContent.html}</div>
+            </body>
+            </html>`);
+    }).catch((e)=>console.log(e.message));
 });
 
 router.post('/getWeeklyActivities', function (req, res) {

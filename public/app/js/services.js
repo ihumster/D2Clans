@@ -163,7 +163,7 @@ angular.module('SUClan')
 
         function getVendor(callback) {
             console.log('service is not available');
-            $http(getRequest(`/Destiny2/1/Profile/4611686018459909434/Character/${characterIds[0]}/Vendors/${vendorsHash.xursHash}`)).then((response)=>{
+            $http(getRequest(`/Destiny2/1/Profile/4611686018459909434/Character/${characterIds[0]}/Vendors/`)).then((response)=>{
                 console.log(response)
             });
         };
