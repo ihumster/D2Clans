@@ -23,10 +23,8 @@ function fetchData () {
 function buildView (data){
     var tempString = '';
     for (let item of data) {
-        console.log(item);
         let tempQuests = '';
         if (item.quests) {
-            console.dir(item)
             for (let quest of item.quests) {
                 let tempActivity = '';
                 let tempChallenges = '';
