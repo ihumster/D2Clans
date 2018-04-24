@@ -24,7 +24,7 @@ router.get('/weeklyResetView', function (req, res, next) {
             'Content-type': 'html'
         });
         res.end(`<!DOCTYPE html>
-            <html lang="en">
+            <html>
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
