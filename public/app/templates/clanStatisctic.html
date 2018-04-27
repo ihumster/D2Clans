@@ -22,10 +22,15 @@
             </ul>
         </li>
         <li ng-repeat="member in clanList | filter: settings.header.model" class="profileListLine">
-            <ul>
+            <ul ng-class="{userToKick: ((member.lastTime | timeFilter)>30)}">
                 <li>{{$index+1}}</li>
                 <li>{{::member.name }}</li>
-                <li>{{::member.lastTime | timeFilter}}</li>
+                <li>
+                    <span ng-show="{{::((member.lastTime | timeFilter) >= 1)}}">{{::(member.lastTime | timeFilter).split('.')[0]}}д назад</span>
+                    <span ng-show="{{::((member.lastTime | timeFilter) < 1)}} && {{::member.lastTime | timeFilter}} !== 0">{{::((member.lastTime | timeFilter)*24).toFixed(0)}}ч назад</span>
+                    <span ng-show="!{{::member.lastTime | timeFilter}} && {{::member.lastTime | timeFilter}} !== 0">Не был в сети</span>
+                    <span ng-show="{{::member.lastTime | timeFilter}} === 0">Сейчас в сети</span>
+                </li>
             </ul>
         </li>
     </ul>

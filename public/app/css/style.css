@@ -7,6 +7,7 @@
     --us-bg-gray: rgb(207, 207, 207);
     --us-bg-blue: #5e68f5;
     --us-bg-gray-dark: #646468;
+    --us-alert-red: #ff0000;
     color: var(--us-black);
 }
 
@@ -305,6 +306,9 @@ div {
     margin-bottom: 5px;
 }
 
+.userToKick *{
+    color: var(--us-alert-red);
+}
 a.clanNodesNavItems:visited {
     color: var(--us-black);
 }
