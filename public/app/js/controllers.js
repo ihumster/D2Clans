@@ -53,7 +53,7 @@ angular.module('SUClan')
                         $http.post('/sendList', JSON.stringify({
                             number: $stateParams.clanNumber - 1,
                             data: [
-                                new Date,
+                                new Date().toLocaleDateString() + ': ' + new Date().toLocaleTimeString(),
                                 response
                             ]
                         })).catch((e)=>{
