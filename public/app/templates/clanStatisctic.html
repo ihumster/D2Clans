@@ -16,14 +16,14 @@
     <ul ng-show="!showSpinner">
         <li ng-show="clanList">
             <ul class="listHead mb20">
-                <li ng-click="sortBy('$index')" class="sortButton">№<span class="sortorder" ng-show="propertyName === '$index'" ng-class="{reverse: reverse}"></span></li>
-                <li ng-click="sortBy('name')" class="sortButton">имя<span class="sortorder" ng-show="propertyName === 'name'" ng-class="{reverse: reverse}"></span></li>
-                <li ng-click="sortBy('lastTime')" class="sortButton">Последний раз в игре <span class="sortorder" ng-show="propertyName === 'lastTime'" ng-class="{reverse: reverse}"></span></li>
+                <li>№</li>
+                <li ng-click="sortBy('name')" class="sortButton"><b>Имя</b><br>(сортировать)<span class="sortorder" ng-show="propertyName === 'name'" ng-class="{reverse: reverse}"></span></li>
+                <li ng-click="sortBy('lastTime')" class="sortButton"><b>Последний раз в игре</b><br>(сортировать)<span class="sortorder" ng-show="propertyName === 'lastTime'" ng-class="{reverse: reverse}"></span></li>
             </ul>
         </li>
         <li ng-repeat="member in clanList | filter: settings.header.model" class="profileListLine">
             <ul>
-                <li>{{::$index+1}}</li>
+                <li>{{$index+1}}</li>
                 <li>{{::member.name }}</li>
                 <li>{{::member.lastTime | timeFilter}}</li>
             </ul>

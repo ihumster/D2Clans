@@ -288,13 +288,13 @@ div {
 .profileListLine li,
 .listHead li {
     display: inline-block;
-    width: 120px;
+    width: 140px;
     text-align: left;
 }
 
 .profileListLine li:last-child,
 .listHead li:last-child {
-    width: 100px;
+    width: 120px;
     text-align: right;
 }
 
