@@ -9,10 +9,6 @@ var clans = [{
     {
         id: 2489839,
         members: []
-    },
-    {
-        id: 2895088,
-        members: []
     }
 ];
 
