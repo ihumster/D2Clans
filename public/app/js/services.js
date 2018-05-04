@@ -40,7 +40,7 @@ function getRequest(url, authorization) {
 };
 
 angular.module('SUClan')
-    .factory('clanListServices', ['$http', function ($http) {
+    .factory('clanListServices', ['$http', '$q', function ($http, $q) {
         function loadAllData(clanNumber, callback) {
             var isLoading = true;
             return $http(getRequest(`/GroupV2/${clans[clanNumber].id}/Members/?currentPage=1`))
@@ -48,30 +48,33 @@ angular.module('SUClan')
 
                     var base = res.data.Response.results;
                     var count = 0;
-                    console.log(res.data.Response.results);
 
-                    function getEachProfile(iteration) {
-                        $http(getRequest(`/Destiny2/${base[iteration].destinyUserInfo.membershipType}/Profile/${base[iteration].destinyUserInfo.membershipId}/?components=100`))
-                            .then(function (activityRes) {
-                                clans[clanNumber].members.push({
-                                    name: base[iteration].destinyUserInfo.displayName,
-                                    lastTime: activityRes.data.Response ? activityRes.data.Response.profile.data.dateLastPlayed : '0, never played'
-                                });
+                    $q.all(base.map(getEachProfile));
 
-                                iteration = iteration + 1;
+                    function getEachProfile(value, iteration) {
+                        if (base[iteration]){
+                            return $http(getRequest(`/Destiny2/${base[iteration].destinyUserInfo.membershipType}/Profile/${base[iteration].destinyUserInfo.membershipId}/?components=100`))
+                                .then(function (activityRes) {
+                                    clans[clanNumber].members.push({
+                                        name: base[iteration].destinyUserInfo.displayName,
+                                        lastTime: activityRes.data.Response ? activityRes.data.Response.profile.data.dateLastPlayed : '0, never played'
+                                    });
 
-                                if (iteration < base.length) {
-                                    getEachProfile(iteration);
-                                    callback(clans[clanNumber].members, isLoading);
-                                } else {
-                                    isLoading = false;
-                                    callback(clans[clanNumber].members, isLoading);
-                                }
-                            }).catch((e)=>{
-                                console.log(e);
-                            })
+                                    iteration = iteration + 1;
+
+                                    if (iteration < base.length) {
+                                        getEachProfile(iteration);
+                                        callback(clans[clanNumber].members, isLoading);
+                                    } else {
+                                        isLoading = false;
+                                        callback(clans[clanNumber].members, isLoading);
+                                    }
+                                }).catch((e)=>{
+                                    console.log(e);
+                                })
+                        }
                     };
-                    getEachProfile(count);
+                    // getEachProfile(count);
                 });
         };
 
