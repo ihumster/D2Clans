@@ -1,9 +1,59 @@
 {
+    "116827562": {
+        "displayProperties": {
+            "description": "Welcome to Private Matches Mayhem, where everything's made up and the points don't matter.",
+            "name": "Private Matches Mayhem",
+            "icon": "/img/theme/destiny/icons/game_modes/crucible_mayhem.png",
+            "hasIcon": true
+        },
+        "pgcrImage": "/img/theme/destiny/bgs/stats/banner_crucible_1.jpg",
+        "modeType": 56,
+        "activityModeCategory": 2,
+        "isTeamBased": true,
+        "tier": 0,
+        "isAggregateMode": false,
+        "parentHashes": [
+            1164760504
+        ],
+        "friendlyName": "private-matches",
+        "supportsFeedFiltering": false,
+        "display": true,
+        "order": 1905,
+        "hash": 116827562,
+        "index": 35,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "152599670": {
+        "displayProperties": {
+            "description": "Welcome to Private Matches Countdown, where everything's made up and the points don't matter.",
+            "name": "Private Matches Countdown",
+            "icon": "/img/theme/destiny/icons/game_modes/crucible_default.png",
+            "hasIcon": true
+        },
+        "pgcrImage": "/img/theme/destiny/bgs/stats/banner_crucible_1.jpg",
+        "modeType": 54,
+        "activityModeCategory": 2,
+        "isTeamBased": true,
+        "tier": 0,
+        "isAggregateMode": false,
+        "parentHashes": [
+            1164760504
+        ],
+        "friendlyName": "private-matches",
+        "supportsFeedFiltering": false,
+        "display": true,
+        "order": 1902,
+        "hash": 152599670,
+        "index": 32,
+        "redacted": false,
+        "blacklisted": false
+    },
     "157639802": {
         "displayProperties": {
             "description": "Каждый за себя.",
             "name": "Стычка",
-            "icon": "/img/theme/destiny/icons/game_modes/crucible_default.png",
+            "icon": "/img/theme/destiny/icons/game_modes/crucible_rumble.png",
             "hasIcon": true
         },
         "pgcrImage": "/img/theme/destiny/bgs/stats/banner_crucible_1.jpg",
@@ -12,13 +62,40 @@
         "isTeamBased": false,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [1164760504],
+        "parentHashes": [
+            1164760504
+        ],
         "friendlyName": "rumble",
         "supportsFeedFiltering": false,
         "display": true,
         "order": 1377,
         "hash": 157639802,
         "index": 29,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "175275639": {
+        "displayProperties": {
+            "description": "As opposed to an unheroic adventure, such as organizing your sock drawer.",
+            "name": "Heroic Adventure",
+            "icon": "/img/theme/destiny/icons/game_modes/strike_heroic.png",
+            "hasIcon": true
+        },
+        "pgcrImage": "/img/theme/destiny/bgs/stats/banner_story_1.jpg",
+        "modeType": 58,
+        "activityModeCategory": 1,
+        "isTeamBased": false,
+        "tier": 0,
+        "isAggregateMode": false,
+        "parentHashes": [
+            1164760493
+        ],
+        "friendlyName": "heroicAdventure",
+        "supportsFeedFiltering": false,
+        "display": true,
+        "order": 3310,
+        "hash": 175275639,
+        "index": 37,
         "redacted": false,
         "blacklisted": false
     },
@@ -35,7 +112,9 @@
         "isTeamBased": true,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [1370326378],
+        "parentHashes": [
+            1370326378
+        ],
         "friendlyName": "trialsSurvival",
         "supportsFeedFiltering": false,
         "display": true,
@@ -58,7 +137,9 @@
         "isTeamBased": false,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [2394616003],
+        "parentHashes": [
+            2394616003
+        ],
         "friendlyName": "scored_heroicNightfall",
         "supportsFeedFiltering": false,
         "display": true,
@@ -81,13 +162,40 @@
         "isTeamBased": false,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [2394616003],
+        "parentHashes": [
+            2394616003
+        ],
         "friendlyName": "scored_nightfall",
         "supportsFeedFiltering": false,
         "display": true,
         "order": 3210,
         "hash": 547513715,
         "index": 9,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "575409284": {
+        "displayProperties": {
+            "description": "Welcome to Private Matches Clash, where everything's made up and the points don't matter.",
+            "name": "Private Matches Clash",
+            "icon": "/img/theme/destiny/icons/game_modes/crucible_clash.png",
+            "hasIcon": true
+        },
+        "pgcrImage": "/img/theme/destiny/bgs/stats/banner_crucible_1.jpg",
+        "modeType": 51,
+        "activityModeCategory": 2,
+        "isTeamBased": true,
+        "tier": 0,
+        "isAggregateMode": false,
+        "parentHashes": [
+            1164760504
+        ],
+        "friendlyName": "private-matches-clash",
+        "supportsFeedFiltering": false,
+        "display": true,
+        "order": 1900,
+        "hash": 575409284,
+        "index": 30,
         "redacted": false,
         "blacklisted": false
     },
@@ -126,7 +234,9 @@
         "isTeamBased": true,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [1164760504],
+        "parentHashes": [
+            1164760504
+        ],
         "friendlyName": "supremacy",
         "supportsFeedFiltering": false,
         "display": true,
@@ -149,7 +259,9 @@
         "isTeamBased": true,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [1703282980],
+        "parentHashes": [
+            1703282980
+        ],
         "friendlyName": "crimsonDoubles",
         "supportsFeedFiltering": false,
         "display": true,
@@ -216,7 +328,9 @@
         "isTeamBased": true,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [1164760504],
+        "parentHashes": [
+            1164760504
+        ],
         "friendlyName": "allMayhem",
         "supportsFeedFiltering": false,
         "display": true,
@@ -239,7 +353,9 @@
         "isTeamBased": false,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [2394616003],
+        "parentHashes": [
+            2394616003
+        ],
         "friendlyName": "heroicNightfall",
         "supportsFeedFiltering": false,
         "display": true,
@@ -262,7 +378,9 @@
         "isTeamBased": false,
         "tier": 0,
         "isAggregateMode": true,
-        "parentHashes": [1164760504],
+        "parentHashes": [
+            1164760504
+        ],
         "friendlyName": "trialsofthenine",
         "supportsFeedFiltering": false,
         "display": true,
@@ -285,7 +403,9 @@
         "isTeamBased": true,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [1164760504],
+        "parentHashes": [
+            1164760504
+        ],
         "friendlyName": "countdown",
         "supportsFeedFiltering": false,
         "display": true,
@@ -308,7 +428,9 @@
         "isTeamBased": true,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [1164760504],
+        "parentHashes": [
+            1164760504
+        ],
         "friendlyName": "clash",
         "supportsFeedFiltering": false,
         "display": true,
@@ -354,7 +476,9 @@
         "isTeamBased": false,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [1164760493],
+        "parentHashes": [
+            1164760493
+        ],
         "friendlyName": "story",
         "supportsFeedFiltering": false,
         "display": true,
@@ -377,7 +501,9 @@
         "isTeamBased": true,
         "tier": 0,
         "isAggregateMode": true,
-        "parentHashes": [1164760504],
+        "parentHashes": [
+            1164760504
+        ],
         "friendlyName": "allDoubles",
         "supportsFeedFiltering": false,
         "display": true,
@@ -400,7 +526,9 @@
         "isTeamBased": false,
         "tier": 0,
         "isAggregateMode": true,
-        "parentHashes": [1164760504],
+        "parentHashes": [
+            1164760504
+        ],
         "friendlyName": "iron-banner",
         "supportsFeedFiltering": false,
         "display": true,
@@ -423,7 +551,9 @@
         "isTeamBased": false,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [1164760493],
+        "parentHashes": [
+            1164760493
+        ],
         "friendlyName": "raid",
         "supportsFeedFiltering": false,
         "display": true,
@@ -446,7 +576,9 @@
         "isTeamBased": true,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [1164760504],
+        "parentHashes": [
+            1164760504
+        ],
         "friendlyName": "survival",
         "supportsFeedFiltering": false,
         "display": true,
@@ -469,7 +601,9 @@
         "isTeamBased": true,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [1370326378],
+        "parentHashes": [
+            1370326378
+        ],
         "friendlyName": "trialsCountdown",
         "supportsFeedFiltering": false,
         "display": true,
@@ -492,7 +626,9 @@
         "isTeamBased": false,
         "tier": 0,
         "isAggregateMode": true,
-        "parentHashes": [1164760493],
+        "parentHashes": [
+            1164760493
+        ],
         "friendlyName": "strikes",
         "supportsFeedFiltering": false,
         "display": true,
@@ -502,11 +638,36 @@
         "redacted": false,
         "blacklisted": false
     },
+    "2553544158": {
+        "displayProperties": {
+            "description": "Welcome to Private Matches Rumble, where everything's made up and the points don't matter.",
+            "name": "Private Matches Rumble",
+            "icon": "/img/theme/destiny/icons/game_modes/crucible_rumble.png",
+            "hasIcon": true
+        },
+        "pgcrImage": "/img/theme/destiny/bgs/stats/banner_crucible_1.jpg",
+        "modeType": 57,
+        "activityModeCategory": 2,
+        "isTeamBased": false,
+        "tier": 0,
+        "isAggregateMode": false,
+        "parentHashes": [
+            1164760504
+        ],
+        "friendlyName": "private-matches",
+        "supportsFeedFiltering": false,
+        "display": true,
+        "order": 1906,
+        "hash": 2553544158,
+        "index": 36,
+        "redacted": false,
+        "blacklisted": false
+    },
     "2843684868": {
         "displayProperties": {
             "description": "Статистика по режиму Железного знамени: \"Контроль\"",
             "name": "Железное знамя: Контроль",
-            "icon": "/img/theme/destiny/icons/game_modes/crucible_control.png",
+            "icon": "/img/theme/destiny/icons/game_modes/crucible_ironbanner.png",
             "hasIcon": true
         },
         "pgcrImage": "/img/theme/destiny/bgs/stats/banner_crucible_1.jpg",
@@ -515,13 +676,40 @@
         "isTeamBased": true,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [1826469369],
+        "parentHashes": [
+            1826469369
+        ],
         "friendlyName": "iron-banner-control",
         "supportsFeedFiltering": false,
         "display": true,
         "order": 1400,
         "hash": 2843684868,
         "index": 20,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3024701316": {
+        "displayProperties": {
+            "description": "Welcome to Private Matches Control, where everything's made up and the points don't matter.",
+            "name": "Private Matches Control",
+            "icon": "/img/theme/destiny/icons/game_modes/crucible_control.png",
+            "hasIcon": true
+        },
+        "pgcrImage": "/img/theme/destiny/bgs/stats/banner_crucible_1.jpg",
+        "modeType": 52,
+        "activityModeCategory": 2,
+        "isTeamBased": true,
+        "tier": 0,
+        "isAggregateMode": false,
+        "parentHashes": [
+            1164760504
+        ],
+        "friendlyName": "private-matches",
+        "supportsFeedFiltering": false,
+        "display": true,
+        "order": 1901,
+        "hash": 3024701316,
+        "index": 31,
         "redacted": false,
         "blacklisted": false
     },
@@ -538,7 +726,9 @@
         "isTeamBased": true,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [1164760504],
+        "parentHashes": [
+            1164760504
+        ],
         "friendlyName": "control",
         "supportsFeedFiltering": false,
         "display": true,
@@ -552,7 +742,7 @@
         "displayProperties": {
             "description": "Статистика по режиму Железного знамени: \"Столкновение\"",
             "name": "Железное знамя: Столкновение",
-            "icon": "/img/theme/destiny/icons/game_modes/crucible_supremacy.png",
+            "icon": "/img/theme/destiny/icons/game_modes/crucible_ironbanner.png",
             "hasIcon": true
         },
         "pgcrImage": "/img/theme/destiny/bgs/stats/banner_crucible_1.jpg",
@@ -561,7 +751,9 @@
         "isTeamBased": true,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [1826469369],
+        "parentHashes": [
+            1826469369
+        ],
         "friendlyName": "iron-banner-clash",
         "supportsFeedFiltering": false,
         "display": true,
@@ -584,13 +776,40 @@
         "isTeamBased": false,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [1164760493],
+        "parentHashes": [
+            1164760493
+        ],
         "friendlyName": "patrol",
         "supportsFeedFiltering": false,
         "display": true,
         "order": 5000,
         "hash": 3497767639,
         "index": 2,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3780759439": {
+        "displayProperties": {
+            "description": "Welcome to Private Matches Survival, where everything's made up and the points don't matter.",
+            "name": "Private Matches Survival",
+            "icon": "/img/theme/destiny/icons/game_modes/crucible_default.png",
+            "hasIcon": true
+        },
+        "pgcrImage": "/img/theme/destiny/bgs/stats/banner_crucible_1.jpg",
+        "modeType": 55,
+        "activityModeCategory": 2,
+        "isTeamBased": true,
+        "tier": 0,
+        "isAggregateMode": false,
+        "parentHashes": [
+            1164760504
+        ],
+        "friendlyName": "private-matches",
+        "supportsFeedFiltering": false,
+        "display": true,
+        "order": 1904,
+        "hash": 3780759439,
+        "index": 34,
         "redacted": false,
         "blacklisted": false
     },
@@ -607,7 +826,9 @@
         "isTeamBased": false,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [2394616003],
+        "parentHashes": [
+            2394616003
+        ],
         "friendlyName": "nightfall",
         "supportsFeedFiltering": false,
         "display": true,
@@ -630,13 +851,40 @@
         "isTeamBased": true,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [1703282980],
+        "parentHashes": [
+            1703282980
+        ],
         "friendlyName": "doubles",
         "supportsFeedFiltering": false,
         "display": true,
         "order": 1377,
         "hash": 3821502017,
         "index": 26,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3862044762": {
+        "displayProperties": {
+            "description": "Welcome to Private Matches Supremacy, where everything's made up and the points don't matter.",
+            "name": "Private Matches Supremacy",
+            "icon": "/img/theme/destiny/icons/game_modes/crucible_supremacy.png",
+            "hasIcon": true
+        },
+        "pgcrImage": "/img/theme/destiny/bgs/stats/banner_crucible_1.jpg",
+        "modeType": 53,
+        "activityModeCategory": 2,
+        "isTeamBased": true,
+        "tier": 0,
+        "isAggregateMode": false,
+        "parentHashes": [
+            1164760504
+        ],
+        "friendlyName": "private-matches",
+        "supportsFeedFiltering": false,
+        "display": true,
+        "order": 1903,
+        "hash": 3862044762,
+        "index": 33,
         "redacted": false,
         "blacklisted": false
     },
@@ -653,7 +901,9 @@
         "isTeamBased": false,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [2394616003],
+        "parentHashes": [
+            2394616003
+        ],
         "friendlyName": "strikes-normal",
         "supportsFeedFiltering": false,
         "display": true,
@@ -667,7 +917,7 @@
         "displayProperties": {
             "description": "Статистика по режиму Железного знамени: \"Превосходство\"",
             "name": "Железное знамя: Превосходство",
-            "icon": "/img/theme/destiny/icons/game_modes/crucible_supremacy.png",
+            "icon": "/img/theme/destiny/icons/game_modes/crucible_ironbanner.png",
             "hasIcon": true
         },
         "pgcrImage": "/img/theme/destiny/bgs/stats/banner_crucible_1.jpg",
@@ -676,7 +926,9 @@
         "isTeamBased": true,
         "tier": 0,
         "isAggregateMode": false,
-        "parentHashes": [1826469369],
+        "parentHashes": [
+            1826469369
+        ],
         "friendlyName": "iron-banner-supremacy",
         "supportsFeedFiltering": false,
         "display": true,

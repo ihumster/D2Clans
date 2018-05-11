@@ -1,297 +1,421 @@
 {
-    "1053168648": {
+    "217769004": {
         "displayProperties": {
-            "description": "Игрок намеренно покидает игру во время какого-либо занятия.\n\nПримеры: выход в начале занятия, выход в середине занятия.",
-            "name": "Выход из игры",
-            "hasIcon": false
+            "description": "Увеличивает урон, получаемый вами в воздухе.",
+            "name": "Заземление",
+            "icon": "/common/destiny2_content/icons/637ab71c10bced71e364aff30ac33907.png",
+            "hasIcon": true
         },
-        "reasons": {
-            "2498661653": {
-                "reasonHash": 2498661653,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Выход в середине задания",
-                    "hasIcon": false
-                }
-            },
-            "2799518757": {
-                "reasonHash": 2799518757,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Выход в начале задания",
-                    "hasIcon": false
-                }
-            },
-            "3087590961": {
-                "reasonHash": 3087590961,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Другое",
-                    "hasIcon": false
-                }
-            }
+        "hash": 217769004,
+        "index": 24,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "319536142": {
+        "displayProperties": {
+            "description": "Суперспособность, гранаты и классовые способности перезаряжаются быстрее. Урон от силового оружия уменьшен.",
+            "name": "Класс",
+            "icon": "/common/destiny2_content/icons/5005fafd3abbdf688b79c7268cd8e395.png",
+            "hasIcon": true
         },
-        "hash": 1053168648,
+        "hash": 319536142,
         "index": 3,
         "redacted": false,
         "blacklisted": false
     },
-    "1225860615": {
+    "458112752": {
         "displayProperties": {
-            "description": "К оскорбительным сообщениям в чате относятся сообщения ненавистнического, дискриминационного или непристойного характера. Угрозы и нападки в адрес других игроков недопустимы вне зависимости от используемой лексики.\n\nПримеры: Оскорбления, нападки",
-            "name": "Оскорбления в чате",
-            "hasIcon": false
+            "description": "В районе появились временные порталы вексов. Пройдите сквозь них, чтобы высвободить темпоральную энергию и продлить время выполнения задания.",
+            "name": "Искажение времени: кольца",
+            "icon": "/common/destiny2_content/icons/d8b772f2389621f4f7f9653a8897445d.png",
+            "hasIcon": true
         },
-        "reasons": {
-            "50124584": {
-                "reasonHash": 50124584,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Оскорбление",
-                    "hasIcon": false
-                }
-            },
-            "791514073": {
-                "reasonHash": 791514073,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Нападки",
-                    "hasIcon": false
-                }
-            },
-            "3087590961": {
-                "reasonHash": 3087590961,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Другое",
-                    "hasIcon": false
-                }
-            }
-        },
-        "hash": 1225860615,
-        "index": 0,
+        "hash": 458112752,
+        "index": 15,
         "redacted": false,
         "blacklisted": false
     },
-    "1480507937": {
+    "817156042": {
         "displayProperties": {
-            "description": "Игрок с низким качеством связи может неестественно перемещаться в мире, не реагировать на события и отключаться от сервера. Данный игрок не делает это намеренно.\n\nПримеры: посредственное качество связи, плохое качество связи",
-            "name": "Плохая связь",
-            "hasIcon": false
+            "description": "Увеличена скорость прыжка и ускорения в воздухе. Суперспособность восстанавливается быстрее и наносит больший урон. Энергия ближнего боя восстанавливается медленнее и наносит меньший урон.",
+            "name": "Ливень возмездия",
+            "icon": "/common/destiny2_content/icons/ca8e43f64b562f282b434c27f3477f4d.png",
+            "hasIcon": true
         },
-        "reasons": {
-            "1585783321": {
-                "reasonHash": 1585783321,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Плохое качество связи",
-                    "hasIcon": false
-                }
-            },
-            "2255399878": {
-                "reasonHash": 2255399878,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Посредственное качество связи",
-                    "hasIcon": false
-                }
-            },
-            "3087590961": {
-                "reasonHash": 3087590961,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Другое",
-                    "hasIcon": false
-                }
-            }
-        },
-        "hash": 1480507937,
-        "index": 7,
-        "redacted": false,
-        "blacklisted": false
-    },
-    "1851805954": {
-        "displayProperties": {
-            "description": "Жульничество – использование сторонних средств, которые создают преимущества или неблагоприятные условия, недоступные в обычной игре.\n\nПримеры: взлом, манипуляции с сетевым соединением.",
-            "name": "Жульничество",
-            "hasIcon": false
-        },
-        "reasons": {
-            "2352608786": {
-                "reasonHash": 2352608786,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Взлом",
-                    "hasIcon": false
-                }
-            },
-            "2532403339": {
-                "reasonHash": 2532403339,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Манипуляции с сетевым соединением",
-                    "hasIcon": false
-                }
-            },
-            "3087590961": {
-                "reasonHash": 3087590961,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Другое",
-                    "hasIcon": false
-                }
-            }
-        },
-        "hash": 1851805954,
+        "hash": 817156042,
         "index": 6,
         "redacted": false,
         "blacklisted": false
     },
-    "2032714362": {
+    "945795273": {
         "displayProperties": {
-            "description": "Использование лазеек – использование игроками ошибок или сбоев, не предусмотренных авторами игры, для личной выгоды.\n\nПримеры: использование лазеек в игре, использование лазеек в карте.",
-            "name": "Использование лазеек",
-            "hasIcon": false
+            "description": "Если все члены боевой группы погибнут в месте с ограниченным возрождением, вы вернетесь на орбиту.",
+            "name": "Истребление",
+            "icon": "/common/destiny2_content/icons/53e00cec483ebaca1d21e7860a61e833.png",
+            "hasIcon": true
         },
-        "reasons": {
-            "508855581": {
-                "reasonHash": 508855581,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Использование лазеек на карте",
-                    "hasIcon": false
-                }
-            },
-            "2749021087": {
-                "reasonHash": 2749021087,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Использование лазеек в игре",
-                    "hasIcon": false
-                }
-            },
-            "3087590961": {
-                "reasonHash": 3087590961,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Другое",
-                    "hasIcon": false
-                }
-            }
+        "hash": 945795273,
+        "index": 22,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "968364204": {
+        "displayProperties": {
+            "description": "Скорость бега и передвижения пригнувшись увеличена. Способность ближнего боя восстанавливается быстрее и наносит больший урон. Гранаты перезаряжаются медленнее.",
+            "name": "Как призрак из тьмы",
+            "icon": "/common/destiny2_content/icons/3944d3f6876534a0278a947a57e8e131.png",
+            "hasIcon": true
         },
-        "hash": 2032714362,
+        "hash": 968364204,
         "index": 5,
         "redacted": false,
         "blacklisted": false
     },
-    "2425050023": {
+    "1168749758": {
         "displayProperties": {
-            "description": "Бездействие – намеренное отсутствие или бездействие игрока во время игры.\n\nПримеры: отсутствие игрока, использование ботов.",
-            "name": "Бездействие",
-            "hasIcon": false
+            "description": "У врагов больше здоровья. Нанесение урона врагам не оглушает их.",
+            "name": "Сталь",
+            "icon": "/common/destiny2_content/icons/fdfe3db57f8ed13ad0be8b24fd1a952c.png",
+            "hasIcon": true
         },
-        "reasons": {
-            "1310746887": {
-                "reasonHash": 1310746887,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Отсутствие игрока",
-                    "hasIcon": false
-                }
-            },
-            "2122936176": {
-                "reasonHash": 2122936176,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Использование ботов",
-                    "hasIcon": false
-                }
-            },
-            "3087590961": {
-                "reasonHash": 3087590961,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Другое",
-                    "hasIcon": false
-                }
-            }
-        },
-        "hash": 2425050023,
-        "index": 2,
+        "hash": 1168749758,
+        "index": 28,
         "redacted": false,
         "blacklisted": false
     },
-    "2813366390": {
+    "1206783463": {
         "displayProperties": {
-            "description": "Грифинг – попытки вызвать раздражение других игроков, чаще всего с использованием недокументированных особенностей игры.\n\nПримеры: вредительство, исключение из боевой группы.",
-            "name": "Грифинг",
-            "hasIcon": false
+            "description": "Гранаты наносят увеличенный урон и восстанавливаются значительно быстрее.",
+            "name": "Гранатометчик",
+            "icon": "/common/destiny2_content/icons/1ab0b7680988cbb36a9b2c1e49987acb.png",
+            "hasIcon": true
         },
-        "reasons": {
-            "3087590961": {
-                "reasonHash": 3087590961,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Другое",
-                    "hasIcon": false
-                }
-            },
-            "3795025700": {
-                "reasonHash": 3795025700,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Исключение из боевой группы",
-                    "hasIcon": false
-                }
-            },
-            "4003403301": {
-                "reasonHash": 4003403301,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Вредительство",
-                    "hasIcon": false
-                }
-            }
+        "hash": 1206783463,
+        "index": 19,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "1461108937": {
+        "displayProperties": {
+            "description": "Способность ближнего боя и здоровье восстанавливаются быстрее. Увеличивается урон, наносимый силовым оружием. Увеличивается время восстановления суперспособности.",
+            "name": "Драчун",
+            "icon": "/common/destiny2_content/icons/125c34d6a83035255fda92c3ba992eb9.png",
+            "hasIcon": true
         },
-        "hash": 2813366390,
+        "hash": 1461108937,
+        "index": 9,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "1608506466": {
+        "displayProperties": {
+            "description": "Обычный урон и урон от прицельного попадания энергетическим и кинетическим оружием увеличен. Гранаты наносят меньший урон.",
+            "name": "Обессиливание",
+            "icon": "/common/destiny2_content/icons/8b6f275126b59989f93ec9da8a989b81.png",
+            "hasIcon": true
+        },
+        "hash": 1608506466,
+        "index": 10,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "1863278116": {
+        "displayProperties": {
+            "description": "Все блоки с боеприпасами содержат значительно меньше боеприпасов.",
+            "name": "Голод",
+            "icon": "/common/destiny2_content/icons/b290a48018ed13993cd1cee1c4997622.png",
+            "hasIcon": true
+        },
+        "hash": 1863278116,
+        "index": 27,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "1879148438": {
+        "displayProperties": {
+            "description": "Урон от ближнего боя увеличен в два раза. Убийства в ближнем бою перезаряжают используемое оружие.",
+            "name": "Оружейный мастер: Гладиатор",
+            "icon": "/common/destiny2_content/icons/55cfbbbfd50fcf3f64fbd101d97ffb01.png",
+            "hasIcon": true
+        },
+        "hash": 1879148438,
+        "index": 12,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "1913890629": {
+        "displayProperties": {
+            "description": "У оружия отсутствует резервный боезапас. Отстреливание всего магазина восполняет магазин оружия, убранного в кобуру.",
+            "name": "Оружейный мастер: Арсенал",
+            "icon": "/common/destiny2_content/icons/628d262a6ea861507707384edc8f1e91.png",
+            "hasIcon": true
+        },
+        "hash": 1913890629,
+        "index": 13,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "2214232625": {
+        "displayProperties": {
+            "description": "Силовое оружие наносит больший урон. Доступно больше боеприпасов.",
+            "name": "Силач",
+            "icon": "/common/destiny2_content/icons/77b5217b3fd762f6871ec7cb0dae018a.png",
+            "hasIcon": true
+        },
+        "hash": 2214232625,
+        "index": 21,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "2558957669": {
+        "displayProperties": {
+            "description": "Немного увеличен весь солнечный урон.",
+            "name": "Солнечный ожог",
+            "icon": "/common/destiny2_content/icons/cebca1814094764564dd972cbac3a3fc.png",
+            "hasIcon": true
+        },
+        "hash": 2558957669,
+        "index": 17,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "2589706183": {
+        "displayProperties": {
+            "description": "Урон от прицельных выстрелов увеличен в два раза. Выстрелы по телу наносят меньший урон.",
+            "name": "Оружейный мастер: Снайпер",
+            "icon": "/common/destiny2_content/icons/23f77a80a71012ddd47460be2bdf2adb.png",
+            "hasIcon": true
+        },
+        "hash": 2589706183,
+        "index": 11,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "2596461484": {
+        "displayProperties": {
+            "description": "Увеличен урон и скорость перезарядки силового и кинетического оружия. Суперспособность восстанавливается медленнее.",
+            "name": "Элитный боец",
+            "icon": "/common/destiny2_content/icons/77b5217b3fd762f6871ec7cb0dae018a.png",
+            "hasIcon": true
+        },
+        "hash": 2596461484,
+        "index": 8,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "2657918884": {
+        "displayProperties": {
+            "description": "Здоровье и щит восстанавливаются только при передвижении.",
+            "name": "Импульс",
+            "icon": "/common/destiny2_content/icons/55cfbbbfd50fcf3f64fbd101d97ffb01.png",
+            "hasIcon": true
+        },
+        "hash": 2657918884,
+        "index": 26,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "2717912617": {
+        "displayProperties": {
+            "description": "Суперспособность, ближний бой и гранаты наносят больший урон, но медленнее перезаряжаются.",
+            "name": "Риск и вознаграждение",
+            "icon": "/common/destiny2_content/icons/6c342259f78e8a4d34417a8064f25a01.png",
+            "hasIcon": true
+        },
+        "hash": 2717912617,
+        "index": 7,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "2809763955": {
+        "displayProperties": {
+            "description": "Здоровье и щит не восстанавливаются, когда вы стоите. Бегите, чтобы восполнить силы.",
+            "name": "Импульс",
+            "icon": "/common/destiny2_content/icons/55cfbbbfd50fcf3f64fbd101d97ffb01.png",
+            "hasIcon": true
+        },
+        "hash": 2809763955,
+        "index": 1,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "2876104593": {
+        "displayProperties": {
+            "description": "Завершите этот Сумрачный налет, чтобы превратить оружие \"Жесткий свет\" в Абсолют.",
+            "name": "Неразрушимый свет",
+            "icon": "/common/destiny2_content/icons/3944d3f6876534a0278a947a57e8e131.png",
+            "hasIcon": true
+        },
+        "hash": 2876104593,
+        "index": 32,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3029674484": {
+        "displayProperties": {
+            "description": "Бесконечная энергия бьет из вас ключом. Ваши способности восстанавливаются гораздо быстрее.",
+            "name": "Поток",
+            "icon": "/common/destiny2_content/icons/23f77a80a71012ddd47460be2bdf2adb.png",
+            "hasIcon": true
+        },
+        "hash": 3029674484,
+        "index": 14,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3215384520": {
+        "displayProperties": {
+            "description": "Немного увеличен весь электрический урон.",
+            "name": "Электрический ожог",
+            "icon": "/common/destiny2_content/icons/cf10dccd3095a8b3ebcaef551beef06f.png",
+            "hasIcon": true
+        },
+        "hash": 3215384520,
+        "index": 16,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3362074814": {
+        "displayProperties": {
+            "description": "Немного увеличен весь пустотный урон.",
+            "name": "Пустотный ожог",
+            "icon": "/common/destiny2_content/icons/1e860a689fd56b4d397f143b2489c359.png",
+            "hasIcon": true
+        },
+        "hash": 3362074814,
+        "index": 18,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3740050516": {
+        "displayProperties": {
+            "description": "Завершите этот Сумрачный налет, чтобы превратить оружие \"Старатель\" в Абсолют.",
+            "name": "Золотая лихорадка",
+            "icon": "/common/destiny2_content/icons/3944d3f6876534a0278a947a57e8e131.png",
+            "hasIcon": true
+        },
+        "hash": 3740050516,
+        "index": 31,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3766694338": {
+        "displayProperties": {
+            "description": "Медленное восстановление здоровья и щита. При гибели враги создают колодцы Света.",
+            "name": "Истощение",
+            "icon": "/common/destiny2_content/icons/32a19db9ce1adb85257dc1841c2d8c4b.png",
+            "hasIcon": true
+        },
+        "hash": 3766694338,
+        "index": 25,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3773481783": {
+        "displayProperties": {
+            "description": "Доступна лишь половина здоровья и щита, но они восстанавливаются в два раза быстрее.",
+            "name": "Стекло",
+            "icon": "/common/destiny2_content/icons/a44c77b2d493f095077e12a6b82fdc17.png",
+            "hasIcon": true
+        },
+        "hash": 3773481783,
+        "index": 34,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3859784314": {
+        "displayProperties": {
+            "description": "Вражеские щиты стойки к стихийному урону, не соответствующему их цвету.",
+            "name": "Сопоставление",
+            "icon": "/common/destiny2_content/icons/e85f5e82adafc3fba57696435d0ae45d.png",
+            "hasIcon": true
+        },
+        "hash": 3859784314,
+        "index": 23,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3970754350": {
+        "displayProperties": {
+            "description": "Завершите этот Сумрачный налет, чтобы превратить оружие \"Крысиный король\" в Абсолют.",
+            "name": "Крысиный плач",
+            "icon": "/common/destiny2_content/icons/3944d3f6876534a0278a947a57e8e131.png",
+            "hasIcon": true
+        },
+        "hash": 3970754350,
+        "index": 33,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3974591367": {
+        "displayProperties": {
+            "description": "Медленное восстановление здоровья и щита, но при убийстве врагов могут возникать колодцы Света. Собирайте их, чтобы восстановить здоровье и зарядить суперспособность.",
+            "name": "Истощение",
+            "icon": "/common/destiny2_content/icons/32a19db9ce1adb85257dc1841c2d8c4b.png",
+            "hasIcon": true
+        },
+        "hash": 3974591367,
+        "index": 0,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "4040544238": {
+        "displayProperties": {
+            "description": "Завершите этот Сумрачный налет, чтобы превратить оружие \"Бойцовый лев\" в Абсолют.",
+            "name": "Львиная храбрость",
+            "icon": "/common/destiny2_content/icons/3944d3f6876534a0278a947a57e8e131.png",
+            "hasIcon": true
+        },
+        "hash": 4040544238,
+        "index": 30,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "4175359167": {
+        "displayProperties": {
+            "description": "Урон от энергетического оружия увеличен. Гранаты наносят больший урон и быстрее перезаряжаются. Урон от ближнего боя уменьшен.",
+            "name": "Элементалист",
+            "icon": "/common/destiny2_content/icons/628d262a6ea861507707384edc8f1e91.png",
+            "hasIcon": true
+        },
+        "hash": 4175359167,
         "index": 4,
         "redacted": false,
         "blacklisted": false
     },
-    "4291247038": {
+    "4221013735": {
         "displayProperties": {
-            "description": "Словесные оскорбления – использование оскорбительной лексики в общении.\n\nПримеры: выкрикивания, нецензурная лексика.",
-            "name": "Словесные оскорбления",
-            "hasIcon": false
+            "description": "Вражеские атаки в ближнем бою смертельны. Радар отключен.",
+            "name": "Затемнение",
+            "icon": "/common/destiny2_content/icons/3944d3f6876534a0278a947a57e8e131.png",
+            "hasIcon": true
         },
-        "reasons": {
-            "3087590961": {
-                "reasonHash": 3087590961,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Другое",
-                    "hasIcon": false
-                }
-            },
-            "3850141219": {
-                "reasonHash": 3850141219,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Нецензурная лексика",
-                    "hasIcon": false
-                }
-            },
-            "3894597393": {
-                "reasonHash": 3894597393,
-                "displayProperties": {
-                    "description": "",
-                    "name": "Выкрикивания",
-                    "hasIcon": false
-                }
-            }
+        "hash": 4221013735,
+        "index": 29,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "4293009546": {
+        "displayProperties": {
+            "description": "Ваши атаки, совпадающие с регулярно меняющимся элементом, наносят дополнительный урон. Урон всех остальных элементов снижен. Получаемый урон остается прежними.",
+            "name": "Призма",
+            "icon": "/common/destiny2_content/icons/b9ed79a9aa5facb1f9190e30479a6ae4.png",
+            "hasIcon": true
         },
-        "hash": 4291247038,
-        "index": 1,
+        "hash": 4293009546,
+        "index": 2,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "4293586104": {
+        "displayProperties": {
+            "description": "Способности ближнего боя наносят увеличенный урон и восстанавливаются значительно быстрее.",
+            "name": "Драчун",
+            "icon": "/common/destiny2_content/icons/125c34d6a83035255fda92c3ba992eb9.png",
+            "hasIcon": true
+        },
+        "hash": 4293586104,
+        "index": 20,
         "redacted": false,
         "blacklisted": false
     }
