@@ -3,11 +3,11 @@
         "displayProperties": {
             "description": "Увеличивает урон, получаемый вами в воздухе.",
             "name": "Заземление",
-            "icon": "/common/destiny2_content/icons/637ab71c10bced71e364aff30ac33907.png",
+            "icon": "/common/destiny2_content/icons/39e63fbbfac595722cee0607dc891d19.png",
             "hasIcon": true
         },
         "hash": 217769004,
-        "index": 24,
+        "index": 25,
         "redacted": false,
         "blacklisted": false
     },
@@ -15,23 +15,11 @@
         "displayProperties": {
             "description": "Суперспособность, гранаты и классовые способности перезаряжаются быстрее. Урон от силового оружия уменьшен.",
             "name": "Класс",
-            "icon": "/common/destiny2_content/icons/5005fafd3abbdf688b79c7268cd8e395.png",
+            "icon": "/common/destiny2_content/icons/9802753078dba0401582756e6b4ea214.png",
             "hasIcon": true
         },
         "hash": 319536142,
-        "index": 3,
-        "redacted": false,
-        "blacklisted": false
-    },
-    "458112752": {
-        "displayProperties": {
-            "description": "В районе появились временные порталы вексов. Пройдите сквозь них, чтобы высвободить темпоральную энергию и продлить время выполнения задания.",
-            "name": "Искажение времени: кольца",
-            "icon": "/common/destiny2_content/icons/d8b772f2389621f4f7f9653a8897445d.png",
-            "hasIcon": true
-        },
-        "hash": 458112752,
-        "index": 15,
+        "index": 6,
         "redacted": false,
         "blacklisted": false
     },
@@ -39,11 +27,23 @@
         "displayProperties": {
             "description": "Увеличена скорость прыжка и ускорения в воздухе. Суперспособность восстанавливается быстрее и наносит больший урон. Энергия ближнего боя восстанавливается медленнее и наносит меньший урон.",
             "name": "Ливень возмездия",
-            "icon": "/common/destiny2_content/icons/ca8e43f64b562f282b434c27f3477f4d.png",
+            "icon": "/common/destiny2_content/icons/63c7fb9814523adf9991d23f2c776389.png",
             "hasIcon": true
         },
         "hash": 817156042,
-        "index": 6,
+        "index": 9,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "938003265": {
+        "displayProperties": {
+            "description": "Завершите этот Сумрачный налет, чтобы превратить оружие \"Режим SUROS\" в Абсолют.",
+            "name": "Победа SUROS",
+            "icon": "/common/destiny2_content/icons/34e9d40b54046d93bea4fa06eaeb2fd7.png",
+            "hasIcon": true
+        },
+        "hash": 938003265,
+        "index": 35,
         "redacted": false,
         "blacklisted": false
     },
@@ -51,11 +51,11 @@
         "displayProperties": {
             "description": "Если все члены боевой группы погибнут в месте с ограниченным возрождением, вы вернетесь на орбиту.",
             "name": "Истребление",
-            "icon": "/common/destiny2_content/icons/53e00cec483ebaca1d21e7860a61e833.png",
+            "icon": "/common/destiny2_content/icons/19fefc1120bb3e77dc94f476cc9d07b9.png",
             "hasIcon": true
         },
         "hash": 945795273,
-        "index": 22,
+        "index": 23,
         "redacted": false,
         "blacklisted": false
     },
@@ -63,11 +63,11 @@
         "displayProperties": {
             "description": "Скорость бега и передвижения пригнувшись увеличена. Способность ближнего боя восстанавливается быстрее и наносит больший урон. Гранаты перезаряжаются медленнее.",
             "name": "Как призрак из тьмы",
-            "icon": "/common/destiny2_content/icons/3944d3f6876534a0278a947a57e8e131.png",
+            "icon": "/common/destiny2_content/icons/34e9d40b54046d93bea4fa06eaeb2fd7.png",
             "hasIcon": true
         },
         "hash": 968364204,
-        "index": 5,
+        "index": 8,
         "redacted": false,
         "blacklisted": false
     },
@@ -75,11 +75,11 @@
         "displayProperties": {
             "description": "У врагов больше здоровья. Нанесение урона врагам не оглушает их.",
             "name": "Сталь",
-            "icon": "/common/destiny2_content/icons/fdfe3db57f8ed13ad0be8b24fd1a952c.png",
+            "icon": "/common/destiny2_content/icons/8be9db9c179f7448ec1e3ec6269838e4.png",
             "hasIcon": true
         },
         "hash": 1168749758,
-        "index": 28,
+        "index": 29,
         "redacted": false,
         "blacklisted": false
     },
@@ -87,11 +87,11 @@
         "displayProperties": {
             "description": "Гранаты наносят увеличенный урон и восстанавливаются значительно быстрее.",
             "name": "Гранатометчик",
-            "icon": "/common/destiny2_content/icons/1ab0b7680988cbb36a9b2c1e49987acb.png",
+            "icon": "/common/destiny2_content/icons/a564705ae929cbb33e98e8c0738b1796.png",
             "hasIcon": true
         },
         "hash": 1206783463,
-        "index": 19,
+        "index": 20,
         "redacted": false,
         "blacklisted": false
     },
@@ -99,11 +99,11 @@
         "displayProperties": {
             "description": "Способность ближнего боя и здоровье восстанавливаются быстрее. Увеличивается урон, наносимый силовым оружием. Увеличивается время восстановления суперспособности.",
             "name": "Драчун",
-            "icon": "/common/destiny2_content/icons/125c34d6a83035255fda92c3ba992eb9.png",
+            "icon": "/common/destiny2_content/icons/73080cbf2a9e3f6d3e27d1f01c83062f.png",
             "hasIcon": true
         },
         "hash": 1461108937,
-        "index": 9,
+        "index": 12,
         "redacted": false,
         "blacklisted": false
     },
@@ -111,11 +111,11 @@
         "displayProperties": {
             "description": "Обычный урон и урон от прицельного попадания энергетическим и кинетическим оружием увеличен. Гранаты наносят меньший урон.",
             "name": "Обессиливание",
-            "icon": "/common/destiny2_content/icons/8b6f275126b59989f93ec9da8a989b81.png",
+            "icon": "/common/destiny2_content/icons/44a8f914b6c264b57fc4fa3157544fdd.png",
             "hasIcon": true
         },
         "hash": 1608506466,
-        "index": 10,
+        "index": 13,
         "redacted": false,
         "blacklisted": false
     },
@@ -123,47 +123,47 @@
         "displayProperties": {
             "description": "Все блоки с боеприпасами содержат значительно меньше боеприпасов.",
             "name": "Голод",
-            "icon": "/common/destiny2_content/icons/b290a48018ed13993cd1cee1c4997622.png",
+            "icon": "/common/destiny2_content/icons/615675faa7dca552f18c09f96d83a840.png",
             "hasIcon": true
         },
         "hash": 1863278116,
-        "index": 27,
+        "index": 28,
         "redacted": false,
         "blacklisted": false
     },
     "1879148438": {
         "displayProperties": {
-            "description": "Урон от ближнего боя увеличен в два раза. Убийства в ближнем бою перезаряжают используемое оружие.",
-            "name": "Оружейный мастер: Гладиатор",
-            "icon": "/common/destiny2_content/icons/55cfbbbfd50fcf3f64fbd101d97ffb01.png",
+            "description": "Убийства в ближнем бою увеличивают урон оружия, а убийства оружием увеличивают урон в ближнем бою.",
+            "name": "Престиж: Гладиатор",
+            "icon": "/common/destiny2_content/icons/f6ee9050bcfb3e7d8191aee095e92fb2.png",
             "hasIcon": true
         },
         "hash": 1879148438,
-        "index": 12,
+        "index": 16,
         "redacted": false,
         "blacklisted": false
     },
     "1913890629": {
         "displayProperties": {
             "description": "У оружия отсутствует резервный боезапас. Отстреливание всего магазина восполняет магазин оружия, убранного в кобуру.",
-            "name": "Оружейный мастер: Арсенал",
-            "icon": "/common/destiny2_content/icons/628d262a6ea861507707384edc8f1e91.png",
+            "name": "Престиж: Арсенал",
+            "icon": "/common/destiny2_content/icons/d49368097af8de1645b27e5b6d82bb63.png",
             "hasIcon": true
         },
         "hash": 1913890629,
-        "index": 13,
+        "index": 17,
         "redacted": false,
         "blacklisted": false
     },
     "2214232625": {
         "displayProperties": {
             "description": "Силовое оружие наносит больший урон. Доступно больше боеприпасов.",
-            "name": "Силач",
-            "icon": "/common/destiny2_content/icons/77b5217b3fd762f6871ec7cb0dae018a.png",
+            "name": "Тяжелая артиллерия",
+            "icon": "/common/destiny2_content/icons/b2b2d3c4ebb9d115e4d7330354825ee3.png",
             "hasIcon": true
         },
         "hash": 2214232625,
-        "index": 21,
+        "index": 22,
         "redacted": false,
         "blacklisted": false
     },
@@ -171,23 +171,23 @@
         "displayProperties": {
             "description": "Немного увеличен весь солнечный урон.",
             "name": "Солнечный ожог",
-            "icon": "/common/destiny2_content/icons/cebca1814094764564dd972cbac3a3fc.png",
+            "icon": "/common/destiny2_content/icons/ec2b7687db1b3b07a053ad263c071a61.png",
             "hasIcon": true
         },
         "hash": 2558957669,
-        "index": 17,
+        "index": 1,
         "redacted": false,
         "blacklisted": false
     },
     "2589706183": {
         "displayProperties": {
-            "description": "Урон от прицельных выстрелов увеличен в два раза. Выстрелы по телу наносят меньший урон.",
-            "name": "Оружейный мастер: Снайпер",
-            "icon": "/common/destiny2_content/icons/23f77a80a71012ddd47460be2bdf2adb.png",
+            "description": "Базовый урон оружия снижен. Серии прицельных выстрелов наращивают урон.",
+            "name": "Престиж: Снайпер",
+            "icon": "/common/destiny2_content/icons/1ca3d4ee82e9084ccccbefdd6bba8d1b.png",
             "hasIcon": true
         },
         "hash": 2589706183,
-        "index": 11,
+        "index": 15,
         "redacted": false,
         "blacklisted": false
     },
@@ -195,11 +195,11 @@
         "displayProperties": {
             "description": "Увеличен урон и скорость перезарядки силового и кинетического оружия. Суперспособность восстанавливается медленнее.",
             "name": "Элитный боец",
-            "icon": "/common/destiny2_content/icons/77b5217b3fd762f6871ec7cb0dae018a.png",
+            "icon": "/common/destiny2_content/icons/b2b2d3c4ebb9d115e4d7330354825ee3.png",
             "hasIcon": true
         },
         "hash": 2596461484,
-        "index": 8,
+        "index": 11,
         "redacted": false,
         "blacklisted": false
     },
@@ -207,11 +207,11 @@
         "displayProperties": {
             "description": "Здоровье и щит восстанавливаются только при передвижении.",
             "name": "Импульс",
-            "icon": "/common/destiny2_content/icons/55cfbbbfd50fcf3f64fbd101d97ffb01.png",
+            "icon": "/common/destiny2_content/icons/a629ab424afe01ad8df50fd1b15e7ee0.png",
             "hasIcon": true
         },
         "hash": 2657918884,
-        "index": 26,
+        "index": 27,
         "redacted": false,
         "blacklisted": false
     },
@@ -219,11 +219,11 @@
         "displayProperties": {
             "description": "Суперспособность, ближний бой и гранаты наносят больший урон, но медленнее перезаряжаются.",
             "name": "Риск и вознаграждение",
-            "icon": "/common/destiny2_content/icons/6c342259f78e8a4d34417a8064f25a01.png",
+            "icon": "/common/destiny2_content/icons/037d5bb80ae485a1a786580e53c65cf3.png",
             "hasIcon": true
         },
         "hash": 2717912617,
-        "index": 7,
+        "index": 10,
         "redacted": false,
         "blacklisted": false
     },
@@ -231,11 +231,11 @@
         "displayProperties": {
             "description": "Здоровье и щит не восстанавливаются, когда вы стоите. Бегите, чтобы восполнить силы.",
             "name": "Импульс",
-            "icon": "/common/destiny2_content/icons/55cfbbbfd50fcf3f64fbd101d97ffb01.png",
+            "icon": "/common/destiny2_content/icons/a629ab424afe01ad8df50fd1b15e7ee0.png",
             "hasIcon": true
         },
         "hash": 2809763955,
-        "index": 1,
+        "index": 14,
         "redacted": false,
         "blacklisted": false
     },
@@ -243,11 +243,11 @@
         "displayProperties": {
             "description": "Завершите этот Сумрачный налет, чтобы превратить оружие \"Жесткий свет\" в Абсолют.",
             "name": "Неразрушимый свет",
-            "icon": "/common/destiny2_content/icons/3944d3f6876534a0278a947a57e8e131.png",
+            "icon": "/common/destiny2_content/icons/34e9d40b54046d93bea4fa06eaeb2fd7.png",
             "hasIcon": true
         },
         "hash": 2876104593,
-        "index": 32,
+        "index": 33,
         "redacted": false,
         "blacklisted": false
     },
@@ -255,11 +255,11 @@
         "displayProperties": {
             "description": "Бесконечная энергия бьет из вас ключом. Ваши способности восстанавливаются гораздо быстрее.",
             "name": "Поток",
-            "icon": "/common/destiny2_content/icons/23f77a80a71012ddd47460be2bdf2adb.png",
+            "icon": "/common/destiny2_content/icons/de63ff46bbda2bf7fe581caa8c71e32a.png",
             "hasIcon": true
         },
         "hash": 3029674484,
-        "index": 14,
+        "index": 19,
         "redacted": false,
         "blacklisted": false
     },
@@ -267,11 +267,11 @@
         "displayProperties": {
             "description": "Немного увеличен весь электрический урон.",
             "name": "Электрический ожог",
-            "icon": "/common/destiny2_content/icons/cf10dccd3095a8b3ebcaef551beef06f.png",
+            "icon": "/common/destiny2_content/icons/9b126417dd7172e96a88bf3c2566f517.png",
             "hasIcon": true
         },
         "hash": 3215384520,
-        "index": 16,
+        "index": 0,
         "redacted": false,
         "blacklisted": false
     },
@@ -279,10 +279,22 @@
         "displayProperties": {
             "description": "Немного увеличен весь пустотный урон.",
             "name": "Пустотный ожог",
-            "icon": "/common/destiny2_content/icons/1e860a689fd56b4d397f143b2489c359.png",
+            "icon": "/common/destiny2_content/icons/d8db86f269a3936a812feb1b08b7daa2.png",
             "hasIcon": true
         },
         "hash": 3362074814,
+        "index": 2,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3704166961": {
+        "displayProperties": {
+            "description": "Примите вызов и завершите рейд с арсеналом:\n\nКинетическое: Импульсная винтовка\nЭнергетическое: ПП\nСиловое: Гранатомет",
+            "name": "Оружейный мастер",
+            "icon": "/common/destiny2_content/icons/44a8f914b6c264b57fc4fa3157544fdd.png",
+            "hasIcon": true
+        },
+        "hash": 3704166961,
         "index": 18,
         "redacted": false,
         "blacklisted": false
@@ -291,11 +303,11 @@
         "displayProperties": {
             "description": "Завершите этот Сумрачный налет, чтобы превратить оружие \"Старатель\" в Абсолют.",
             "name": "Золотая лихорадка",
-            "icon": "/common/destiny2_content/icons/3944d3f6876534a0278a947a57e8e131.png",
+            "icon": "/common/destiny2_content/icons/34e9d40b54046d93bea4fa06eaeb2fd7.png",
             "hasIcon": true
         },
         "hash": 3740050516,
-        "index": 31,
+        "index": 32,
         "redacted": false,
         "blacklisted": false
     },
@@ -303,11 +315,11 @@
         "displayProperties": {
             "description": "Медленное восстановление здоровья и щита. При гибели враги создают колодцы Света.",
             "name": "Истощение",
-            "icon": "/common/destiny2_content/icons/32a19db9ce1adb85257dc1841c2d8c4b.png",
+            "icon": "/common/destiny2_content/icons/a00379ecabbb6facc0a42eee55266f6e.png",
             "hasIcon": true
         },
         "hash": 3766694338,
-        "index": 25,
+        "index": 26,
         "redacted": false,
         "blacklisted": false
     },
@@ -315,11 +327,11 @@
         "displayProperties": {
             "description": "Доступна лишь половина здоровья и щита, но они восстанавливаются в два раза быстрее.",
             "name": "Стекло",
-            "icon": "/common/destiny2_content/icons/a44c77b2d493f095077e12a6b82fdc17.png",
+            "icon": "/common/destiny2_content/icons/816adc2fbcc64ce7e1d5769ee5c7a761.png",
             "hasIcon": true
         },
         "hash": 3773481783,
-        "index": 34,
+        "index": 36,
         "redacted": false,
         "blacklisted": false
     },
@@ -327,23 +339,35 @@
         "displayProperties": {
             "description": "Вражеские щиты стойки к стихийному урону, не соответствующему их цвету.",
             "name": "Сопоставление",
-            "icon": "/common/destiny2_content/icons/e85f5e82adafc3fba57696435d0ae45d.png",
+            "icon": "/common/destiny2_content/icons/a464bdf3eba70bb624f62d13c824fcbf.png",
             "hasIcon": true
         },
         "hash": 3859784314,
-        "index": 23,
+        "index": 24,
         "redacted": false,
+        "blacklisted": false
+    },
+    "3949396046": {
+        "displayProperties": {
+            "description": "###Destiny._DESCRIPTION###",
+            "name": "###Destiny._NAME###",
+            "icon": "/img/misc/missing_icon_d2.png",
+            "hasIcon": false
+        },
+        "hash": 3949396046,
+        "index": 3,
+        "redacted": true,
         "blacklisted": false
     },
     "3970754350": {
         "displayProperties": {
             "description": "Завершите этот Сумрачный налет, чтобы превратить оружие \"Крысиный король\" в Абсолют.",
             "name": "Крысиный плач",
-            "icon": "/common/destiny2_content/icons/3944d3f6876534a0278a947a57e8e131.png",
+            "icon": "/common/destiny2_content/icons/34e9d40b54046d93bea4fa06eaeb2fd7.png",
             "hasIcon": true
         },
         "hash": 3970754350,
-        "index": 33,
+        "index": 34,
         "redacted": false,
         "blacklisted": false
     },
@@ -351,11 +375,11 @@
         "displayProperties": {
             "description": "Медленное восстановление здоровья и щита, но при убийстве врагов могут возникать колодцы Света. Собирайте их, чтобы восстановить здоровье и зарядить суперспособность.",
             "name": "Истощение",
-            "icon": "/common/destiny2_content/icons/32a19db9ce1adb85257dc1841c2d8c4b.png",
+            "icon": "/common/destiny2_content/icons/a00379ecabbb6facc0a42eee55266f6e.png",
             "hasIcon": true
         },
         "hash": 3974591367,
-        "index": 0,
+        "index": 4,
         "redacted": false,
         "blacklisted": false
     },
@@ -363,11 +387,11 @@
         "displayProperties": {
             "description": "Завершите этот Сумрачный налет, чтобы превратить оружие \"Бойцовый лев\" в Абсолют.",
             "name": "Львиная храбрость",
-            "icon": "/common/destiny2_content/icons/3944d3f6876534a0278a947a57e8e131.png",
+            "icon": "/common/destiny2_content/icons/34e9d40b54046d93bea4fa06eaeb2fd7.png",
             "hasIcon": true
         },
         "hash": 4040544238,
-        "index": 30,
+        "index": 31,
         "redacted": false,
         "blacklisted": false
     },
@@ -375,23 +399,23 @@
         "displayProperties": {
             "description": "Урон от энергетического оружия увеличен. Гранаты наносят больший урон и быстрее перезаряжаются. Урон от ближнего боя уменьшен.",
             "name": "Элементалист",
-            "icon": "/common/destiny2_content/icons/628d262a6ea861507707384edc8f1e91.png",
+            "icon": "/common/destiny2_content/icons/2eecee9aa1f7dd6f23abca5e799efbd5.png",
             "hasIcon": true
         },
         "hash": 4175359167,
-        "index": 4,
+        "index": 7,
         "redacted": false,
         "blacklisted": false
     },
     "4221013735": {
         "displayProperties": {
-            "description": "Вражеские атаки в ближнем бою смертельны. Радар отключен.",
+            "description": "Вражеские атаки в ближнем бою наносят больше урона. Радар отключен.",
             "name": "Затемнение",
-            "icon": "/common/destiny2_content/icons/3944d3f6876534a0278a947a57e8e131.png",
+            "icon": "/common/destiny2_content/icons/34e9d40b54046d93bea4fa06eaeb2fd7.png",
             "hasIcon": true
         },
         "hash": 4221013735,
-        "index": 29,
+        "index": 30,
         "redacted": false,
         "blacklisted": false
     },
@@ -399,11 +423,11 @@
         "displayProperties": {
             "description": "Ваши атаки, совпадающие с регулярно меняющимся элементом, наносят дополнительный урон. Урон всех остальных элементов снижен. Получаемый урон остается прежними.",
             "name": "Призма",
-            "icon": "/common/destiny2_content/icons/b9ed79a9aa5facb1f9190e30479a6ae4.png",
+            "icon": "/common/destiny2_content/icons/e0e2166819100f70a2378324d0db447e.png",
             "hasIcon": true
         },
         "hash": 4293009546,
-        "index": 2,
+        "index": 5,
         "redacted": false,
         "blacklisted": false
     },
@@ -411,11 +435,11 @@
         "displayProperties": {
             "description": "Способности ближнего боя наносят увеличенный урон и восстанавливаются значительно быстрее.",
             "name": "Драчун",
-            "icon": "/common/destiny2_content/icons/125c34d6a83035255fda92c3ba992eb9.png",
+            "icon": "/common/destiny2_content/icons/73080cbf2a9e3f6d3e27d1f01c83062f.png",
             "hasIcon": true
         },
         "hash": 4293586104,
-        "index": 20,
+        "index": 21,
         "redacted": false,
         "blacklisted": false
     }

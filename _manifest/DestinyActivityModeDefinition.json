@@ -1,8 +1,8 @@
 {
     "116827562": {
         "displayProperties": {
-            "description": "Welcome to Private Matches Mayhem, where everything's made up and the points don't matter.",
-            "name": "Private Matches Mayhem",
+            "description": "Добро пожаловать в закрытые матчи \"Хаос\", где все высосано из пальца, а набор очков лишен смысла.",
+            "name": "Закрытые матчи: \"Хаос\"",
             "icon": "/img/theme/destiny/icons/game_modes/crucible_mayhem.png",
             "hasIcon": true
         },
@@ -15,19 +15,53 @@
         "parentHashes": [
             1164760504
         ],
-        "friendlyName": "private-matches",
+        "friendlyName": "private-matches-mayhem",
         "supportsFeedFiltering": false,
-        "display": true,
+        "display": false,
         "order": 1905,
         "hash": 116827562,
-        "index": 35,
+        "index": 36,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "122250361": {
+        "displayProperties": {
+            "description": "Добро пожаловать в закрытые матчи, где все высосано из пальца, а набор очков лишен смысла.",
+            "name": "Закрытые матчи",
+            "icon": "/img/theme/destiny/icons/game_modes/crucible_default.png",
+            "hasIcon": true
+        },
+        "pgcrImage": "/img/theme/destiny/bgs/stats/banner_crucible_1.jpg",
+        "modeType": 32,
+        "activityModeCategory": 2,
+        "isTeamBased": false,
+        "tier": 0,
+        "isAggregateMode": true,
+        "parentHashes": [
+            1164760504
+        ],
+        "friendlyName": "private-matches",
+        "supportsFeedFiltering": false,
+        "activityModeMappings": {
+            "29726492": 56,
+            "1218001922": 53,
+            "1859507212": 52,
+            "2491884566": 57,
+            "2903879783": 55,
+            "3767360267": 54,
+            "4242525388": 51
+        },
+        "display": true,
+        "order": 1899,
+        "hash": 122250361,
+        "index": 30,
         "redacted": false,
         "blacklisted": false
     },
     "152599670": {
         "displayProperties": {
-            "description": "Welcome to Private Matches Countdown, where everything's made up and the points don't matter.",
-            "name": "Private Matches Countdown",
+            "description": "Добро пожаловать в закрытые матчи \"Обратный отсчет\", где все высосано из пальца, а набор очков лишен смысла.",
+            "name": "Закрытые матчи: \"Обратный отсчет\"",
             "icon": "/img/theme/destiny/icons/game_modes/crucible_default.png",
             "hasIcon": true
         },
@@ -40,12 +74,12 @@
         "parentHashes": [
             1164760504
         ],
-        "friendlyName": "private-matches",
+        "friendlyName": "private-matches-countdown",
         "supportsFeedFiltering": false,
-        "display": true,
+        "display": false,
         "order": 1902,
         "hash": 152599670,
-        "index": 32,
+        "index": 33,
         "redacted": false,
         "blacklisted": false
     },
@@ -76,8 +110,8 @@
     },
     "175275639": {
         "displayProperties": {
-            "description": "As opposed to an unheroic adventure, such as organizing your sock drawer.",
-            "name": "Heroic Adventure",
+            "description": "Чуть более героическое, чем наведение порядка в ящике для носков.",
+            "name": "Героическое приключение",
             "icon": "/img/theme/destiny/icons/game_modes/strike_heroic.png",
             "hasIcon": true
         },
@@ -95,7 +129,7 @@
         "display": true,
         "order": 3310,
         "hash": 175275639,
-        "index": 37,
+        "index": 38,
         "redacted": false,
         "blacklisted": false
     },
@@ -176,8 +210,8 @@
     },
     "575409284": {
         "displayProperties": {
-            "description": "Welcome to Private Matches Clash, where everything's made up and the points don't matter.",
-            "name": "Private Matches Clash",
+            "description": "Добро пожаловать в закрытые матчи \"Столкновение\", где все высосано из пальца, а набор очков лишен смысла.",
+            "name": "Закрытые матчи: \"Столкновение\"",
             "icon": "/img/theme/destiny/icons/game_modes/crucible_clash.png",
             "hasIcon": true
         },
@@ -192,10 +226,10 @@
         ],
         "friendlyName": "private-matches-clash",
         "supportsFeedFiltering": false,
-        "display": true,
+        "display": false,
         "order": 1900,
         "hash": 575409284,
-        "index": 30,
+        "index": 31,
         "redacted": false,
         "blacklisted": false
     },
@@ -390,6 +424,31 @@
         "redacted": false,
         "blacklisted": false
     },
+    "1372032677": {
+        "displayProperties": {
+            "description": "If it were any hotter, you would like and subscribe for future updates.",
+            "name": "Team Scorched",
+            "icon": "/img/theme/destiny/icons/game_modes/crucible_default.png",
+            "hasIcon": true
+        },
+        "pgcrImage": "/img/theme/destiny/bgs/stats/banner_crucible_1.jpg",
+        "modeType": 62,
+        "activityModeCategory": 2,
+        "isTeamBased": true,
+        "tier": 0,
+        "isAggregateMode": false,
+        "parentHashes": [
+            1164760504
+        ],
+        "friendlyName": "scorchedTeam",
+        "supportsFeedFiltering": false,
+        "display": true,
+        "order": 5000,
+        "hash": 1372032677,
+        "index": 42,
+        "redacted": false,
+        "blacklisted": false
+    },
     "1505888634": {
         "displayProperties": {
             "description": "Статистика по режиму \"Обратный отсчет\" в Горниле",
@@ -442,7 +501,7 @@
     },
     "1589650888": {
         "displayProperties": {
-            "description": "###ActivityModes.social_DESCRIPTION###",
+            "description": "",
             "name": "Общение",
             "icon": "/img/theme/destiny/icons/game_modes/allmodes.png",
             "hasIcon": true
@@ -460,6 +519,31 @@
         "order": 1377,
         "hash": 1589650888,
         "index": 24,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "1668923154": {
+        "displayProperties": {
+            "description": "Hotter than an Arizona sidewalk in July.",
+            "name": "Scorched",
+            "icon": "/img/theme/destiny/icons/game_modes/crucible_default.png",
+            "hasIcon": true
+        },
+        "pgcrImage": "/img/theme/destiny/bgs/stats/banner_crucible_1.jpg",
+        "modeType": 61,
+        "activityModeCategory": 2,
+        "isTeamBased": true,
+        "tier": 0,
+        "isAggregateMode": false,
+        "parentHashes": [
+            1164760504
+        ],
+        "friendlyName": "scorched",
+        "supportsFeedFiltering": false,
+        "display": true,
+        "order": 5000,
+        "hash": 1668923154,
+        "index": 41,
         "redacted": false,
         "blacklisted": false
     },
@@ -563,6 +647,31 @@
         "redacted": false,
         "blacklisted": false
     },
+    "2096553452": {
+        "displayProperties": {
+            "description": "Статистика по режиму \"Спасение\" в Горниле.",
+            "name": "Спасение",
+            "icon": "/img/theme/destiny/icons/game_modes/crucible_default.png",
+            "hasIcon": true
+        },
+        "pgcrImage": "/img/theme/destiny/bgs/stats/banner_crucible_1.jpg",
+        "modeType": 60,
+        "activityModeCategory": 2,
+        "isTeamBased": true,
+        "tier": 0,
+        "isAggregateMode": false,
+        "parentHashes": [
+            1164760504
+        ],
+        "friendlyName": "lockdown",
+        "supportsFeedFiltering": false,
+        "display": true,
+        "order": 5000,
+        "hash": 2096553452,
+        "index": 40,
+        "redacted": false,
+        "blacklisted": false
+    },
     "2239249083": {
         "displayProperties": {
             "description": "Статистика по режиму \"Выживание\" в Горниле",
@@ -638,10 +747,35 @@
         "redacted": false,
         "blacklisted": false
     },
+    "2546784302": {
+        "displayProperties": {
+            "description": "",
+            "name": "Поединок",
+            "icon": "/img/theme/destiny/icons/game_modes/crucible_default.png",
+            "hasIcon": true
+        },
+        "pgcrImage": "/img/theme/destiny/bgs/stats/banner_crucible_1.jpg",
+        "modeType": 59,
+        "activityModeCategory": 2,
+        "isTeamBased": true,
+        "tier": 0,
+        "isAggregateMode": false,
+        "parentHashes": [
+            1164760504
+        ],
+        "friendlyName": "showdown",
+        "supportsFeedFiltering": false,
+        "display": true,
+        "order": 5000,
+        "hash": 2546784302,
+        "index": 39,
+        "redacted": false,
+        "blacklisted": false
+    },
     "2553544158": {
         "displayProperties": {
-            "description": "Welcome to Private Matches Rumble, where everything's made up and the points don't matter.",
-            "name": "Private Matches Rumble",
+            "description": "Добро пожаловать в закрытые матчи \"Стычка\", где все высосано из пальца, а набор очков лишен смысла.",
+            "name": "Закрытые матчи: \"Стычка\"",
             "icon": "/img/theme/destiny/icons/game_modes/crucible_rumble.png",
             "hasIcon": true
         },
@@ -654,12 +788,12 @@
         "parentHashes": [
             1164760504
         ],
-        "friendlyName": "private-matches",
+        "friendlyName": "private-matches-rumble",
         "supportsFeedFiltering": false,
-        "display": true,
+        "display": false,
         "order": 1906,
         "hash": 2553544158,
-        "index": 36,
+        "index": 37,
         "redacted": false,
         "blacklisted": false
     },
@@ -690,8 +824,8 @@
     },
     "3024701316": {
         "displayProperties": {
-            "description": "Welcome to Private Matches Control, where everything's made up and the points don't matter.",
-            "name": "Private Matches Control",
+            "description": "Добро пожаловать в закрытые матчи \"Контроль\", где все высосано из пальца, а набор очков лишен смысла.",
+            "name": "Закрытые матчи: \"Контроль\"",
             "icon": "/img/theme/destiny/icons/game_modes/crucible_control.png",
             "hasIcon": true
         },
@@ -704,12 +838,12 @@
         "parentHashes": [
             1164760504
         ],
-        "friendlyName": "private-matches",
+        "friendlyName": "private-matches-control",
         "supportsFeedFiltering": false,
-        "display": true,
+        "display": false,
         "order": 1901,
         "hash": 3024701316,
-        "index": 31,
+        "index": 32,
         "redacted": false,
         "blacklisted": false
     },
@@ -790,8 +924,8 @@
     },
     "3780759439": {
         "displayProperties": {
-            "description": "Welcome to Private Matches Survival, where everything's made up and the points don't matter.",
-            "name": "Private Matches Survival",
+            "description": "Добро пожаловать в закрытые матчи \"Выживание\", где все высосано из пальца, а набор очков лишен смысла.",
+            "name": "Закрытые матчи: \"Выживание\"",
             "icon": "/img/theme/destiny/icons/game_modes/crucible_default.png",
             "hasIcon": true
         },
@@ -804,12 +938,12 @@
         "parentHashes": [
             1164760504
         ],
-        "friendlyName": "private-matches",
+        "friendlyName": "private-matches-survival",
         "supportsFeedFiltering": false,
-        "display": true,
+        "display": false,
         "order": 1904,
         "hash": 3780759439,
-        "index": 34,
+        "index": 35,
         "redacted": false,
         "blacklisted": false
     },
@@ -840,7 +974,7 @@
     },
     "3821502017": {
         "displayProperties": {
-            "description": "Статистика по режиму \"Напарники\" в Горниле.",
+            "description": "Матчи \"Напарники\", которые не являются частью Багряных дней.",
             "name": "Напарники",
             "icon": "/img/theme/destiny/icons/game_modes/Crimson_Playlist.png",
             "hasIcon": true
@@ -865,8 +999,8 @@
     },
     "3862044762": {
         "displayProperties": {
-            "description": "Welcome to Private Matches Supremacy, where everything's made up and the points don't matter.",
-            "name": "Private Matches Supremacy",
+            "description": "Добро пожаловать в закрытые матчи \"Превосходство\", где все высосано из пальца, а набор очков лишен смысла.",
+            "name": "Закрытые матчи: \"Превосходство\"",
             "icon": "/img/theme/destiny/icons/game_modes/crucible_supremacy.png",
             "hasIcon": true
         },
@@ -879,12 +1013,12 @@
         "parentHashes": [
             1164760504
         ],
-        "friendlyName": "private-matches",
+        "friendlyName": "private-matches-supremacy",
         "supportsFeedFiltering": false,
-        "display": true,
+        "display": false,
         "order": 1903,
         "hash": 3862044762,
-        "index": 33,
+        "index": 34,
         "redacted": false,
         "blacklisted": false
     },
