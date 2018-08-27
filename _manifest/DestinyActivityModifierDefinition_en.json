@@ -1,0 +1,446 @@
+{
+    "217769004": {
+        "displayProperties": {
+            "description": "Damage taken while you are airborne is greatly increased.",
+            "name": "Grounded",
+            "icon": "/common/destiny2_content/icons/17640cc973b832319eb1c2704a3124ce.png",
+            "hasIcon": true
+        },
+        "hash": 217769004,
+        "index": 25,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "319536142": {
+        "displayProperties": {
+            "description": "Super, grenades, and class abilities recharge faster. Power weapon damage decreased.",
+            "name": "Classy",
+            "icon": "/common/destiny2_content/icons/cda88500acd64bebd313794b40c8992b.png",
+            "hasIcon": true
+        },
+        "hash": 319536142,
+        "index": 6,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "817156042": {
+        "displayProperties": {
+            "description": "Increased jump velocity and airborne acceleration. Your Super recharges faster and deals more damage. Melee recharges slower and deals less damage.",
+            "name": "Justice from Above",
+            "icon": "/common/destiny2_content/icons/e93c303d896943510569af12067bf328.png",
+            "hasIcon": true
+        },
+        "hash": 817156042,
+        "index": 9,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "938003265": {
+        "displayProperties": {
+            "description": "Complete this Nightfall to upgrade SUROS Regime's Masterwork.",
+            "name": "SUROS Victory",
+            "icon": "/common/destiny2_content/icons/0c594ce4bc39200e5e092556f405a5de.png",
+            "hasIcon": true
+        },
+        "hash": 938003265,
+        "index": 35,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "945795273": {
+        "displayProperties": {
+            "description": "If your fireteam falls in a Restricted Zone, everyone is returned to orbit.",
+            "name": "Extinguish",
+            "icon": "/common/destiny2_content/icons/e19b6ddb02adc9714bcbe43e976116a1.png",
+            "hasIcon": true
+        },
+        "hash": 945795273,
+        "index": 23,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "968364204": {
+        "displayProperties": {
+            "description": "Increased running and crouching speed. Melee recharges faster and deals more damage. Grenades recharge slower.",
+            "name": "From the Shadows",
+            "icon": "/common/destiny2_content/icons/0c594ce4bc39200e5e092556f405a5de.png",
+            "hasIcon": true
+        },
+        "hash": 968364204,
+        "index": 8,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "1168749758": {
+        "displayProperties": {
+            "description": "Enemies have more health and are not staggered by damage.",
+            "name": "Iron",
+            "icon": "/common/destiny2_content/icons/dc3a5a4504c92dcf60b542b70adce31b.png",
+            "hasIcon": true
+        },
+        "hash": 1168749758,
+        "index": 29,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "1206783463": {
+        "displayProperties": {
+            "description": "Grenade abilities deal more damage and recharge much faster.",
+            "name": "Grenadier",
+            "icon": "/common/destiny2_content/icons/70e0b8da3e0c95092a20ca5967b388af.png",
+            "hasIcon": true
+        },
+        "hash": 1206783463,
+        "index": 20,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "1461108937": {
+        "displayProperties": {
+            "description": "Faster melee recharge and health regeneration. Increased Power weapon damage. Slower Super recharge.",
+            "name": "Brawler",
+            "icon": "/common/destiny2_content/icons/b0593e15b67276b1b80a5ea6422acc8d.png",
+            "hasIcon": true
+        },
+        "hash": 1461108937,
+        "index": 12,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "1608506466": {
+        "displayProperties": {
+            "description": "Kinetic and Energy weapons do more damage and more precision damage. Decreased grenade damage.",
+            "name": "De-Powered",
+            "icon": "/common/destiny2_content/icons/e69f1e9e9712db8ef50f22e5d67acf43.png",
+            "hasIcon": true
+        },
+        "hash": 1608506466,
+        "index": 13,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "1863278116": {
+        "displayProperties": {
+            "description": "All ammunition drops are significantly reduced.",
+            "name": "Famine",
+            "icon": "/common/destiny2_content/icons/3be84ad4bc1922141a44ad3e8411e39a.png",
+            "hasIcon": true
+        },
+        "hash": 1863278116,
+        "index": 28,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "1879148438": {
+        "displayProperties": {
+            "description": "Melee kills buff weapon damage, and weapon kills buff melee damage.",
+            "name": "Prestige: Gladiator",
+            "icon": "/common/destiny2_content/icons/400fa7ca6ecb3b1c94e372c4582cf391.png",
+            "hasIcon": true
+        },
+        "hash": 1879148438,
+        "index": 16,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "1913890629": {
+        "displayProperties": {
+            "description": "Weapons have no reserve ammo. Emptying the clip of a weapon refills the clips of your holstered weapons.",
+            "name": "Prestige: Arsenal",
+            "icon": "/common/destiny2_content/icons/b381763c1b267c53896131abb196e801.png",
+            "hasIcon": true
+        },
+        "hash": 1913890629,
+        "index": 17,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "2214232625": {
+        "displayProperties": {
+            "description": "Power weapons deal more damage, and more ammo is available.",
+            "name": "Heavyweight",
+            "icon": "/common/destiny2_content/icons/a672840a57d1629a057a4bd209362ea5.png",
+            "hasIcon": true
+        },
+        "hash": 2214232625,
+        "index": 22,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "2558957669": {
+        "displayProperties": {
+            "description": "Solar damage increases slightly from all sources.",
+            "name": "Solar Singe",
+            "icon": "/common/destiny2_content/icons/e66e9d986a4540f9c83d5a61d2e55b16.png",
+            "hasIcon": true
+        },
+        "hash": 2558957669,
+        "index": 1,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "2589706183": {
+        "displayProperties": {
+            "description": "Base weapon damage is reduced. Consecutive precision shots grant a stacking damage buff.",
+            "name": "Prestige: Marksman",
+            "icon": "/common/destiny2_content/icons/048a2edf813d5010b8d161e98f8c5749.png",
+            "hasIcon": true
+        },
+        "hash": 2589706183,
+        "index": 15,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "2596461484": {
+        "displayProperties": {
+            "description": "Power weapons and Kinetic weapons deal more damage and reload faster. Your Super charges slower.",
+            "name": "Elite Soldier",
+            "icon": "/common/destiny2_content/icons/a672840a57d1629a057a4bd209362ea5.png",
+            "hasIcon": true
+        },
+        "hash": 2596461484,
+        "index": 11,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "2657918884": {
+        "displayProperties": {
+            "description": "Regeneration is disabled while motionless, but faster while sprinting.",
+            "name": "Momentum",
+            "icon": "/common/destiny2_content/icons/516a6584dcf186e8281a3dada2b9b343.png",
+            "hasIcon": true
+        },
+        "hash": 2657918884,
+        "index": 27,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "2717912617": {
+        "displayProperties": {
+            "description": "Super, melee, and grenades deal more damage but recharge more slowly.",
+            "name": "Risk and Reward",
+            "icon": "/common/destiny2_content/icons/12a0049737f63e2ddef836a6fcaba847.png",
+            "hasIcon": true
+        },
+        "hash": 2717912617,
+        "index": 10,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "2809763955": {
+        "displayProperties": {
+            "description": "Health and shield regeneration stop when you're not moving. Sprint to speed up regeneration.",
+            "name": "Momentum",
+            "icon": "/common/destiny2_content/icons/516a6584dcf186e8281a3dada2b9b343.png",
+            "hasIcon": true
+        },
+        "hash": 2809763955,
+        "index": 14,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "2876104593": {
+        "displayProperties": {
+            "description": "Complete this Nightfall to upgrade Hard Light's Masterwork.",
+            "name": "Unbreakable Light",
+            "icon": "/common/destiny2_content/icons/0c594ce4bc39200e5e092556f405a5de.png",
+            "hasIcon": true
+        },
+        "hash": 2876104593,
+        "index": 33,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3029674484": {
+        "displayProperties": {
+            "description": "Boundless power erupts from within. Your abilities recharge much faster.",
+            "name": "Torrent",
+            "icon": "/common/destiny2_content/icons/69ab091630d0274d9f56ed8eac6950f6.png",
+            "hasIcon": true
+        },
+        "hash": 3029674484,
+        "index": 19,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3215384520": {
+        "displayProperties": {
+            "description": "Arc damage increases slightly from all sources.",
+            "name": "Arc Singe",
+            "icon": "/common/destiny2_content/icons/f079ac8cac1c4d30bdaa5f0f78242d9c.png",
+            "hasIcon": true
+        },
+        "hash": 3215384520,
+        "index": 0,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3362074814": {
+        "displayProperties": {
+            "description": "Void damage increases slightly from all sources.",
+            "name": "Void Singe",
+            "icon": "/common/destiny2_content/icons/9dc05db8ae79303daeac2e9cd99b9211.png",
+            "hasIcon": true
+        },
+        "hash": 3362074814,
+        "index": 2,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3704166961": {
+        "displayProperties": {
+            "description": "You've been challenged to wield the following:\n\nKinetic: Pulse Rifle \nEnergy: SMG  \nPower: Grenade Launcher",
+            "name": "Armsmaster",
+            "icon": "/common/destiny2_content/icons/e69f1e9e9712db8ef50f22e5d67acf43.png",
+            "hasIcon": true
+        },
+        "hash": 3704166961,
+        "index": 18,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3740050516": {
+        "displayProperties": {
+            "description": "Complete this Nightfall to upgrade The Prospector's Masterwork.",
+            "name": "Gold Rush",
+            "icon": "/common/destiny2_content/icons/0c594ce4bc39200e5e092556f405a5de.png",
+            "hasIcon": true
+        },
+        "hash": 3740050516,
+        "index": 32,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3766694338": {
+        "displayProperties": {
+            "description": "Regeneration is greatly impaired. Defeating enemies may create wells of Light.",
+            "name": "Attrition",
+            "icon": "/common/destiny2_content/icons/1fb274f4321afb43eec2b9ad222b73b2.png",
+            "hasIcon": true
+        },
+        "hash": 3766694338,
+        "index": 26,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3773481783": {
+        "displayProperties": {
+            "description": "Health and shields are reduced by half, but recovery is twice as fast.",
+            "name": "Glass",
+            "icon": "/common/destiny2_content/icons/cd62722e6ab459a101969b189a6292ad.png",
+            "hasIcon": true
+        },
+        "hash": 3773481783,
+        "index": 36,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3859784314": {
+        "displayProperties": {
+            "description": "Enemy shields are highly resistant to all unmatched elemental damage.",
+            "name": "Match Game",
+            "icon": "/common/destiny2_content/icons/6f54c7049feeeaeee85781f282236204.png",
+            "hasIcon": true
+        },
+        "hash": 3859784314,
+        "index": 24,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3949396046": {
+        "displayProperties": {
+            "description": "Grants bonus damage in \"The Whisper (Heroic)\" activity based on the fireteam leader's \"Whisper Catalyst\" objective progress.",
+            "name": "Blighted Hunger",
+            "icon": "/common/destiny2_content/icons/50854b64bedd2170c5ddccece2808dda.png",
+            "hasIcon": true
+        },
+        "hash": 3949396046,
+        "index": 3,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3970754350": {
+        "displayProperties": {
+            "description": "Complete this Nightfall to upgrade Rat King's Masterwork.",
+            "name": "The Rat's Lament",
+            "icon": "/common/destiny2_content/icons/0c594ce4bc39200e5e092556f405a5de.png",
+            "hasIcon": true
+        },
+        "hash": 3970754350,
+        "index": 34,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "3974591367": {
+        "displayProperties": {
+            "description": "Health and shield regeneration slow down, but killing foes may create wells of Light that restore health and charge your Super.",
+            "name": "Attrition",
+            "icon": "/common/destiny2_content/icons/1fb274f4321afb43eec2b9ad222b73b2.png",
+            "hasIcon": true
+        },
+        "hash": 3974591367,
+        "index": 4,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "4040544238": {
+        "displayProperties": {
+            "description": "Complete this Nightfall to upgrade Fighting Lion's Masterwork.",
+            "name": "Lion's Courage",
+            "icon": "/common/destiny2_content/icons/0c594ce4bc39200e5e092556f405a5de.png",
+            "hasIcon": true
+        },
+        "hash": 4040544238,
+        "index": 31,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "4175359167": {
+        "displayProperties": {
+            "description": "Energy weapon damage increased. Grenades deal more damage and recharge faster. Melee damage decreased.",
+            "name": "Elementalist",
+            "icon": "/common/destiny2_content/icons/e12ebb992c66e8288a8fe83817879cc5.png",
+            "hasIcon": true
+        },
+        "hash": 4175359167,
+        "index": 7,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "4221013735": {
+        "displayProperties": {
+            "description": "Enemy melee attacks are significantly more powerful, and radar is disabled.",
+            "name": "Blackout",
+            "icon": "/common/destiny2_content/icons/0c594ce4bc39200e5e092556f405a5de.png",
+            "hasIcon": true
+        },
+        "hash": 4221013735,
+        "index": 30,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "4293009546": {
+        "displayProperties": {
+            "description": "Attacks matching the periodically rotating focused element do more damage. Other elemental damage is reduced. Incoming damage is unaffected.",
+            "name": "Prism",
+            "icon": "/common/destiny2_content/icons/ab8955abc373ccfe81891dee5cd18a03.png",
+            "hasIcon": true
+        },
+        "hash": 4293009546,
+        "index": 5,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "4293586104": {
+        "displayProperties": {
+            "description": "Melee abilities deal more damage and recharge much faster.",
+            "name": "Brawler",
+            "icon": "/common/destiny2_content/icons/b0593e15b67276b1b80a5ea6422acc8d.png",
+            "hasIcon": true
+        },
+        "hash": 4293586104,
+        "index": 21,
+        "redacted": false,
+        "blacklisted": false
+    }
+}

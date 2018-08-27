@@ -15,11 +15,15 @@ router.get('/', function (req, res, next) {
 
 /* GET weekly reset view page. */
 router.get('/weeklyResetView', function (req, res, next) {
-    new Promise ((resolve, reject)=>{
+    var lang = req.query.lang || 'rus'
+    new Promise ((resolve)=>{
         getResetView.fetchData().then((content)=>{
-            var data = milestoneBuilder(content.Response);
+            var data = milestoneBuilder(content.Response, lang);
             var resolvedContent = getResetView.buildView(data.outputData);
-            resolve(resolvedContent);
+            resolve(resolvedContent);   
+        }).catch((error)=>{
+            console.log('Content is not available');
+            return 'Content is not available';
         });
     }).then((htmlContent)=>{  
         fs.writeFileSync(path.join(__dirname, '../', 'views', 'weeklyResetView.html'), `<!DOCTYPE html>

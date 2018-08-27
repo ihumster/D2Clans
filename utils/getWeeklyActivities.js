@@ -7,12 +7,26 @@ const Destiny2API = require('node-destiny-2');
 //         secret: null
 //     }
 // });
+var milestones;
+var activities;
+var objectives;
+var milestones_rus = require('../_manifest/DestinyMilestoneDefinition.json');
+var activities_rus = require('../_manifest/DestinyActivityDefinition.json');
+var objectives_rus = require('../_manifest/DestinyObjectiveDefinition.json');
+var milestones_en = require('../_manifest/DestinyMilestoneDefinition_en.json');
+var activities_en = require('../_manifest/DestinyActivityDefinition_en.json');
+var objectives_en = require('../_manifest/DestinyObjectiveDefinition_en.json');
 
-const milestones = require('../_manifest/DestinyMilestoneDefinition.json');
-const activities = require('../_manifest/DestinyActivityDefinition.json');
-const objectives = require('../_manifest/DestinyObjectiveDefinition.json');
-
-function buildWeeklyActivities(inputData) {
+function buildWeeklyActivities(inputData, language) {
+    if (language === 'eng') {
+        milestones = milestones_en;
+        activities = activities_en;
+        objectives = objectives_en;
+    } else {
+        milestones = milestones_rus;
+        activities = activities_rus;
+        objectives = objectives_rus;
+    }
     var isDataExist = typeof inputData === 'object' && inputData.length != 0;
     var errors = [];
     var outputData = []
