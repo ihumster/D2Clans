@@ -64,6 +64,11 @@ router.get('/weeklyResetView', function (req, res, next) {
 });
 
 router.post('/getWeeklyActivities', function (req, res) {
+    new Promise((resolve, reject)=>{
+        reject();
+    }).catch(()=>{
+        console.log('custom');
+    })
     var resData = milestoneBuilder(req.body);
     res.setHeader('Content-Type', 'application/json');
     res.json(resData)

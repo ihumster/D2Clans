@@ -13,7 +13,7 @@
         "displayProperties": {
             "description": "Defeat opponents and claim their crests.",
             "name": "Supremacy",
-            "icon": "/common/destiny2_content/icons/999e15bf131730fb49a386c9b0faf070.png",
+            "icon": "/common/destiny2_content/icons/6cdecd1b4a1e87b5474a6825466cba46.png",
             "hasIcon": true
         },
         "hash": 96396597,
@@ -33,15 +33,39 @@
         "redacted": false,
         "blacklisted": false
     },
+    "158362448": {
+        "displayProperties": {
+            "description": "Deploy the Breaker to expose your opponents' vault. Then, hack their vault to plunder it.",
+            "name": "Breakthrough",
+            "icon": "/common/destiny2_content/icons/6cdecd1b4a1e87b5474a6825466cba46.png",
+            "hasIcon": true
+        },
+        "hash": 158362448,
+        "index": 30,
+        "redacted": false,
+        "blacklisted": false
+    },
     "575572995": {
         "displayProperties": {
             "description": "Join a fireteam of three and face the most feared minions of the Darkness.",
             "name": "Nightfall",
-            "icon": "/common/destiny2_content/icons/5350f21ab26926d2e9ceae2e55d51873.png",
+            "icon": "/common/destiny2_content/icons/95ca4f73bad5452e682055592eb7b6cd.png",
             "hasIcon": true
         },
         "hash": 575572995,
         "index": 5,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "636666746": {
+        "displayProperties": {
+            "description": "Defeat the enemies of humanity, collect their Motes, and bank them to summon a Primeval. First team to destroy their Primeval wins.",
+            "name": "Gambit",
+            "icon": "/img/misc/missing_icon_d2.png",
+            "hasIcon": false
+        },
+        "hash": 636666746,
+        "index": 31,
         "redacted": false,
         "blacklisted": false
     },
@@ -61,7 +85,7 @@
         "displayProperties": {
             "description": "Face your fellow Guardians in open combat. Prove your worth, and you will be rewarded.",
             "name": "Rumble",
-            "icon": "/common/destiny2_content/icons/ad5edcb240cb8f40b876abcc44a3b924.png",
+            "icon": "/common/destiny2_content/icons/205efacbb7a53a05dd2c9b37640c8ed3.png",
             "hasIcon": true
         },
         "hash": 964120289,
@@ -73,7 +97,7 @@
         "displayProperties": {
             "description": "Embark on adventures alone or with a fireteam to push back the Darkness and reclaim our lost worlds.",
             "name": "Story",
-            "icon": "/common/destiny2_content/icons/3df1df1670112dca53415ccb26a9a3f2.png",
+            "icon": "/common/destiny2_content/icons/6ab80836f2f32a6741ccecebb6a35bb3.png",
             "hasIcon": true
         },
         "hash": 1299744814,
@@ -85,7 +109,7 @@
         "displayProperties": {
             "description": "\"I've ensured the Crucible has new offerings in anticipation of Osiris's return. Fight without hesitation or mercy. Crush your opponents.\" —Lord Shaxx \n\nFocus on new expansion maps and win glory and honor.",
             "name": "Osiris Competitive",
-            "icon": "/common/destiny2_content/icons/6b7bd433f788d9623bfe75585a9e48bf.png",
+            "icon": "/common/destiny2_content/icons/ffb06534949e2438d9f9a9296cbebe35.png",
             "hasIcon": true
         },
         "hash": 1434366740,
@@ -97,7 +121,7 @@
         "displayProperties": {
             "description": "\"Train with limitations, and a real fight will set you free.\" —Lord Shaxx \n\nYour arsenal is restricted for a greater challenge.Use the prescribed loadout, but let no other constraints stop your rampage.",
             "name": "Armsweek",
-            "icon": "/common/destiny2_content/icons/999e15bf131730fb49a386c9b0faf070.png",
+            "icon": "/common/destiny2_content/icons/6cdecd1b4a1e87b5474a6825466cba46.png",
             "hasIcon": true
         },
         "hash": 1522227381,
@@ -109,7 +133,7 @@
         "displayProperties": {
             "description": "Meet other Guardians as they prepare for new adventures.",
             "name": "Social",
-            "icon": "/common/destiny2_content/icons/d11c8199c80d99c4f870334e8c923fbd.png",
+            "icon": "/common/destiny2_content/icons/2d356e188c468a465764c3d50658db8e.png",
             "hasIcon": true
         },
         "hash": 1589650888,
@@ -121,7 +145,7 @@
         "displayProperties": {
             "description": "Embark on adventures alone or with a fireteam to push back the Darkness and reclaim our lost worlds.",
             "name": "Story",
-            "icon": "/common/destiny2_content/icons/3df1df1670112dca53415ccb26a9a3f2.png",
+            "icon": "/common/destiny2_content/icons/6ab80836f2f32a6741ccecebb6a35bb3.png",
             "hasIcon": true
         },
         "hash": 1686739444,
@@ -145,7 +169,7 @@
         "displayProperties": {
             "description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
             "name": "Raid",
-            "icon": "/common/destiny2_content/icons/de81b63a2d32961053af8dab77099317.png",
+            "icon": "/common/destiny2_content/icons/6d3201d80cfd37b8771fb8ee718767c3.png",
             "hasIcon": true
         },
         "hash": 2043403989,
@@ -169,7 +193,7 @@
         "displayProperties": {
             "description": "Embark on adventures alone or with a fireteam to push back the Darkness and reclaim our lost worlds.",
             "name": "Story",
-            "icon": "/common/destiny2_content/icons/3df1df1670112dca53415ccb26a9a3f2.png",
+            "icon": "/common/destiny2_content/icons/6ab80836f2f32a6741ccecebb6a35bb3.png",
             "hasIcon": true
         },
         "hash": 2201105581,
@@ -179,9 +203,9 @@
     },
     "2278747016": {
         "displayProperties": {
-            "description": "Participate in experimental, work-in-progress Crucible experiences. For more information on Crucible Labs, visit http://bungie.net.",
+            "description": "Participate in experimental, work-in-progress Crucible experiences. For more information on Crucible Labs, visit bungie.net.",
             "name": "Crucible Labs",
-            "icon": "/common/destiny2_content/icons/24011974b77a23d47facacc9addcaf6c.png",
+            "icon": "/common/destiny2_content/icons/4840630cfe1b5f7dd790f493dc67b547.png",
             "hasIcon": true
         },
         "hash": 2278747016,
@@ -205,7 +229,7 @@
         "displayProperties": {
             "description": "\"Stakes are high, and coordination with your teammates is vital. Leave personal glory behind, and together you'll crush the enemy.\" —Lord Shaxx \n\nFight for Glory in more focused combat scenarios.",
             "name": "Competitive",
-            "icon": "/common/destiny2_content/icons/6b7bd433f788d9623bfe75585a9e48bf.png",
+            "icon": "/common/destiny2_content/icons/ffb06534949e2438d9f9a9296cbebe35.png",
             "hasIcon": true
         },
         "hash": 2394267841,
@@ -213,11 +237,23 @@
         "redacted": false,
         "blacklisted": false
     },
+    "2490937569": {
+        "displayProperties": {
+            "description": "Defeat the enemies of humanity, collect their Motes, and bank them to summon a Primeval. First team to destroy their Primeval wins.",
+            "name": "Gambit",
+            "icon": "/img/misc/missing_icon_d2.png",
+            "hasIcon": false
+        },
+        "hash": 2490937569,
+        "index": 32,
+        "redacted": false,
+        "blacklisted": false
+    },
     "2505748283": {
         "displayProperties": {
             "description": "\"Your partner is your life.\" —Lord Shaxx \n\nFight alongside a teammate and work together to crush your opponents.",
             "name": "Crimson Days",
-            "icon": "/common/destiny2_content/icons/6b7bd433f788d9623bfe75585a9e48bf.png",
+            "icon": "/common/destiny2_content/icons/ffb06534949e2438d9f9a9296cbebe35.png",
             "hasIcon": true
         },
         "hash": 2505748283,
@@ -229,7 +265,7 @@
         "displayProperties": {
             "description": "Join a fireteam of three and face the most feared minions of the Darkness.",
             "name": "Strike",
-            "icon": "/common/destiny2_content/icons/5350f21ab26926d2e9ceae2e55d51873.png",
+            "icon": "/common/destiny2_content/icons/95ca4f73bad5452e682055592eb7b6cd.png",
             "hasIcon": true
         },
         "hash": 2889152536,
@@ -241,7 +277,7 @@
         "displayProperties": {
             "description": "\"Take risks and learn the art of war. You have one focus: The enemy must fall.\" —Lord Shaxx \n\nFight for Valor in large-scale combat scenarios.",
             "name": "Quickplay",
-            "icon": "/common/destiny2_content/icons/999e15bf131730fb49a386c9b0faf070.png",
+            "icon": "/common/destiny2_content/icons/6cdecd1b4a1e87b5474a6825466cba46.png",
             "hasIcon": true
         },
         "hash": 3252144427,
@@ -249,11 +285,23 @@
         "redacted": false,
         "blacklisted": false
     },
+    "3435781953": {
+        "displayProperties": {
+            "description": "",
+            "name": "",
+            "icon": "/img/misc/missing_icon_d2.png",
+            "hasIcon": false
+        },
+        "hash": 3435781953,
+        "index": 33,
+        "redacted": false,
+        "blacklisted": false
+    },
     "3497767639": {
         "displayProperties": {
             "description": "Wander the frontier. Search the ruins of the Golden Age, claim vital supplies, and hunt down our enemies wherever they dare trespass.",
             "name": "Explore",
-            "icon": "/common/destiny2_content/icons/eb0bfa055b299325e6f50ac829955485.png",
+            "icon": "/common/destiny2_content/icons/f7e31535f55e9cf55a587285593b5c03.png",
             "hasIcon": true
         },
         "hash": 3497767639,
@@ -263,9 +311,9 @@
     },
     "3517186939": {
         "displayProperties": {
-            "description": "Faster Supers, abilities, and Power ammo spawns—withstand, and engage in a whirlwind of chaos.",
+            "description": "Faster Supers, abilities, and Heavy ammo spawns—withstand and engage in a whirlwind of chaos.",
             "name": "Mayhem",
-            "icon": "/common/destiny2_content/icons/24011974b77a23d47facacc9addcaf6c.png",
+            "icon": "/common/destiny2_content/icons/4840630cfe1b5f7dd790f493dc67b547.png",
             "hasIcon": true
         },
         "hash": 3517186939,
@@ -289,7 +337,7 @@
         "displayProperties": {
             "description": "Join a fireteam of three and face the most feared minions of the Darkness.",
             "name": "Strike",
-            "icon": "/common/destiny2_content/icons/5350f21ab26926d2e9ceae2e55d51873.png",
+            "icon": "/common/destiny2_content/icons/95ca4f73bad5452e682055592eb7b6cd.png",
             "hasIcon": true
         },
         "hash": 4110605575,
@@ -301,7 +349,7 @@
         "displayProperties": {
             "description": "\"Osiris is back. And so is the Crucible. Take risks, learn from your mistakes, and fight on.\" —Lord Shaxx \n\nExplore and play with a focus on new expansion maps.",
             "name": "Osiris Quickplay",
-            "icon": "/common/destiny2_content/icons/999e15bf131730fb49a386c9b0faf070.png",
+            "icon": "/common/destiny2_content/icons/6cdecd1b4a1e87b5474a6825466cba46.png",
             "hasIcon": true
         },
         "hash": 4141415314,
@@ -325,7 +373,7 @@
         "displayProperties": {
             "description": "Create a custom PvP match with your fireteam, and best your comrades for personal glory… and bragging rights.",
             "name": "Private Match",
-            "icon": "/common/destiny2_content/icons/1ebf520c958b3afb724c7ab30eaff7c4.png",
+            "icon": "/common/destiny2_content/icons/be895957683aed8f40b5b2432ffd04af.png",
             "hasIcon": true
         },
         "hash": 4260058063,
@@ -337,7 +385,7 @@
         "displayProperties": {
             "description": "Meet other Guardians as they prepare for new adventures.",
             "name": "Social",
-            "icon": "/common/destiny2_content/icons/d11c8199c80d99c4f870334e8c923fbd.png",
+            "icon": "/common/destiny2_content/icons/2d356e188c468a465764c3d50658db8e.png",
             "hasIcon": true
         },
         "hash": 4276116472,
@@ -349,7 +397,7 @@
         "displayProperties": {
             "description": "\"Your partner is your life.\" —Lord Shaxx \n\nFight alongside a teammate, and work together to crush your opponents.",
             "name": "Doubles",
-            "icon": "/common/destiny2_content/icons/6b7bd433f788d9623bfe75585a9e48bf.png",
+            "icon": "/common/destiny2_content/icons/ffb06534949e2438d9f9a9296cbebe35.png",
             "hasIcon": true
         },
         "hash": 4288302346,

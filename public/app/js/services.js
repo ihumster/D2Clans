@@ -9,6 +9,10 @@ var clans = [{
     {
         id: 2489839,
         members: []
+    },
+    {
+        id: 1611932,
+        members: []
     }
 ];
 
@@ -59,6 +63,7 @@ angular.module('SUClan')
                                         name: base[iteration].destinyUserInfo.displayName,
                                         lastTime: activityRes.data.Response ? activityRes.data.Response.profile.data.dateLastPlayed : '0, never played'
                                     });
+                                    console.log(activityRes.data);
 
                                     iteration = iteration + 1;
 
@@ -74,7 +79,6 @@ angular.module('SUClan')
                                 })
                         }
                     };
-                    // getEachProfile(count);
                 });
         };
 
@@ -128,6 +132,9 @@ angular.module('SUClan')
         var milestoneList = [];
 
         function getWeeklyMilestones(callback) {
+            $http(getRequest('/Destiny2/Manifest/')).then((res)=>{
+                console.log(res);
+            })
             $http(getRequest('/Destiny2/Milestones/')).then((response) => {
                 var milestones = response.data.Response;
                 getDefinition(milestones);

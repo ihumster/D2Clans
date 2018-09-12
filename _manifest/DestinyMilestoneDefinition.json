@@ -3,7 +3,7 @@
         "displayProperties": {
             "description": "Завершите матчи Багряных дней, чтобы получить праздничные награды.",
             "name": "Багряные дни",
-            "icon": "/common/destiny2_content/icons/aadab3a76e79845b7676e24433180e73.png",
+            "icon": "/common/destiny2_content/icons/1fcf938ca7873b2c01e1a5603cabe58c.png",
             "hasIcon": true
         },
         "milestoneType": 5,
@@ -18,7 +18,7 @@
                 "displayProperties": {
                     "description": "Завершите матчи Багряных дней, чтобы получить праздничные награды.",
                     "name": "Багряные дни",
-                    "icon": "/common/destiny2_content/icons/aadab3a76e79845b7676e24433180e73.png",
+                    "icon": "/common/destiny2_content/icons/1fcf938ca7873b2c01e1a5603cabe58c.png",
                     "hasIcon": true
                 },
                 "overrideImage": "/img/destiny_content/pgcr/d2_crimsondays_tower.jpg",
@@ -52,11 +52,51 @@
         "redacted": false,
         "blacklisted": false
     },
+    "159134347": {
+        "displayProperties": {
+            "description": "Дотроньтесь до статуи в честь Солнцестояния героев.",
+            "name": "Солнцестояние героев",
+            "icon": "/common/destiny2_content/icons/c6b06eec56dba8514520d6beb98b9f18.png",
+            "hasIcon": true
+        },
+        "milestoneType": 1,
+        "recruitable": false,
+        "showInExplorer": false,
+        "explorePrioritizesActivityImage": false,
+        "hasPredictableDates": false,
+        "quests": {
+            "718224333": {
+                "questItemHash": 718224333,
+                "displayProperties": {
+                    "description": "Дотроньтесь до статуи в честь Солнцестояния героев.",
+                    "name": "Солнцестояние героев",
+                    "icon": "/common/destiny2_content/icons/c6b06eec56dba8514520d6beb98b9f18.png",
+                    "hasIcon": true
+                },
+                "questRewards": {
+                    "items": [
+                        {
+                            "vendorHash": 2067572909,
+                            "vendorItemIndex": 15,
+                            "itemHash": 745861806,
+                            "quantity": 1
+                        }
+                    ]
+                },
+                "trackingUnlockValueHash": 0
+            }
+        },
+        "isInGameMilestone": true,
+        "hash": 159134347,
+        "index": 50,
+        "redacted": false,
+        "blacklisted": false
+    },
     "202035466": {
         "displayProperties": {
             "description": "Завоевывайте славу, сражаясь в битвах Горнила.",
             "name": "Призыв к оружию",
-            "icon": "/common/destiny2_content/icons/ef93fee52da816cf1220ee3ad9ce27c9.png",
+            "icon": "/common/destiny2_content/icons/6d5a706ea3a03f310760d68e462627f3.png",
             "hasIcon": true
         },
         "milestoneType": 3,
@@ -71,7 +111,7 @@
                 "displayProperties": {
                     "description": "Завоевывайте славу, сражаясь в битвах Горнила.",
                     "name": "Призыв к оружию",
-                    "icon": "/common/destiny2_content/icons/ef93fee52da816cf1220ee3ad9ce27c9.png",
+                    "icon": "/common/destiny2_content/icons/6d5a706ea3a03f310760d68e462627f3.png",
                     "hasIcon": true
                 },
                 "overrideImage": "/img/destiny_content/pgcr/conceptual_call_to_arms.jpg",
@@ -106,11 +146,41 @@
         "redacted": false,
         "blacklisted": false
     },
+    "329688656": {
+        "displayProperties": {
+            "description": "Завершите все задания брони и улучшите полный набор брони у статуи в честь Солнцестояния героев.",
+            "name": "Солнцестояние героев",
+            "icon": "/common/destiny2_content/icons/c6b06eec56dba8514520d6beb98b9f18.png",
+            "hasIcon": true
+        },
+        "milestoneType": 1,
+        "recruitable": false,
+        "showInExplorer": false,
+        "explorePrioritizesActivityImage": false,
+        "hasPredictableDates": false,
+        "quests": {
+            "3034709074": {
+                "questItemHash": 3034709074,
+                "displayProperties": {
+                    "description": "Завершите все задания брони и улучшите полный набор брони у статуи в честь Солнцестояния героев.",
+                    "name": "Солнцестояние героев",
+                    "icon": "/common/destiny2_content/icons/c6b06eec56dba8514520d6beb98b9f18.png",
+                    "hasIcon": true
+                },
+                "trackingUnlockValueHash": 0
+            }
+        },
+        "isInGameMilestone": true,
+        "hash": 329688656,
+        "index": 51,
+        "redacted": false,
+        "blacklisted": false
+    },
     "342166397": {
         "displayProperties": {
             "description": "Поговорите с Шаксом.",
             "name": "Горнило",
-            "icon": "/common/destiny2_content/icons/ef93fee52da816cf1220ee3ad9ce27c9.png",
+            "icon": "/common/destiny2_content/icons/6d5a706ea3a03f310760d68e462627f3.png",
             "hasIcon": true
         },
         "milestoneType": 1,
@@ -124,7 +194,7 @@
                 "displayProperties": {
                     "description": "Поговорите с Шаксом.",
                     "name": "Горнило",
-                    "icon": "/common/destiny2_content/icons/ef93fee52da816cf1220ee3ad9ce27c9.png",
+                    "icon": "/common/destiny2_content/icons/6d5a706ea3a03f310760d68e462627f3.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -150,7 +220,7 @@
         "displayProperties": {
             "description": "Увеличьте вашу силу до 290, зарабатывая снаряжение во время налетов и различных заданий, а также в Горниле.",
             "name": "\"Левиафан\"",
-            "icon": "/common/destiny2_content/icons/6fbdee3ec770608692d8967480163b6b.png",
+            "icon": "/common/destiny2_content/icons/22d46770efaf127a14b952b2539aebb9.png",
             "hasIcon": true
         },
         "milestoneType": 1,
@@ -164,7 +234,7 @@
                 "displayProperties": {
                     "description": "Увеличьте вашу силу до 290, зарабатывая снаряжение во время налетов и различных заданий, а также в Горниле.",
                     "name": "\"Левиафан\"",
-                    "icon": "/common/destiny2_content/icons/6fbdee3ec770608692d8967480163b6b.png",
+                    "icon": "/common/destiny2_content/icons/22d46770efaf127a14b952b2539aebb9.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -218,7 +288,7 @@
                 "displayProperties": {
                     "description": "В честь праздника \"Мертвая орбита\" дарит Стражам легендарное оружие.",
                     "name": "Праздновать вместе с \"Мертвой орбитой\"",
-                    "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+                    "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -256,7 +326,7 @@
                 "displayProperties": {
                     "description": "В честь праздника \"Новая монархия\" дарит Стражам легендарное оружие.",
                     "name": "Праздновать вместе с \"Новой монархией\"",
-                    "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+                    "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -294,7 +364,7 @@
                 "displayProperties": {
                     "description": "В честь праздника \"Культ грядущей войны\" дарит Стражам легендарное оружие.",
                     "name": "Праздновать с \"Культом грядущей войны\"",
-                    "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+                    "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -359,7 +429,7 @@
                 "displayProperties": {
                     "description": "Выполните 3 испытания во время путешествий по Ио.",
                     "name": "Испытания Ио",
-                    "icon": "/common/destiny2_content/icons/fa8e997ae1bc7cc5394c3a03a717559c.png",
+                    "icon": "/common/destiny2_content/icons/333964a123f713529fe154d6a1414388.png",
                     "hasIcon": true
                 },
                 "overrideImage": "/img/destiny_content/pgcr/patrol_Io.jpg",
@@ -418,7 +488,7 @@
                 "displayProperties": {
                     "description": "Выполните 3 испытания во время путешествий по Несс.",
                     "name": "Испытания Несса",
-                    "icon": "/common/destiny2_content/icons/fa8e997ae1bc7cc5394c3a03a717559c.png",
+                    "icon": "/common/destiny2_content/icons/333964a123f713529fe154d6a1414388.png",
                     "hasIcon": true
                 },
                 "overrideImage": "/img/destiny_content/pgcr/patrol_nessus.jpg",
@@ -477,7 +547,7 @@
                 "displayProperties": {
                     "description": "Выполните 3 испытания во время путешествий по ЕМЗ.",
                     "name": "Испытания ЕМЗ",
-                    "icon": "/common/destiny2_content/icons/fa8e997ae1bc7cc5394c3a03a717559c.png",
+                    "icon": "/common/destiny2_content/icons/333964a123f713529fe154d6a1414388.png",
                     "hasIcon": true
                 },
                 "overrideImage": "/img/destiny_content/pgcr/patrol_edz.jpg",
@@ -527,7 +597,7 @@
                 "displayProperties": {
                     "description": "Выполните 3 испытания во время путешествий по Титану.",
                     "name": "Испытания Титана",
-                    "icon": "/common/destiny2_content/icons/fa8e997ae1bc7cc5394c3a03a717559c.png",
+                    "icon": "/common/destiny2_content/icons/333964a123f713529fe154d6a1414388.png",
                     "hasIcon": true
                 },
                 "overrideImage": "/img/destiny_content/pgcr/patrol_titan.jpg",
@@ -583,7 +653,7 @@
         "displayProperties": {
             "description": "Выполните 3 испытания в Железном знамени.",
             "name": "Ежедневное: Железное знамя",
-            "icon": "/common/destiny2_content/icons/95374a553757fa9980c5d3466c2ab83f.png",
+            "icon": "/common/destiny2_content/icons/2f914c0299ed3ce1d60ecf7e3a7cb8b0.png",
             "hasIcon": true
         },
         "image": "/img/destiny_content/pgcr/conceptual_iron_banner.jpg",
@@ -599,7 +669,7 @@
                 "displayProperties": {
                     "description": "Выполните 3 испытания в Железном знамени.",
                     "name": "Ежедневное: Железное знамя",
-                    "icon": "/common/destiny2_content/icons/95374a553757fa9980c5d3466c2ab83f.png",
+                    "icon": "/common/destiny2_content/icons/2f914c0299ed3ce1d60ecf7e3a7cb8b0.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -873,7 +943,7 @@
         "displayProperties": {
             "description": "Завершите матчи в плейлисте Горнила \"Хаос\".",
             "name": "Праздничное настроение",
-            "icon": "/common/destiny2_content/icons/48ea55a194a1ae59cd51c46035bad733.png",
+            "icon": "/common/destiny2_content/icons/dce8500a1872d1e49bba1910981b568f.png",
             "hasIcon": true
         },
         "milestoneType": 5,
@@ -887,7 +957,7 @@
                 "displayProperties": {
                     "description": "Завершите матчи в плейлисте Горнила \"Хаос\".",
                     "name": "Праздничное настроение",
-                    "icon": "/common/destiny2_content/icons/48ea55a194a1ae59cd51c46035bad733.png",
+                    "icon": "/common/destiny2_content/icons/dce8500a1872d1e49bba1910981b568f.png",
                     "hasIcon": true
                 },
                 "overrideImage": "/img/destiny_content/pgcr/conceptual_dawning.jpg",
@@ -914,7 +984,7 @@
         "displayProperties": {
             "description": "Завершите матчи в плейлисте Горнила \"Хаос\".",
             "name": "Пора восстановить спокойствие",
-            "icon": "/common/destiny2_content/icons/48ea55a194a1ae59cd51c46035bad733.png",
+            "icon": "/common/destiny2_content/icons/dce8500a1872d1e49bba1910981b568f.png",
             "hasIcon": true
         },
         "milestoneType": 1,
@@ -928,7 +998,7 @@
                 "displayProperties": {
                     "description": "Завершите матчи в плейлисте Горнила \"Хаос\".",
                     "name": "Пора восстановить спокойствие",
-                    "icon": "/common/destiny2_content/icons/48ea55a194a1ae59cd51c46035bad733.png",
+                    "icon": "/common/destiny2_content/icons/dce8500a1872d1e49bba1910981b568f.png",
                     "hasIcon": true
                 },
                 "overrideImage": "/img/destiny_content/pgcr/conceptual_dawning.jpg",
@@ -973,7 +1043,7 @@
         "displayProperties": {
             "description": "Завершите матчи в плейлисте Горнила \"Хаос\".",
             "name": "Радость в битве",
-            "icon": "/common/destiny2_content/icons/48ea55a194a1ae59cd51c46035bad733.png",
+            "icon": "/common/destiny2_content/icons/dce8500a1872d1e49bba1910981b568f.png",
             "hasIcon": true
         },
         "milestoneType": 5,
@@ -987,7 +1057,7 @@
                 "displayProperties": {
                     "description": "Завершите матчи в плейлисте Горнила \"Хаос\".",
                     "name": "Радость в битве",
-                    "icon": "/common/destiny2_content/icons/48ea55a194a1ae59cd51c46035bad733.png",
+                    "icon": "/common/destiny2_content/icons/dce8500a1872d1e49bba1910981b568f.png",
                     "hasIcon": true
                 },
                 "overrideImage": "/img/destiny_content/pgcr/conceptual_dawning.jpg",
@@ -1040,7 +1110,7 @@
         "displayProperties": {
             "description": "Зарабатывайте признание, завершая открытые мероприятия, патрули и другие задания открытого мира.",
             "name": "Гонка фракций: Признание",
-            "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+            "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
             "hasIcon": true
         },
         "milestoneType": 5,
@@ -1055,7 +1125,7 @@
                 "displayProperties": {
                     "description": "Зарабатывайте признание, завершая открытые мероприятия, патрули и другие задания открытого мира.",
                     "name": "Гонка фракций: Признание",
-                    "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+                    "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
                     "hasIcon": true
                 },
                 "trackingUnlockValueHash": 0
@@ -1071,7 +1141,7 @@
         "displayProperties": {
             "description": "Поговорите с Тесс Эверис, чтобы получить бесплатную багряную энграмму.",
             "name": "С прибытием на Багряные дни!",
-            "icon": "/common/destiny2_content/icons/aadab3a76e79845b7676e24433180e73.png",
+            "icon": "/common/destiny2_content/icons/1fcf938ca7873b2c01e1a5603cabe58c.png",
             "hasIcon": true
         },
         "milestoneType": 1,
@@ -1086,7 +1156,7 @@
                 "displayProperties": {
                     "description": "Поговорите с Тесс Эверис, чтобы получить бесплатную багряную энграмму.",
                     "name": "С прибытием на Багряные дни!",
-                    "icon": "/common/destiny2_content/icons/aadab3a76e79845b7676e24433180e73.png",
+                    "icon": "/common/destiny2_content/icons/1fcf938ca7873b2c01e1a5603cabe58c.png",
                     "hasIcon": true
                 },
                 "overrideImage": "/img/destiny_content/pgcr/d2_crimsondays_tower.jpg",
@@ -1131,7 +1201,7 @@
         "displayProperties": {
             "description": "Красный Легион атакует Последний город. Настало время дать им отпор.",
             "name": "Красная война",
-            "icon": "/common/destiny2_content/icons/e9eb544f61e377366d05d23d52df9131.png",
+            "icon": "/common/destiny2_content/icons/c1cc67427a17b3273a1c296ea5df6ef2.png",
             "hasIcon": true
         },
         "milestoneType": 2,
@@ -1145,7 +1215,7 @@
                 "displayProperties": {
                     "description": "Красный Легион атакует Последний город. Настало время дать им отпор.",
                     "name": "Красная война",
-                    "icon": "/common/destiny2_content/icons/e9eb544f61e377366d05d23d52df9131.png",
+                    "icon": "/common/destiny2_content/icons/c1cc67427a17b3273a1c296ea5df6ef2.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -1189,7 +1259,7 @@
         "displayProperties": {
             "description": "Поговорите с Завалой.",
             "name": "Налеты",
-            "icon": "/common/destiny2_content/icons/4dff22f3341baec9428a28bf9149aba0.png",
+            "icon": "/common/destiny2_content/icons/f410069a90a4ec9f9fa29eca81c16056.png",
             "hasIcon": true
         },
         "milestoneType": 1,
@@ -1203,7 +1273,7 @@
                 "displayProperties": {
                     "description": "Поговорите с Завалой.",
                     "name": "Налеты",
-                    "icon": "/common/destiny2_content/icons/4dff22f3341baec9428a28bf9149aba0.png",
+                    "icon": "/common/destiny2_content/icons/f410069a90a4ec9f9fa29eca81c16056.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -1241,7 +1311,7 @@
         "displayProperties": {
             "description": "Увеличьте вашу Силу до 260, зарабатывая снаряжение во время налетов, при выполнении различных заданий или в Горниле.",
             "name": "Сумрачный налет",
-            "icon": "/common/destiny2_content/icons/4dff22f3341baec9428a28bf9149aba0.png",
+            "icon": "/common/destiny2_content/icons/f410069a90a4ec9f9fa29eca81c16056.png",
             "hasIcon": true
         },
         "milestoneType": 1,
@@ -1255,7 +1325,7 @@
                 "displayProperties": {
                     "description": "Увеличьте вашу Силу до 260, зарабатывая снаряжение во время налетов, при выполнении различных заданий или в Горниле.",
                     "name": "Сумрачный налет",
-                    "icon": "/common/destiny2_content/icons/4dff22f3341baec9428a28bf9149aba0.png",
+                    "icon": "/common/destiny2_content/icons/f410069a90a4ec9f9fa29eca81c16056.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -1299,7 +1369,7 @@
         "displayProperties": {
             "description": "Поговорите с Шаксом.",
             "name": "Сезонные ранги",
-            "icon": "/common/destiny2_content/icons/ef93fee52da816cf1220ee3ad9ce27c9.png",
+            "icon": "/common/destiny2_content/icons/6d5a706ea3a03f310760d68e462627f3.png",
             "hasIcon": true
         },
         "milestoneType": 1,
@@ -1313,7 +1383,7 @@
                 "displayProperties": {
                     "description": "Поговорите с Шаксом.",
                     "name": "Сезонные ранги",
-                    "icon": "/common/destiny2_content/icons/ef93fee52da816cf1220ee3ad9ce27c9.png",
+                    "icon": "/common/destiny2_content/icons/6d5a706ea3a03f310760d68e462627f3.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -1339,7 +1409,7 @@
         "displayProperties": {
             "description": "Тесс Эверис приготовила для вас подарок в честь смены сезонов. Поговорите с ней в Башне.",
             "name": "Смена сезонов",
-            "icon": "/common/destiny2_content/icons/908a28751e1da80add694832b4c28286.png",
+            "icon": "/common/destiny2_content/icons/9715ac04aa11e1d8880c0421c70ef719.png",
             "hasIcon": true
         },
         "milestoneType": 1,
@@ -1353,7 +1423,7 @@
                 "displayProperties": {
                     "description": "Тесс Эверис приготовила для вас подарок в честь смены сезонов. Поговорите с ней в Башне.",
                     "name": "Смена сезонов",
-                    "icon": "/common/destiny2_content/icons/908a28751e1da80add694832b4c28286.png",
+                    "icon": "/common/destiny2_content/icons/9715ac04aa11e1d8880c0421c70ef719.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -1385,7 +1455,7 @@
         "displayProperties": {
             "description": "Поговорите с Кейдом-6.",
             "name": "Патрули",
-            "icon": "/common/destiny2_content/icons/0ba93a2f84696a0048bf93a55ebe2a3d.png",
+            "icon": "/common/destiny2_content/icons/4585545a1cc6197b428a440af081c6ff.png",
             "hasIcon": true
         },
         "milestoneType": 1,
@@ -1399,7 +1469,7 @@
                 "displayProperties": {
                     "description": "Поговорите с Кейдом-6.",
                     "name": "Патрули",
-                    "icon": "/common/destiny2_content/icons/0ba93a2f84696a0048bf93a55ebe2a3d.png",
+                    "icon": "/common/destiny2_content/icons/4585545a1cc6197b428a440af081c6ff.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -1425,7 +1495,7 @@
         "displayProperties": {
             "description": "Присягните на верность одной из фракций Города.",
             "name": "Выбрать фракцию",
-            "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+            "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
             "hasIcon": true
         },
         "image": "/img/destiny_content/pgcr/conceptual_faction_rally.jpg",
@@ -1441,7 +1511,7 @@
                 "displayProperties": {
                     "description": "Присягните на верность одной из фракций Города.",
                     "name": "Выбрать фракцию",
-                    "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+                    "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -1481,11 +1551,41 @@
         "redacted": false,
         "blacklisted": false
     },
+    "2034495605": {
+        "displayProperties": {
+            "description": "Полностью улучшите броню \"Солнцестояние\".",
+            "name": "Солнцестояние героев",
+            "icon": "/common/destiny2_content/icons/c6b06eec56dba8514520d6beb98b9f18.png",
+            "hasIcon": true
+        },
+        "milestoneType": 1,
+        "recruitable": false,
+        "showInExplorer": false,
+        "explorePrioritizesActivityImage": false,
+        "hasPredictableDates": false,
+        "quests": {
+            "1534503523": {
+                "questItemHash": 1534503523,
+                "displayProperties": {
+                    "description": "Полностью улучшите броню \"Солнцестояние\".",
+                    "name": "Солнцестояние героев",
+                    "icon": "/common/destiny2_content/icons/c6b06eec56dba8514520d6beb98b9f18.png",
+                    "hasIcon": true
+                },
+                "trackingUnlockValueHash": 0
+            }
+        },
+        "isInGameMilestone": true,
+        "hash": 2034495605,
+        "index": 52,
+        "redacted": false,
+        "blacklisted": false
+    },
     "2122634728": {
         "displayProperties": {
             "description": "Завершите 5 испытаний.",
             "name": "Испытание Икоры",
-            "icon": "/common/destiny2_content/icons/fa8e997ae1bc7cc5394c3a03a717559c.png",
+            "icon": "/common/destiny2_content/icons/333964a123f713529fe154d6a1414388.png",
             "hasIcon": true
         },
         "image": "/img/destiny_content/pgcr/conceptual_daily_challenges.jpg",
@@ -1501,7 +1601,7 @@
                 "displayProperties": {
                     "description": "Завершите 5 испытаний.",
                     "name": "Испытание Икоры",
-                    "icon": "/common/destiny2_content/icons/fa8e997ae1bc7cc5394c3a03a717559c.png",
+                    "icon": "/common/destiny2_content/icons/333964a123f713529fe154d6a1414388.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -1527,7 +1627,7 @@
         "displayProperties": {
             "description": "Завершите еженедельный Сумрачный налет.",
             "name": "Сумрачный налет",
-            "icon": "/common/destiny2_content/icons/4dff22f3341baec9428a28bf9149aba0.png",
+            "icon": "/common/destiny2_content/icons/f410069a90a4ec9f9fa29eca81c16056.png",
             "hasIcon": true
         },
         "milestoneType": 3,
@@ -1542,7 +1642,7 @@
                 "displayProperties": {
                     "description": "Завершите еженедельный Сумрачный налет.",
                     "name": "Сумрачный налет",
-                    "icon": "/common/destiny2_content/icons/4dff22f3341baec9428a28bf9149aba0.png",
+                    "icon": "/common/destiny2_content/icons/f410069a90a4ec9f9fa29eca81c16056.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -1699,7 +1799,7 @@
         "displayProperties": {
             "description": "Узнайте о новых симуляциях, которые можно исследовать в Бесконечном лесу.",
             "name": "Бесконечные ветви",
-            "icon": "/common/destiny2_content/icons/e074d02e0c608232f3eb34a892d208b6.png",
+            "icon": "/common/destiny2_content/icons/5a01952026bd9c2e89ec152ef1bfe7e5.png",
             "hasIcon": true
         },
         "milestoneType": 1,
@@ -1713,7 +1813,7 @@
                 "displayProperties": {
                     "description": "Узнайте о новых симуляциях, которые можно исследовать в Бесконечном лесу.",
                     "name": "Бесконечные ветви",
-                    "icon": "/common/destiny2_content/icons/e074d02e0c608232f3eb34a892d208b6.png",
+                    "icon": "/common/destiny2_content/icons/5a01952026bd9c2e89ec152ef1bfe7e5.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -1739,7 +1839,7 @@
         "displayProperties": {
             "description": "Увеличьте вашу Силу до 260, зарабатывая снаряжение во время налетов, при выполнении различных заданий или в Горниле.",
             "name": "Испытания Девяти",
-            "icon": "/common/destiny2_content/icons/91a21d035aad3be536d845e4182dbc92.png",
+            "icon": "/common/destiny2_content/icons/c9e51ae2743ed10d5291940ee1101c21.png",
             "hasIcon": true
         },
         "milestoneType": 1,
@@ -1753,7 +1853,7 @@
                 "displayProperties": {
                     "description": "Увеличьте вашу Силу до 260, зарабатывая снаряжение во время налетов, при выполнении различных заданий или в Горниле.",
                     "name": "Испытания Девяти",
-                    "icon": "/common/destiny2_content/icons/91a21d035aad3be536d845e4182dbc92.png",
+                    "icon": "/common/destiny2_content/icons/c9e51ae2743ed10d5291940ee1101c21.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -1810,7 +1910,7 @@
         "displayProperties": {
             "description": "Поговорите с лордом Саладином на полигоне Железного знамени под Странником.",
             "name": "Железное знамя: Сезон 3",
-            "icon": "/common/destiny2_content/icons/95374a553757fa9980c5d3466c2ab83f.png",
+            "icon": "/common/destiny2_content/icons/2f914c0299ed3ce1d60ecf7e3a7cb8b0.png",
             "hasIcon": true
         },
         "image": "/img/destiny_content/pgcr/conceptual_iron_banner.jpg",
@@ -1825,7 +1925,7 @@
                 "displayProperties": {
                     "description": "Поговорите с лордом Саладином на полигоне Железного знамени под Странником.",
                     "name": "Железное знамя: Сезон 3",
-                    "icon": "/common/destiny2_content/icons/95374a553757fa9980c5d3466c2ab83f.png",
+                    "icon": "/common/destiny2_content/icons/2f914c0299ed3ce1d60ecf7e3a7cb8b0.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -1880,7 +1980,7 @@
         "displayProperties": {
             "description": "",
             "name": "Героические налеты",
-            "icon": "/common/destiny2_content/icons/4dff22f3341baec9428a28bf9149aba0.png",
+            "icon": "/common/destiny2_content/icons/f410069a90a4ec9f9fa29eca81c16056.png",
             "hasIcon": true
         },
         "milestoneType": 3,
@@ -1894,7 +1994,7 @@
                 "displayProperties": {
                     "description": "",
                     "name": "Героические налеты",
-                    "icon": "/common/destiny2_content/icons/4dff22f3341baec9428a28bf9149aba0.png",
+                    "icon": "/common/destiny2_content/icons/f410069a90a4ec9f9fa29eca81c16056.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -1926,7 +2026,7 @@
         "displayProperties": {
             "description": "",
             "name": "Героические налеты",
-            "icon": "/common/destiny2_content/icons/4dff22f3341baec9428a28bf9149aba0.png",
+            "icon": "/common/destiny2_content/icons/f410069a90a4ec9f9fa29eca81c16056.png",
             "hasIcon": true
         },
         "milestoneType": 3,
@@ -1940,7 +2040,7 @@
                 "displayProperties": {
                     "description": "",
                     "name": "Героические налеты",
-                    "icon": "/common/destiny2_content/icons/4dff22f3341baec9428a28bf9149aba0.png",
+                    "icon": "/common/destiny2_content/icons/f410069a90a4ec9f9fa29eca81c16056.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -1972,7 +2072,7 @@
         "displayProperties": {
             "description": "Завершите 3 испытания налета.",
             "name": "Испытания налетов",
-            "icon": "/common/destiny2_content/icons/fa8e997ae1bc7cc5394c3a03a717559c.png",
+            "icon": "/common/destiny2_content/icons/333964a123f713529fe154d6a1414388.png",
             "hasIcon": true
         },
         "milestoneType": 4,
@@ -1987,7 +2087,7 @@
                 "displayProperties": {
                     "description": "Завершите 3 испытания налета.",
                     "name": "Испытания налетов",
-                    "icon": "/common/destiny2_content/icons/fa8e997ae1bc7cc5394c3a03a717559c.png",
+                    "icon": "/common/destiny2_content/icons/333964a123f713529fe154d6a1414388.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -2263,11 +2363,41 @@
         "redacted": false,
         "blacklisted": false
     },
+    "3173683878": {
+        "displayProperties": {
+            "description": "Подойдите к статуе в честь Солнцестояния героев в Башне и завершите воспоминание о \"Возвращении домой\".",
+            "name": "Солнцестояние героев",
+            "icon": "/common/destiny2_content/icons/c6b06eec56dba8514520d6beb98b9f18.png",
+            "hasIcon": true
+        },
+        "milestoneType": 1,
+        "recruitable": false,
+        "showInExplorer": false,
+        "explorePrioritizesActivityImage": false,
+        "hasPredictableDates": false,
+        "quests": {
+            "4167636192": {
+                "questItemHash": 4167636192,
+                "displayProperties": {
+                    "description": "Подойдите к статуе в честь Солнцестояния героев в Башне и завершите воспоминание о \"Возвращении домой\".",
+                    "name": "Солнцестояние героев",
+                    "icon": "/common/destiny2_content/icons/c6b06eec56dba8514520d6beb98b9f18.png",
+                    "hasIcon": true
+                },
+                "trackingUnlockValueHash": 0
+            }
+        },
+        "isInGameMilestone": true,
+        "hash": 3173683878,
+        "index": 49,
+        "redacted": false,
+        "blacklisted": false
+    },
     "3194597245": {
         "displayProperties": {
             "description": "Вексы что-то затевают на Меркурии. В этом замешан легендарный Страж Осирис, который был изгнан из \"Авангарда\". Доберитесь до Маяка и узнайте, что происходит.",
             "name": "Проклятие Осириса",
-            "icon": "/common/destiny2_content/icons/6e7d819652ae95c254d5585f3a9e924a.png",
+            "icon": "/common/destiny2_content/icons/8af20e4cd9fd52b8e3730d35e2968fc2.png",
             "hasIcon": true
         },
         "milestoneType": 2,
@@ -2281,7 +2411,7 @@
                 "displayProperties": {
                     "description": "Вексы что-то затевают на Меркурии. В этом замешан легендарный Страж Осирис, который был изгнан из \"Авангарда\". Доберитесь до Маяка и узнайте, что происходит.",
                     "name": "Проклятие Осириса",
-                    "icon": "/common/destiny2_content/icons/6e7d819652ae95c254d5585f3a9e924a.png",
+                    "icon": "/common/destiny2_content/icons/8af20e4cd9fd52b8e3730d35e2968fc2.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -2325,7 +2455,7 @@
         "displayProperties": {
             "description": "Страж запросила помощь на Марсе. Помогите ей разобраться в причинах падения военных спутников и справиться с возникшей угрозой.",
             "name": "Военный разум",
-            "icon": "/common/destiny2_content/icons/ea7574c89071454cf802603522f5fadc.png",
+            "icon": "/common/destiny2_content/icons/c18970615cb8eccac64448565f6c242f.png",
             "hasIcon": true
         },
         "milestoneType": 2,
@@ -2339,7 +2469,7 @@
                 "displayProperties": {
                     "description": "Страж запросила помощь на Марсе. Помогите ей разобраться в причинах падения военных спутников и справиться с возникшей угрозой.",
                     "name": "Военный разум",
-                    "icon": "/common/destiny2_content/icons/ea7574c89071454cf802603522f5fadc.png",
+                    "icon": "/common/destiny2_content/icons/c18970615cb8eccac64448565f6c242f.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -2387,7 +2517,7 @@
                 "displayProperties": {
                     "description": "Заработайте знаки фракции, опустошив затерянный сектор на Нессе с как минимум 3 уровнем признания.",
                     "name": "Гонка фракций: Несс",
-                    "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+                    "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -2425,7 +2555,7 @@
                 "displayProperties": {
                     "description": "Заработайте знаки фракции, опустошив затерянный сектор на Ио с как минимум 3 уровнем признания.",
                     "name": "Гонка фракций: Ио",
-                    "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+                    "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -2463,7 +2593,7 @@
                 "displayProperties": {
                     "description": "Заработайте знаки фракции, опустошив затерянный сектор в ЕМЗ с как минимум 3 уровнем признания.",
                     "name": "Гонка фракций: ЕМЗ",
-                    "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+                    "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -2501,7 +2631,7 @@
                 "displayProperties": {
                     "description": "Представьте вашу фракцию в открытых мероприятиях сегодня.",
                     "name": "Гонка фракций: Открытые мероприятия",
-                    "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+                    "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -2539,7 +2669,7 @@
                 "displayProperties": {
                     "description": "Завершите 3 налета, играя за вашу фракцию сегодня.",
                     "name": "Гонка фракций: налеты",
-                    "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+                    "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -2577,7 +2707,7 @@
                 "displayProperties": {
                     "description": "Заработайте знаки фракции, опустошив затерянный сектор на Титане с как минимум 3 уровнем признания.",
                     "name": "Гонка фракций: Титан",
-                    "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+                    "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -2615,7 +2745,7 @@
                 "displayProperties": {
                     "description": "Представьте вашу фракцию в 5 матчах в Горниле сегодня.",
                     "name": "Гонка фракций: Горнило",
-                    "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+                    "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -2671,7 +2801,7 @@
         "displayProperties": {
             "description": "",
             "name": "Бесконечность плюс один",
-            "icon": "/common/destiny2_content/icons/e074d02e0c608232f3eb34a892d208b6.png",
+            "icon": "/common/destiny2_content/icons/5a01952026bd9c2e89ec152ef1bfe7e5.png",
             "hasIcon": true
         },
         "milestoneType": 1,
@@ -2685,7 +2815,7 @@
                 "displayProperties": {
                     "description": "",
                     "name": "Бесконечность плюс один",
-                    "icon": "/common/destiny2_content/icons/e074d02e0c608232f3eb34a892d208b6.png",
+                    "icon": "/common/destiny2_content/icons/5a01952026bd9c2e89ec152ef1bfe7e5.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -2958,7 +3088,7 @@
         "displayProperties": {
             "description": "Выполните 3 испытания в Горниле.",
             "name": "Испытания Горнила",
-            "icon": "/common/destiny2_content/icons/fa8e997ae1bc7cc5394c3a03a717559c.png",
+            "icon": "/common/destiny2_content/icons/333964a123f713529fe154d6a1414388.png",
             "hasIcon": true
         },
         "milestoneType": 4,
@@ -2973,7 +3103,7 @@
                 "displayProperties": {
                     "description": "Выполните 3 испытания в Горниле.",
                     "name": "Испытания Горнила",
-                    "icon": "/common/destiny2_content/icons/fa8e997ae1bc7cc5394c3a03a717559c.png",
+                    "icon": "/common/destiny2_content/icons/333964a123f713529fe154d6a1414388.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -3046,7 +3176,7 @@
         "displayProperties": {
             "description": "Ана ждет вас в Комплексе \"Технологии будущего\".",
             "name": "Получение данных",
-            "icon": "/common/destiny2_content/icons/0252738376e0fc2a0ad1abbfc7a355e9.png",
+            "icon": "/common/destiny2_content/icons/f88574a825de85ac7517487bc05b2fa8.png",
             "hasIcon": true
         },
         "milestoneType": 2,
@@ -3060,7 +3190,7 @@
                 "displayProperties": {
                     "description": "Ана ждет вас в Комплексе \"Технологии будущего\".",
                     "name": "Получение данных",
-                    "icon": "/common/destiny2_content/icons/0252738376e0fc2a0ad1abbfc7a355e9.png",
+                    "icon": "/common/destiny2_content/icons/f88574a825de85ac7517487bc05b2fa8.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -3100,7 +3230,7 @@
                 "displayProperties": {
                     "description": "Победите в одном из испытаний Девяти.",
                     "name": "Испытания Девяти",
-                    "icon": "/common/destiny2_content/icons/91a21d035aad3be536d845e4182dbc92.png",
+                    "icon": "/common/destiny2_content/icons/c9e51ae2743ed10d5291940ee1101c21.png",
                     "hasIcon": true
                 },
                 "overrideImage": "/img/destiny_content/pgcr/conceptual_trials_of_the_nine.jpg",
@@ -3213,7 +3343,7 @@
                 "displayProperties": {
                     "description": "В честь праздника \"Культ грядущей войны\" дарит Стражам легендарное оружие.",
                     "name": "Праздновать с \"Культом грядущей войны\"",
-                    "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+                    "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -3251,7 +3381,7 @@
                 "displayProperties": {
                     "description": "В честь праздника \"Новая монархия\" дарит Стражам легендарное оружие.",
                     "name": "Праздновать вместе с \"Новой монархией\"",
-                    "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+                    "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -3289,7 +3419,7 @@
                 "displayProperties": {
                     "description": "В честь праздника \"Мертвая орбита\" дарит Стражам легендарное оружие.",
                     "name": "Праздновать вместе с \"Мертвой орбитой\"",
-                    "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+                    "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -3345,7 +3475,7 @@
         "displayProperties": {
             "description": "Зарабатывайте опыт клана, принимая участие в налетах, рейдах, боях Горнила и различных заданиях.",
             "name": "Опыт клана",
-            "icon": "/common/destiny2_content/icons/25f6fd97aadf11511951ddfe3ef2a473.png",
+            "icon": "/common/destiny2_content/icons/a5248b1baeb147cc01a5b0f7871c2d94.png",
             "hasIcon": true
         },
         "milestoneType": 3,
@@ -3360,7 +3490,7 @@
                 "displayProperties": {
                     "description": "Зарабатывайте опыт клана, принимая участие в налетах, рейдах, боях Горнила и различных заданиях.",
                     "name": "Опыт клана",
-                    "icon": "/common/destiny2_content/icons/25f6fd97aadf11511951ddfe3ef2a473.png",
+                    "icon": "/common/destiny2_content/icons/a5248b1baeb147cc01a5b0f7871c2d94.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -3398,7 +3528,7 @@
         "displayProperties": {
             "description": "Выслушайте Араха Джалаала",
             "name": "Гонка фракций",
-            "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+            "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
             "hasIcon": true
         },
         "image": "/img/destiny_content/pgcr/conceptual_faction_rally.jpg",
@@ -3414,7 +3544,7 @@
                 "displayProperties": {
                     "description": "Выслушайте Араха Джалаала",
                     "name": "Гонка фракций",
-                    "icon": "/common/destiny2_content/icons/3d972350aa7952d969e2b009831f865b.png",
+                    "icon": "/common/destiny2_content/icons/dc211ecac6dcd7e50f16807a802cabd4.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -3472,7 +3602,7 @@
                 "displayProperties": {
                     "description": "Завершите любой рейд или рейд-логово.",
                     "name": "\"Левиафан\"",
-                    "icon": "/common/destiny2_content/icons/6fbdee3ec770608692d8967480163b6b.png",
+                    "icon": "/common/destiny2_content/icons/22d46770efaf127a14b952b2539aebb9.png",
                     "hasIcon": true
                 },
                 "overrideImage": "/img/destiny_content/pgcr/raid_gluttony.jpg",
@@ -3593,11 +3723,41 @@
         "redacted": false,
         "blacklisted": false
     },
+    "3676144196": {
+        "displayProperties": {
+            "description": "Отправляйтесь в лапшичную, находящуюся в Башне.",
+            "name": "Острая лапша Кейда",
+            "icon": "/common/destiny2_content/icons/c6b06eec56dba8514520d6beb98b9f18.png",
+            "hasIcon": true
+        },
+        "milestoneType": 1,
+        "recruitable": false,
+        "showInExplorer": false,
+        "explorePrioritizesActivityImage": false,
+        "hasPredictableDates": false,
+        "quests": {
+            "1963132194": {
+                "questItemHash": 1963132194,
+                "displayProperties": {
+                    "description": "Отправляйтесь в лапшичную, находящуюся в Башне.",
+                    "name": "Острая лапша Кейда",
+                    "icon": "/common/destiny2_content/icons/c6b06eec56dba8514520d6beb98b9f18.png",
+                    "hasIcon": true
+                },
+                "trackingUnlockValueHash": 0
+            }
+        },
+        "isInGameMilestone": true,
+        "hash": 3676144196,
+        "index": 48,
+        "redacted": false,
+        "blacklisted": false
+    },
     "3875745925": {
         "displayProperties": {
             "description": "Поговорите с Икорой.",
             "name": "Испытания",
-            "icon": "/common/destiny2_content/icons/fa8e997ae1bc7cc5394c3a03a717559c.png",
+            "icon": "/common/destiny2_content/icons/333964a123f713529fe154d6a1414388.png",
             "hasIcon": true
         },
         "milestoneType": 1,
@@ -3611,7 +3771,7 @@
                 "displayProperties": {
                     "description": "Поговорите с Икорой.",
                     "name": "Испытания",
-                    "icon": "/common/destiny2_content/icons/fa8e997ae1bc7cc5394c3a03a717559c.png",
+                    "icon": "/common/destiny2_content/icons/333964a123f713529fe154d6a1414388.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -3649,7 +3809,7 @@
         "displayProperties": {
             "description": "Распутин выманил Улей на поверхность, чтобы покончить с ним раз и навсегда. Сразитесь с ордой и не давайте никому пощады.",
             "name": "Эскалационный протокол",
-            "icon": "/common/destiny2_content/icons/ea7574c89071454cf802603522f5fadc.png",
+            "icon": "/common/destiny2_content/icons/c18970615cb8eccac64448565f6c242f.png",
             "hasIcon": true
         },
         "milestoneType": 1,
@@ -3663,7 +3823,7 @@
                 "displayProperties": {
                     "description": "Распутин выманил Улей на поверхность, чтобы покончить с ним раз и навсегда. Сразитесь с ордой и не давайте никому пощады.",
                     "name": "Эскалационный протокол",
-                    "icon": "/common/destiny2_content/icons/ea7574c89071454cf802603522f5fadc.png",
+                    "icon": "/common/destiny2_content/icons/c18970615cb8eccac64448565f6c242f.png",
                     "hasIcon": true
                 },
                 "trackingUnlockValueHash": 0
@@ -3688,7 +3848,7 @@
                 "displayProperties": {
                     "description": "Шакс призывает Стражей показать себя в Горниле.",
                     "name": "Мобилизация: Горнило",
-                    "icon": "/common/destiny2_content/icons/1061006dfc3c174b062865213c453b05.png",
+                    "icon": "/common/destiny2_content/icons/19c3cbec95657a335ff4b0f6edaccebc.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -3726,7 +3886,7 @@
                 "displayProperties": {
                     "description": "Деврим Кей объявил мобилизацию Стражей в ЕМЗ. Присоединяйтесь к борьбе!",
                     "name": "Мобилизация: ЕМЗ",
-                    "icon": "/common/destiny2_content/icons/1061006dfc3c174b062865213c453b05.png",
+                    "icon": "/common/destiny2_content/icons/19c3cbec95657a335ff4b0f6edaccebc.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -3764,7 +3924,7 @@
                 "displayProperties": {
                     "description": "Посетите Хоторн и выслушайте ее предложение.",
                     "name": "Мобилизация: кланы",
-                    "icon": "/common/destiny2_content/icons/1061006dfc3c174b062865213c453b05.png",
+                    "icon": "/common/destiny2_content/icons/19c3cbec95657a335ff4b0f6edaccebc.png",
                     "hasIcon": true
                 },
                 "overrideImage": "/img/destiny_content/pgcr/conceptual_clarion_call_clans.jpg",
@@ -3785,7 +3945,7 @@
                 "displayProperties": {
                     "description": "Кейд-6 созывает всех охотников. Присоединяйтесь к борьбе!",
                     "name": "Мобилизация: охотники",
-                    "icon": "/common/destiny2_content/icons/1061006dfc3c174b062865213c453b05.png",
+                    "icon": "/common/destiny2_content/icons/19c3cbec95657a335ff4b0f6edaccebc.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -3823,7 +3983,7 @@
                 "displayProperties": {
                     "description": "Слоун созывает Стражей на Титане. Присоединяйтесь к борьбе!",
                     "name": "Мобилизация: Титан",
-                    "icon": "/common/destiny2_content/icons/1061006dfc3c174b062865213c453b05.png",
+                    "icon": "/common/destiny2_content/icons/19c3cbec95657a335ff4b0f6edaccebc.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -3861,7 +4021,7 @@
                 "displayProperties": {
                     "description": "Девять хотят, чтобы Стражи прошли их Испытания.",
                     "name": "Мобилизация: титаны",
-                    "icon": "/common/destiny2_content/icons/1061006dfc3c174b062865213c453b05.png",
+                    "icon": "/common/destiny2_content/icons/19c3cbec95657a335ff4b0f6edaccebc.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -3899,7 +4059,7 @@
                 "displayProperties": {
                     "description": "Завала созывает всех титанов. Присоединяйтесь к борьбе!",
                     "name": "Мобилизация: титаны",
-                    "icon": "/common/destiny2_content/icons/1061006dfc3c174b062865213c453b05.png",
+                    "icon": "/common/destiny2_content/icons/19c3cbec95657a335ff4b0f6edaccebc.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -3937,7 +4097,7 @@
                 "displayProperties": {
                     "description": "Нейроматрица собирает Стражей на Нессе. Присоединяйтесь к борьбе!",
                     "name": "Мобилизация: Несс",
-                    "icon": "/common/destiny2_content/icons/1061006dfc3c174b062865213c453b05.png",
+                    "icon": "/common/destiny2_content/icons/19c3cbec95657a335ff4b0f6edaccebc.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -3975,7 +4135,7 @@
                 "displayProperties": {
                     "description": "Ашер Мир созывает Стражей на Ио. Присоединяйтесь к борьбе",
                     "name": "Мобилизация: Ио",
-                    "icon": "/common/destiny2_content/icons/1061006dfc3c174b062865213c453b05.png",
+                    "icon": "/common/destiny2_content/icons/19c3cbec95657a335ff4b0f6edaccebc.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -4013,7 +4173,7 @@
                 "displayProperties": {
                     "description": "Икора созывает всех варлоков. Присоединяйтесь к борьбе!",
                     "name": "Мобилизация: варлоки",
-                    "icon": "/common/destiny2_content/icons/1061006dfc3c174b062865213c453b05.png",
+                    "icon": "/common/destiny2_content/icons/19c3cbec95657a335ff4b0f6edaccebc.png",
                     "hasIcon": true
                 },
                 "questRewards": {
@@ -4057,7 +4217,7 @@
         "displayProperties": {
             "description": "Поговорите с Тесс Эверис в Башне.",
             "name": "Добро пожаловать на Рассвет",
-            "icon": "/common/destiny2_content/icons/48ea55a194a1ae59cd51c46035bad733.png",
+            "icon": "/common/destiny2_content/icons/dce8500a1872d1e49bba1910981b568f.png",
             "hasIcon": true
         },
         "milestoneType": 1,
@@ -4071,7 +4231,7 @@
                 "displayProperties": {
                     "description": "Поговорите с Тесс Эверис в Башне.",
                     "name": "Добро пожаловать на Рассвет",
-                    "icon": "/common/destiny2_content/icons/48ea55a194a1ae59cd51c46035bad733.png",
+                    "icon": "/common/destiny2_content/icons/dce8500a1872d1e49bba1910981b568f.png",
                     "hasIcon": true
                 },
                 "trackingUnlockValueHash": 0
@@ -4080,6 +4240,52 @@
         "isInGameMilestone": true,
         "hash": 4128810957,
         "index": 40,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "4145643321": {
+        "displayProperties": {
+            "description": "Поговорите с Тесс Эверис, чтобы получить бесплатную энграмму Солнцестояния.",
+            "name": "Добро пожаловать на Солнцестояние героев",
+            "icon": "/common/destiny2_content/icons/c6b06eec56dba8514520d6beb98b9f18.png",
+            "hasIcon": true
+        },
+        "milestoneType": 1,
+        "recruitable": false,
+        "showInExplorer": false,
+        "explorePrioritizesActivityImage": false,
+        "hasPredictableDates": false,
+        "quests": {
+            "4194535767": {
+                "questItemHash": 4194535767,
+                "displayProperties": {
+                    "description": "Поговорите с Тесс Эверис, чтобы получить бесплатную энграмму Солнцестояния.",
+                    "name": "Добро пожаловать на Солнцестояние героев",
+                    "icon": "/common/destiny2_content/icons/c6b06eec56dba8514520d6beb98b9f18.png",
+                    "hasIcon": true
+                },
+                "questRewards": {
+                    "items": [
+                        {
+                            "vendorHash": 3361454721,
+                            "vendorItemIndex": 624,
+                            "itemHash": 1287012273,
+                            "quantity": 1
+                        },
+                        {
+                            "vendorHash": 3361454721,
+                            "vendorItemIndex": 625,
+                            "itemHash": 2841100890,
+                            "quantity": 1
+                        }
+                    ]
+                },
+                "trackingUnlockValueHash": 0
+            }
+        },
+        "isInGameMilestone": true,
+        "hash": 4145643321,
+        "index": 47,
         "redacted": false,
         "blacklisted": false
     },

@@ -20,7 +20,7 @@
         "display": false,
         "order": 1905,
         "hash": 116827562,
-        "index": 36,
+        "index": 37,
         "redacted": false,
         "blacklisted": false
     },
@@ -54,7 +54,7 @@
         "display": true,
         "order": 1899,
         "hash": 122250361,
-        "index": 30,
+        "index": 31,
         "redacted": false,
         "blacklisted": false
     },
@@ -79,7 +79,7 @@
         "display": false,
         "order": 1902,
         "hash": 152599670,
-        "index": 33,
+        "index": 34,
         "redacted": false,
         "blacklisted": false
     },
@@ -104,7 +104,7 @@
         "display": true,
         "order": 1377,
         "hash": 157639802,
-        "index": 29,
+        "index": 30,
         "redacted": false,
         "blacklisted": false
     },
@@ -129,7 +129,7 @@
         "display": true,
         "order": 3310,
         "hash": 175275639,
-        "index": 38,
+        "index": 39,
         "redacted": false,
         "blacklisted": false
     },
@@ -154,7 +154,7 @@
         "display": true,
         "order": 1377,
         "hash": 470484296,
-        "index": 23,
+        "index": 24,
         "redacted": false,
         "blacklisted": false
     },
@@ -179,7 +179,7 @@
         "display": true,
         "order": 3310,
         "hash": 532484583,
-        "index": 10,
+        "index": 11,
         "redacted": false,
         "blacklisted": false
     },
@@ -204,7 +204,7 @@
         "display": true,
         "order": 3210,
         "hash": 547513715,
-        "index": 9,
+        "index": 10,
         "redacted": false,
         "blacklisted": false
     },
@@ -229,7 +229,7 @@
         "display": false,
         "order": 1900,
         "hash": 575409284,
-        "index": 31,
+        "index": 32,
         "redacted": false,
         "blacklisted": false
     },
@@ -276,7 +276,7 @@
         "display": true,
         "order": 1400,
         "hash": 910991990,
-        "index": 17,
+        "index": 18,
         "redacted": false,
         "blacklisted": false
     },
@@ -301,7 +301,7 @@
         "display": true,
         "order": 1377,
         "hash": 946648766,
-        "index": 27,
+        "index": 28,
         "redacted": false,
         "blacklisted": false
     },
@@ -345,7 +345,7 @@
         "display": true,
         "order": 1000,
         "hash": 1164760504,
-        "index": 3,
+        "index": 4,
         "redacted": false,
         "blacklisted": false
     },
@@ -370,7 +370,7 @@
         "display": true,
         "order": 1377,
         "hash": 1264443021,
-        "index": 28,
+        "index": 29,
         "redacted": false,
         "blacklisted": false
     },
@@ -395,7 +395,7 @@
         "display": true,
         "order": 3300,
         "hash": 1350109474,
-        "index": 8,
+        "index": 9,
         "redacted": false,
         "blacklisted": false
     },
@@ -420,7 +420,7 @@
         "display": true,
         "order": 1377,
         "hash": 1370326378,
-        "index": 21,
+        "index": 22,
         "redacted": false,
         "blacklisted": false
     },
@@ -445,7 +445,7 @@
         "display": true,
         "order": 5000,
         "hash": 1372032677,
-        "index": 42,
+        "index": 43,
         "redacted": false,
         "blacklisted": false
     },
@@ -470,7 +470,7 @@
         "display": true,
         "order": 1377,
         "hash": 1505888634,
-        "index": 16,
+        "index": 17,
         "redacted": false,
         "blacklisted": false
     },
@@ -495,7 +495,7 @@
         "display": true,
         "order": 1100,
         "hash": 1585787840,
-        "index": 14,
+        "index": 15,
         "redacted": false,
         "blacklisted": false
     },
@@ -518,7 +518,7 @@
         "display": false,
         "order": 1377,
         "hash": 1589650888,
-        "index": 24,
+        "index": 25,
         "redacted": false,
         "blacklisted": false
     },
@@ -543,7 +543,7 @@
         "display": true,
         "order": 5000,
         "hash": 1668923154,
-        "index": 41,
+        "index": 42,
         "redacted": false,
         "blacklisted": false
     },
@@ -568,7 +568,7 @@
         "display": true,
         "order": 4000,
         "hash": 1686739444,
-        "index": 5,
+        "index": 6,
         "redacted": false,
         "blacklisted": false
     },
@@ -593,7 +593,7 @@
         "display": true,
         "order": 1377,
         "hash": 1703282980,
-        "index": 25,
+        "index": 26,
         "redacted": false,
         "blacklisted": false
     },
@@ -618,7 +618,32 @@
         "display": true,
         "order": 1020,
         "hash": 1826469369,
-        "index": 12,
+        "index": 13,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "1848252830": {
+        "displayProperties": {
+            "description": "###ActivityModes.pvecomp_gambit_DESCRIPTION###",
+            "name": "Gambit",
+            "icon": "/img/theme/destiny/icons/game_modes/crucible_default.png",
+            "hasIcon": true
+        },
+        "pgcrImage": "/img/theme/destiny/bgs/stats/banner_crucible_1.jpg",
+        "modeType": 63,
+        "activityModeCategory": 3,
+        "isTeamBased": true,
+        "tier": 0,
+        "isAggregateMode": false,
+        "parentHashes": [
+            2449176354
+        ],
+        "friendlyName": "pvecomp_gambit",
+        "supportsFeedFiltering": false,
+        "display": true,
+        "order": 5000,
+        "hash": 1848252830,
+        "index": 44,
         "redacted": false,
         "blacklisted": false
     },
@@ -643,7 +668,7 @@
         "display": true,
         "order": 2000,
         "hash": 2043403989,
-        "index": 4,
+        "index": 5,
         "redacted": false,
         "blacklisted": false
     },
@@ -668,7 +693,7 @@
         "display": true,
         "order": 5000,
         "hash": 2096553452,
-        "index": 40,
+        "index": 41,
         "redacted": false,
         "blacklisted": false
     },
@@ -693,7 +718,7 @@
         "display": true,
         "order": 1376,
         "hash": 2239249083,
-        "index": 15,
+        "index": 16,
         "redacted": false,
         "blacklisted": false
     },
@@ -718,7 +743,7 @@
         "display": true,
         "order": 1377,
         "hash": 2263766091,
-        "index": 22,
+        "index": 23,
         "redacted": false,
         "blacklisted": false
     },
@@ -743,7 +768,29 @@
         "display": true,
         "order": 3100,
         "hash": 2394616003,
-        "index": 11,
+        "index": 12,
+        "redacted": false,
+        "blacklisted": false
+    },
+    "2449176354": {
+        "displayProperties": {
+            "description": "###ActivityModes.allPvECompetitive_DESCRIPTION###",
+            "name": "PvE Competitive",
+            "icon": "/img/theme/destiny/icons/game_modes/story.png",
+            "hasIcon": true
+        },
+        "pgcrImage": "/img/theme/destiny/bgs/stats/banner_story_1.jpg",
+        "modeType": 64,
+        "activityModeCategory": 3,
+        "isTeamBased": false,
+        "tier": 0,
+        "isAggregateMode": true,
+        "friendlyName": "pveCompetitive",
+        "supportsFeedFiltering": false,
+        "display": true,
+        "order": 99999,
+        "hash": 2449176354,
+        "index": 2,
         "redacted": false,
         "blacklisted": false
     },
@@ -768,7 +815,7 @@
         "display": true,
         "order": 5000,
         "hash": 2546784302,
-        "index": 39,
+        "index": 40,
         "redacted": false,
         "blacklisted": false
     },
@@ -793,7 +840,7 @@
         "display": false,
         "order": 1906,
         "hash": 2553544158,
-        "index": 37,
+        "index": 38,
         "redacted": false,
         "blacklisted": false
     },
@@ -818,7 +865,7 @@
         "display": true,
         "order": 1400,
         "hash": 2843684868,
-        "index": 20,
+        "index": 21,
         "redacted": false,
         "blacklisted": false
     },
@@ -843,7 +890,7 @@
         "display": false,
         "order": 1901,
         "hash": 3024701316,
-        "index": 32,
+        "index": 33,
         "redacted": false,
         "blacklisted": false
     },
@@ -868,7 +915,7 @@
         "display": true,
         "order": 1150,
         "hash": 3199098480,
-        "index": 13,
+        "index": 14,
         "redacted": false,
         "blacklisted": false
     },
@@ -893,7 +940,7 @@
         "display": true,
         "order": 1400,
         "hash": 3479216388,
-        "index": 19,
+        "index": 20,
         "redacted": false,
         "blacklisted": false
     },
@@ -918,7 +965,7 @@
         "display": true,
         "order": 5000,
         "hash": 3497767639,
-        "index": 2,
+        "index": 3,
         "redacted": false,
         "blacklisted": false
     },
@@ -943,7 +990,7 @@
         "display": false,
         "order": 1904,
         "hash": 3780759439,
-        "index": 35,
+        "index": 36,
         "redacted": false,
         "blacklisted": false
     },
@@ -968,7 +1015,7 @@
         "display": true,
         "order": 3200,
         "hash": 3789021730,
-        "index": 7,
+        "index": 8,
         "redacted": false,
         "blacklisted": false
     },
@@ -993,7 +1040,7 @@
         "display": true,
         "order": 1377,
         "hash": 3821502017,
-        "index": 26,
+        "index": 27,
         "redacted": false,
         "blacklisted": false
     },
@@ -1018,7 +1065,7 @@
         "display": false,
         "order": 1903,
         "hash": 3862044762,
-        "index": 34,
+        "index": 35,
         "redacted": false,
         "blacklisted": false
     },
@@ -1043,7 +1090,7 @@
         "display": true,
         "order": 3000,
         "hash": 4110605575,
-        "index": 6,
+        "index": 7,
         "redacted": false,
         "blacklisted": false
     },
@@ -1068,7 +1115,7 @@
         "display": true,
         "order": 1400,
         "hash": 4212882650,
-        "index": 18,
+        "index": 19,
         "redacted": false,
         "blacklisted": false
     }
